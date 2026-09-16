@@ -1,0 +1,25 @@
+# Vercel Ignore file
+# Ignore large files that exceed Vercel limits
+*.zip
+*.mov
+*.mp4
+*.pptx
+00003372-_FJR7387.jpg
+
+# Python and dev files
+*.py
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# Raw dataset files (already bundled in data.js)
+chat_dataset.json
+transcriptions.json
+_chat.txt
+
+# Sensitive / Git
+.git/
+.env*
+*.log
+.DS_Store
