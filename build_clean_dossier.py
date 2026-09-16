@@ -146,10 +146,10 @@ blocks = [
     },
     {
         "id": "bloco-6",
-        "title": "Bloco 6: Formalização das Minutas, Termo de Dívida e Quitação Nubank",
+        "title": "Bloco 6: Formalização das Minutas, Fornecedores/Equipamentos (R$ 29.730,00) e Quitação Nubank",
         "dates": "20/08/2026 a 31/08/2026",
-        "summary": "Gustavo encaminha as minutas formais: Contrato de Parceria Comercial, Anexo II de Reconhecimento de Dívida e Termo NCNDA. Em 24/08/2026, com os recursos do 2º Pronampe Itaú (Contrato nº 4886874439, saldo R$ 19.527,27), Gustavo realiza a quitação antecipada de 13 parcelas do Nubank por R$ 18.015,62 (desconto de R$ 17.521,40, recibo Nu Financeira cód. 6a8c7a93).",
-        "badge": "Minutas & Quitação 13x Nubank",
+        "summary": "Gustavo encaminha as minutas formais: Contrato de Parceria Comercial (prevendo na Cláusula 2.2 o ressarcimento dos R$ 29.730,00 pagos diretamente por ele a fornecedores e para compra de equipamentos da sociedade), Anexo II de Reconhecimento de Dívida e Termo NCNDA. Em 24/08/2026, com os recursos do 2º Pronampe Itaú (Contrato nº 4886874439, saldo R$ 19.527,27), Gustavo realiza a quitação antecipada de 13 parcelas do Nubank por R$ 18.015,62 (desconto de R$ 17.521,40, recibo Nu Financeira cód. 6a8c7a93). O total desembolsado diretamente pelo Autor atinge R$ 141.730,00 (R$ 112k Pix + R$ 29.730 fornecedores e equipamentos).",
+        "badge": "Minutas, R$ 29.730 Equipamentos & Quitação Nubank",
         "badgeClass": "blue",
         "events": []
     },
@@ -203,8 +203,8 @@ CURATED_EVENT_IDS = [
     2978, 3025, 3119, 3224,
     # Bloco 5: Pix 72k, Alívio da Ré e Compromisso Irretratável de Assinatura
     3356, 3448, 3449, 3451, 3452, 3453, 3454, 3455, 3459, 3460, 3462, 3464, 3466,
-    # Bloco 6: Minutas e Quitação Antecipada Nubank
-    3652, 3653, 3654, 3811, 3837, 3841,
+    # Bloco 6: Minutas, Fornecedores/Equipamentos (R$ 29.730) e Quitação Antecipada Nubank
+    3652, 3653, 3654, 3676, 3677, 3811, 3837, 3841,
     # Bloco 7: Reenvio de Termos de Dívida e Cobrança
     4156, 4157, 4158, 4228, 4276,
     # Bloco 8: Prestação de Contas Bancárias Oficiais (Pronampe 1 e 2, Nubank)
@@ -257,6 +257,14 @@ for ev_id in CURATED_EVENT_IDS:
         tags = ["CONTRATO", "CONTRATO_DIVIDA"]
         custom_badge = "Compromisso Irretratável de Assinar Contrato"
         custom_note = "Camila assume compromisso expresso e irretratável logo após o crédito dos R$ 72 mil: 'Veja o contrato, coloque tudo lá. E amanhã já assinamos por favor' (msgs 3462 e 3464)."
+    elif ev_id == 3676:
+        tags = ["FINANCEIRO", "FORNECEDORES_EQUIPAMENTOS", "CONTRATO"]
+        custom_badge = "Fornecedores e Equipamentos da Sociedade: R$ 29.730,00"
+        custom_note = "Camila indaga sobre os R$ 29.730,00 discriminados na Cláusula 2.2 da minuta e no Anexo II. Gustavo esclarece que se trata das despesas que ele próprio custeou diretamente para aquisição de equipamentos e pagamentos a fornecedores para viabilizar a sociedade que operariam juntos. Trata-se de dano emergente direto (Art. 402 do CC) sujeito à restituição integral (Art. 182 do CC)."
+    elif ev_id == 3677:
+        tags = ["FINANCEIRO", "CONTRATO"]
+        custom_badge = "Esclarecimento Contábil dos Custos"
+        custom_note = "Gustavo esclarece que os R$ 29.730,00 referem-se aos custos diretos assumidos e que seriam objeto de revisão e validação contábil entre as partes na minuta jurídica."
     elif ev_id in [4395, 4396]:
         tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO", "FINANCEIRO_APORTE"]
     elif ev_id in [1788, 1947, 2299, 4554, 4687, 4822, 4910]:
@@ -495,7 +503,7 @@ evidence_gallery = [
         "date": "21/08/2026 08:22:56",
         "origin": "Minuta jurídica enviada via WhatsApp",
         "authId": "Anexo II - Termo de Reconhecimento de Dívida",
-        "description": "Termo formal discriminando o valor repassado (R$ 112.000,00), as parcelas e os encargos bancários assumidos, com cláusula de confissão irrevogável de dívida.",
+        "description": "Termo formal discriminando o valor repassado (R$ 112.000,00), os custos diretos com equipamentos e fornecedores da parceria (R$ 29.730,00), as parcelas e os encargos bancários assumidos, com cláusula de confissão irrevogável de dívida.",
         "ocrText": "Anexo II - Termo de Confissão e Reconhecimento de Dívida e Cronograma de Reembolso Financeiro."
     }
 ]
@@ -522,11 +530,11 @@ Em agosto de 2026, a Noticiada, sob o ardil de formalizar uma parceria comercial
 O Noticiante, confiando na boa-fé da Noticiada e na sua promessa formal de celebração contratual expressa ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - WhatsApp em 19/08/2026), efetuou duas transferências via Pix em benefício da conta bancária da empresa da Noticiada:
 1. R$ 40.000,00 em 04/08/2026 (Nubank, ID E18236120202608041328s14787e325d);
 2. R$ 72.000,00 em 19/08/2026 (Itaú SISPAG, ID E60701190202608191909DYSMAN3D8X4).
-Totalizando o montante de R$ 112.000,00 (cento e doze mil reais) diretamente creditados na conta da Ré.
+Totalizando o montante de R$ 112.000,00 creditados diretamente na conta da Ré, cumulado com o custeio direto de R$ 29.730,00 em fornecedores e equipamentos operacionais para a parceria (previsto na Cláusula 2.2 do Contrato de 21/08/2026), perfazendo um desfalque patrimonial direto de R$ 141.730,00 suportado pelo Noticiante.
 
 Para mitigar os pesados encargos do socorro emergencial (CET de 63,14% a.a.), o Noticiante contratou uma segunda linha Pronampe no Itaú (Contrato nº 4886874439, saldo devedor de R$ 19.527,27) e realizou em 24/08/2026 a quitação antecipada de 13 parcelas (R$ 18.015,62 com desconto de R$ 17.521,40) do empréstimo do Nubank, remanescendo ainda 11 parcelas vincendas de R$ 2.733,62 (saldo de R$ 30.069,79), além do saldo do 1º Pronampe Itaú de R$ 119.343,17, totalizando um saldo devedor nos bancos de R$ 168.940,23 assumido exclusivamente pelo Noticiante.
 
-Uma vez na posse dos valores, a Noticiada revelou seu intento fraudulento: recusou-se reiteradamente a assinar os contratos e termos de dívida enviados, utilizou os valores para amortizar dívidas pessoais urgentes — em especial parcelas em atraso de veículo sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante o TJSP em Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se a devolver os valores e ameaçou o Noticiante com a formulação de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você?' - Áudio 00004874).
+Uma vez na posse dos valores e com os investimentos realizados, a Noticiada revelou seu intento fraudulento: recusou-se reiteradamente a assinar os contratos e termos de dívida enviados, utilizou os valores para amortizar dívidas pessoais urgentes — em especial parcelas em atraso de veículo sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante o TJSP em Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se a devolver os valores e ameaçou o Noticiante com a formulação de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?' - Áudios 00004874 e 00004880).
 
 II. DO ENQUADRAMENTO JURÍDICO
 Resta plenamente configurado o delito de Estelionato (Art. 171 do CP), em razão do manifesto ardil pré-concebido e da obtenção de vantagem ilícita em prejuízo da vítima, ou subsidiariamente Apropriação Indébita (Art. 168 do CP).
@@ -546,17 +554,18 @@ RÉUS:
 2. CAMILA CARUSO DA COSTA NEVES, arquiteta, administradora e devedora solidária na pessoa física.
 
 I. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR (ARTS. 300 E 301 DO CPC)
-Demonstrada a probabilidade do direito (comprovantes bancários oficiais de repasse de R$ 112.000,00, confissões textuais e áudios de WhatsApp) e o perigo de dano irreparável (notória insolvência da Ré, existência de processo executivo movido pelo Banco Volkswagen sob nº 401XXXX-77.2026.8.26.0361 e iminente vencimento das parcelas do Pronampe e Nubank contraídas pelo Autor que totalizam passivo de R$ 168.940,23 registrados nos apps), REQUER-SE:
-a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante de R$ 112.000,00 nas contas bancárias de ambas as Rés;
+Demonstrada a probabilidade do direito (comprovantes bancários oficiais de repasse de R$ 112.000,00, comprovantes de despesas em equipamentos e fornecedores da parceria no valor de R$ 29.730,00, confissões textuais e áudios de WhatsApp) e o perigo de dano irreparável (notória insolvência da Ré, existência de processo executivo movido pelo Banco Volkswagen sob nº 401XXXX-77.2026.8.26.0361 e iminente vencimento das parcelas do Pronampe e Nubank contraídas pelo Autor que totalizam passivo de R$ 168.940,23 registrados nos apps), REQUER-SE:
+a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante de R$ 112.000,00 (ou R$ 141.730,00 computados os fornecedores e equipamentos da parceria) nas contas bancárias de ambas as Rés;
 b) Restrição de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.
 
 II. DO DIREITO E DO MÉRITO
 1. A existência e validade de contrato verbal e obrigação de restituição (Arts. 104, 107 e 422 do CC);
-2. O enriquecimento ilícito e sem causa vedado pelo Art. 884 do Código Civil;
-3. A desconsideração da personalidade jurídica com fulcro no Art. 50 do Código Civil por flagrante desvio de finalidade e confusão patrimonial.
+2. O ressarcimento das perdas e danos emergentes (Art. 402 do CC) e retorno ao status quo ante (Art. 182 do CC);
+3. O enriquecimento ilícito e sem causa vedado pelo Art. 884 do Código Civil;
+4. A desconsideração da personalidade jurídica com fulcro no Art. 50 do Código Civil por flagrante desvio de finalidade e confusão patrimonial.
 
 III. DOS PEDIDOS FINAIS
-Requer a citação das Rés para que paguem a quantia de R$ 112.000,00 devidamente atualizada com correção monetária pelo IPCA e juros moratórios de 1% ao mês a partir de cada desembolso, cumulada com o ressarcimento das 13 parcelas quitadas do Nubank (R$ 18.015,62), do saldo remanescente do Nubank (R$ 30.069,79), dos contratos Pronampe 1 (R$ 119.343,17) e 2 (R$ 19.527,27) assumidos perante o Itaú, e indenização por danos morais em R$ 20.000,00, além de custas e honorários advocatícios sucumbenciais."""
+Requer a citação das Rés para que paguem a quantia de R$ 141.730,00 (sendo R$ 112.000,00 de repasses Pix diretos e R$ 29.730,00 de perdas e danos emergentes decorrentes de gastos com equipamentos e fornecedores da parceria frustrada por culpa exclusiva da Ré), devidamente atualizada com correção monetária pelo IPCA e juros moratórios de 1% ao mês a partir de cada desembolso, cumulada com o ressarcimento das 13 parcelas quitadas do Nubank (R$ 18.015,62), do saldo remanescente do Nubank (R$ 30.069,79), dos contratos Pronampe 1 (R$ 119.343,17) e 2 (R$ 19.527,27) assumidos perante o Itaú, e indenização por danos morais em R$ 20.000,00, além de custas e honorários advocatícios sucumbenciais."""
 }
 
 total_clean_events = sum(len(b["events"]) for b in blocks)
@@ -569,7 +578,10 @@ window.DOSSIER_DATA = {{
     metadata: {{
         title: "Dossiê Jurídico e Fático — Caso Gustavo Castellano x Camila Caruso",
         subtitle: "Análise Cronológica Exaustiva, Transcrições de Áudio Whisper, Provas Financeiras, Enquadramento Penal e Auditoria de Ameaças",
-        totalAmount: 112000.00,
+        totalAmount: 141730.00,
+        totalPixRepassado: 112000.00,
+        custosDiretosFornecedoresEquipamentos: 29730.00,
+        totalDesembolsoDireto: 141730.00,
         pixNu: 40000.00,
         pixItau: 72000.00,
         nubankValorContratado: 42050.90,
