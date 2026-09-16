@@ -353,6 +353,14 @@ a:hover {
   background: var(--warning);
 }
 
+.metric-card.info::after {
+  background: var(--info);
+}
+
+.metric-card.purple::after {
+  background: #c084fc;
+}
+
 .metric-title {
   font-size: 12px;
   color: var(--text-dim);

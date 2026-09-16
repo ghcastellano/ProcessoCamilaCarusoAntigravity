@@ -376,6 +376,29 @@ evidence_gallery = [
         "ocrText": "Comprovante de Pagamento - PIX SISPAG. Identificação: CAMILA CARUSO. Conta débito: 0173 / 0099110-0 - GUSTAVO HENRIQUE CASTELLANO. Valor: R$ 72.000,00. Favorecido: ARQUITETA CAMILA CARUSO, CNPJ 46.788.820/0001-90, Banco Santander. Mensagem: deposito referente a obra que estamos operando em parceria Camila Caruso e Agilidade para Todos. ID Transação: E60701190202608191909DYSMAN3D8X4. Autenticação: A84590460945ACACFBE66745CC6299E86E69A7A3."
     },
     {
+        "id": "ev-sispag-29k-detalhes",
+        "title": "Itaú SISPAG: Comprovante de Mobilização Própria R$ 29.730,00 (18/08/2026)",
+        "category": "Gastos Próprios do Autor (Abatidos)",
+        "filename": "comprovante_itau_sispag_29k_detalhes.jpg",
+        "date": "18/08/2026",
+        "origin": "Itaú Unibanco S.A. — SISPAG Fornecedores",
+        "destiny": "Fornecedores e Equipamentos Próprios de Gustavo",
+        "authId": "SISPAG FORNECEDORES - R$ 29.730,00 (18/08/2026)",
+        "description": "Comprovante oficial de débito SISPAG Fornecedores no valor de R$ 29.730,00 realizado em 18/08/2026. Refere-se a gastos de mobilização operacional, contratações e aquisição de equipamentos de tecnologia para a própria empresa de Gustavo. Custos expressamente ABATIDOS e NÃO cobrados de Camila Caruso, retificando cláusula inserida por engano na primeira minuta preliminar.",
+        "ocrText": "SISPAG FORNECEDORES. - R$ 29.730,00. Agrupamento de todos os débitos referente a pagamento de boletos, transferências entre contas Itaú, DOCs, TEDs e Pix realizado aos seus fornecedores. Você pode conferir detalhes sobre todos os pagamentos efetuados nesse dia. Consultar pagamentos."
+    },
+    {
+        "id": "ev-sispag-29k-extrato",
+        "title": "Itaú Extrato: Demonstração SISPAG R$ 29.730,00 e Giro R$ 113.653,00 (18/08/2026)",
+        "category": "Gastos Próprios do Autor (Abatidos)",
+        "filename": "comprovante_itau_sispag_29k_extrato.jpg",
+        "date": "18/08/2026",
+        "origin": "App Itaú Empresas — Extrato de Conta Corrente",
+        "authId": "Extrato Itaú 18/08/2026 — Lançamentos do Dia",
+        "description": "Extrato bancário oficial da conta Itaú Empresas de 18/08/2026 comprovando: crédito de Empréstimo Capital de Giro no valor de R$ 113.653,00, débito SISPAG Fornecedores de R$ 29.730,00 (mobilização própria do Autor, abatida da Ré), saldo final do dia de R$ 84.423,00, que viabilizou o Pix de R$ 72.000,00 à Camila Caruso no dia seguinte (19/08/2026).",
+        "ocrText": "Extrato Itaú Empresas. Lançamentos. 18 de agosto de 2026: Saldo do dia R$ 84.423,00. SISPAG FORNECEDORES: - R$ 29.730,00. EMPREST CAPITAL DE GIRO: R$ 113.653,00. 19 de agosto de 2026: Saldo do dia R$ 0,05. SISPAG FORNECEDORES: - R$ 84.423,00 (inclui o Pix de R$ 72.000,00 repassado para Camila Caruso)."
+    },
+    {
         "id": "ev-nubank-extrato-detalhado",
         "title": "Extrato Nubank: Condições do Empréstimo, Saldo Restante e Taxas",
         "category": "Contratos Bancários",
@@ -511,7 +534,7 @@ RÉUS:
 2. CAMILA CARUSO DA COSTA NEVES, brasileira, solteira, arquiteta, portadora do CPF/MF sob nº 356.XXX.XXX-XX, residente e domiciliada na Rua Braz Cubas, 375, Centro, Mogi das Cruzes/SP (com desconsideração da personalidade jurídica initio litis com base no Art. 50 do Código Civil).
 
 I. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR INAUDITA ALTERA PARTE (ARTS. 300 E 301 DO CPC)
-Demonstrada a probabilidade do direito (fumus boni iuris) através de comprovantes bancários oficiais de repasse via Pix no montante de R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08), confissões textuais e áudios de WhatsApp periciados;
+Demonstrada a probabilidade do direito (fumus boni iuris) através de comprovantes bancários oficiais de repasse via Pix no montante principal de R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08), confissões textuais e áudios de WhatsApp periciados;
 Demonstrado o perigo de dano irreparável e de desfazimento patrimonial (periculum in mora) pela notória insolvência da Ré, existência de processo executivo/busca e apreensão movido pelo Banco Volkswagen S.A. sob nº 401XXXX-77.2026.8.26.0361, confissão de que colocaria o veículo à venda e iminente vencimento das parcelas dos empréstimos bancários que totalizam R$ 168.940,23 registrados em nome do Autor, REQUER-SE:
 a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante do débito principal de R$ 112.000,00 nas contas bancárias de ambas as Rés (CNPJ e CPF);
 b) A restrição judicial de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.
@@ -524,20 +547,29 @@ Configurada a flagrante confusão patrimonial e desvio de finalidade, pois a só
 3. DAS PERDAS E DANOS EMERGENTES DIRETAS E REFLEXAS (ART. 402 DO CC) SEM BIS IN IDEM:
 O prejuízo patrimonial direto do Autor consubstancia-se no principal de R$ 112.000,00 de adiantamentos Pix não devolvidos.
 Cumulativamente, requer a condenação ao ressarcimento das perdas e danos reflexas consistentes nos encargos financeiros, juros bancários e IOF suportados pelo Autor perante os Bancos Itaú e Nubank em razão das linhas de crédito que foi forçado a captar no mercado para viabilizar os repasses induzidos pela Ré, valor a ser quantificado em liquidação de sentença por simples cálculo contábil.
-4. DOS CONSECTÁRIOS LEGAIS (LEI Nº 14.905/2024):
+4. DA RETIFICAÇÃO DO ESBOÇO CONTRATUAL PRELIMINAR E DO ABATIMENTO DOS CUSTOS PRÓPRIOS DE MOBILIZAÇÃO DO AUTOR (R$ 29.730,00) — ESTREITA BOA-FÉ OBJETIVA E LEALDADE PROCESSUAL (ART. 5º DO CPC E ART. 422 DO CC):
+Em 18/08/2026, conforme comprovante Itaú SISPAG e extrato anexo, o Autor desembolsou R$ 29.730,00 para mobilização operacional, contratação de fornecedores e compra de equipamentos de tecnologia para sua própria empresa (Agilidade para Todos), independentes de Camila Caruso.
+No primeiro esboço de minuta contratual elaborado pelo Autor, fez-se constar por manifesto equívoco material uma cláusula que previa o rateio ou reembolso dessas despesas.
+Todavia, em estrita observância ao princípio da boa-fé objetiva (Art. 422 do CC) e ao dever de probidade processual (Art. 5º do CPC), o Autor vem expressamente RETIFICAR a minuta preliminar e declarar que tais custos foram de sua exclusiva mobilização empresarial, estando integralmente ABATIDOS e NÃO sendo cobrados das Rés. A pretensão de reembolso direto restringe-se estritamente aos R$ 112.000,00 recebidos pelas Rés via Pix.
+5. DOS CONSECTÁRIOS LEGAIS (LEI Nº 14.905/2024):
 Os valores deverão ser atualizados monetariamente pelo IPCA a partir de cada desembolso, incidindo juros moratórios legais calculados pela taxa legal atrelada à Selic deduzido o IPCA, nos termos do art. 406 do CC c/c Lei nº 14.905/2024.
-5. DOS DANOS MORAIS:
-Evidenciado o severo constrangimento, abalo financeiro e a grave extorsão moral sofrida pelo Autor através de ameaça com falsa medida protetiva da Lei Maria da Penha (áudios 00004874 e 00004880), justifica-se a condenação em indenização por danos morais em valor não inferior a R$ 20.000,00.
+6. DA INDENIZAÇÃO POR DANOS MORAIS (SUGESTÃO DE R$ 30.000,00) — DA COAÇÃO, EXTORSÃO MORAL E AMEAÇA DE FALSA MEDIDA PROTETIVA DA LEI MARIA DA PENHA:
+O ilícito perpetrado pela Ré Camila Caruso transcende com folga o descumprimento negocial. Ao ser instada a assinar o contrato e honrar a devolução dos recursos, a Ré passou a chantagear o Autor, proferindo ameaças explícitas registradas nos áudios periciados de WhatsApp nº 00004874 e 00004880: 'Você que sabe, Gustavo, você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso? Então vamos dar um tempinho para as coisas se ajeitarem?'.
+A instrumentalização espúria da Lei Maria da Penha (Lei nº 11.340/2006) como artifício de chantagem contra credor para coagi-lo a renunciar a seu patrimônio legítimo, combinada com a ameaça ostensiva de constrangimento e difamação perante recursos humanos (RH) corporativos, atenta contra a dignidade da pessoa humana e constitui ilícito civil qualificado (Art. 187 do CC c/c Arts. 147, 339 e 344 do CP).
+Ademais, o induzimento fraudulento do Autor a contrair múltiplos empréstimos bancários (Pronampe e Nubank) provocou asfixia financeira aguda e profundo abalo em seu score de crédito.
+Em consonância com os precedentes do Superior Tribunal de Justiça e do Tribunal de Justiça do Estado de São Paulo para casos de coação psicológica, falsa imputação e abalo de crédito, sugere-se a fixação de indenização por danos morais em R$ 30.000,00 (baliza jurisprudencial entre R$ 30.000,00 e R$ 50.000,00), atendendo ao caráter punitivo, pedagógico e compensatório.
 
 III. DOS PEDIDOS FINAIS
 Requer a procedência total da ação para:
-a) Confirmar em definitivo a tutela cautelar de arresto Sisbajud e Renajud;
-b) Condenar solidariamente as Rés ao pagamento do dano patrimonial principal de R$ 112.000,00, corrigido monetariamente pelo IPCA e acrescido dos juros legais da Lei nº 14.905/2024 desde cada desembolso;
-c) Condenar as Rés ao pagamento das perdas e danos reflexas consistentes nos juros, tributos e encargos financeiros suportados nas operações de crédito contraídas pelo Autor, a serem apurados em liquidação;
-d) Condenar as Rés ao pagamento de R$ 20.000,00 a título de indenização por danos morais;
-e) A condenação ao pagamento de custas processuais e honorários advocatícios sucumbenciais fixados em 20% sobre o valor total da condenação.""",
+a) Confirmar em definitivo a tutela cautelar de arresto Sisbajud (R$ 112.000,00) e Renajud;
+b) Homologar a expressa retificação contratual e o abatimento dos R$ 29.730,00 referentes aos gastos próprios de mobilização do Autor, não cobrados da Ré;
+c) Condenar solidariamente as Rés ao pagamento do dano patrimonial principal de R$ 112.000,00, corrigido monetariamente pelo IPCA e acrescido dos juros legais da Lei nº 14.905/2024 desde cada desembolso;
+d) Condenar as Rés ao pagamento das perdas e danos reflexas consistentes nos juros, tributos e encargos financeiros suportados nas operações de crédito contraídas pelo Autor, a serem apurados em liquidação;
+e) Condenar as Rés ao pagamento de R$ 30.000,00 a título de indenização por danos morais decorrentes de coação, ameaça de falsa medida protetiva e abalo financeiro;
+f) A condenação ao pagamento de custas processuais e honorários advocatícios sucumbenciais fixados em 20% sobre o valor total da condenação.
+Dá-se à causa o valor de R$ 142.000,00 (cento e quarenta e dois mil reais), nos termos do Art. 292, V e VI do CPC.""",
 
-    "notificacao_extrajudicial": """NOTIFICAÇÃO EXTRAJUDICIAL PARA LIQUIDAÇÃO DE DÍVIDA E CESSAÇÃO DE COAÇÃO
+    "notificacao_extrajudicial": """NOTIFICAÇÃO EXTRAJUDICIAL PARA LIQUIDAÇÃO DE DÍVIDA, CESSAÇÃO DE COAÇÃO E RETIFICAÇÃO CONTRATUAL
 
 À NOTIFICADA:
 CAMILA CARUSO DA COSTA NEVES e C. CARUSO ARQUITETURA E INTERIORES LTDA (CNPJ 46.788.820/0001-90)
@@ -550,11 +582,13 @@ Pela presente NOTIFICAÇÃO EXTRAJUDICIAL, serve o presente instrumento para CON
 
 1. As Notificadas receberam diretamente a quantia líquida de R$ 112.000,00 (cento e doze mil reais) via transferências Pix efetuadas em 04/08/2026 (R$ 40.000,00) e 19/08/2026 (R$ 72.000,00), sob a expressa promessa de devolução e formalização contratual;
 
-2. Não obstante o compromisso irrevogável de celebração do contrato formal e restituição dos aportes, as Notificadas recusaram-se a formalizar o instrumento pactuado e incorreram em mora injustificada, tendo ainda a Notificada Camila Caruso proferido ameaças de imputação fraudulenta de infração penal e acionamento indevido de medidas protetivas da Lei Maria da Penha (áudios 00004874 e 00004880);
+2. Fica expressamente consignado que os gastos de mobilização operacional e fornecedores no montante de R$ 29.730,00 (despendidos em 18/08/2026 pelo Notificante) foram assumidos com exclusividade por Gustavo Henrique Castellano, estando formalmente RETIFICADA a minuta preliminar inicial para ABATER integralmente referida verba, não sendo tal valor cobrado das Notificadas, em demonstração cabal de lealdade e boa-fé objetiva;
 
-3. Diante disso, FICA A NOTIFICADA INTIMADA para, no prazo improrrogável de 48 (quarenta e oito) horas a contar do recebimento desta, proceder ao reembolso integral do montante principal de R$ 112.000,00 (cento e doze mil reais), acrescido dos encargos financeiros bancários incorridos;
+3. Não obstante o compromisso irrevogável de celebração do contrato formal e restituição dos aportes, as Notificadas recusaram-se a formalizar o instrumento pactuado e incorreram em mora injustificada, tendo ainda a Notificada Camila Caruso proferido ameaças de imputação fraudulenta de infração penal e acionamento indevido de medidas protetivas da Lei Maria da Penha (áudios 00004874 e 00004880);
 
-4. O não atendimento no prazo assinalado ensejará o imediato ajuizamento da Competente Ação de Cobrança c/c Pedido Liminar de Arresto Sisbajud e Renajud perante o Poder Judiciário, bem como o protocolo da Notícia-Crime perante a Autoridade Policial competente para apuração dos crimes tipificados nos arts. 171, 168 e 339 do Código Penal.
+4. Diante disso, FICA A NOTIFICADA INTIMADA para, no prazo improrrogável de 48 (quarenta e oito) horas a contar do recebimento desta, proceder ao reembolso integral do montante principal de R$ 112.000,00 (cento e doze mil reais), acrescido dos encargos financeiros bancários incorridos e da devida reparação moral;
+
+5. O não atendimento no prazo assinalado ensejará o imediato ajuizamento da Competente Ação de Cobrança c/c Pedido Liminar de Arresto Sisbajud e Renajud perante o Poder Judiciário (valor da causa sugerido de R$ 142.000,00), bem como o protocolo da Notícia-Crime perante a Autoridade Policial competente para apuração dos crimes tipificados nos arts. 171, 168 e 339 do Código Penal.
 
 São Paulo, 16 de setembro de 2026."""
 }
@@ -572,6 +606,12 @@ dossier_data = {
         "totalDesembolsoDireto": 112000.00,
         "pixNu": 40000.00,
         "pixItau": 72000.00,
+        "gastosPropriosMobilizacao": 29730.00,
+        "gastosPropriosDescricao": "Gastos próprios de Gustavo em mobilização, fornecedores e equipamentos (Itaú SISPAG 18/08/2026) — expressamente abatidos e NÃO cobrados da Ré (cláusula do 1º contrato preliminar retificada)",
+        "sugestaoDanosMorais": 30000.00,
+        "faixaDanosMorais": "R$ 30.000,00 a R$ 50.000,00",
+        "totalPretensaoComDanosMorais": 142000.00,
+        "valorCausaComDanosMorais": 142000.00,
         "nubankValorContratado": 42050.90,
         "nubankQuitadoPronampe": 18015.62,
         "nubankDescontoAntecipacao": 17521.40,
@@ -604,7 +644,9 @@ dossier_data = {
             "Em julho de 2026, Camila Caruso da Costa Neves restabeleceu contato com Gustavo Henrique Castellano com o objetivo declarado de celebrar uma lucrativa parceria comercial ('vamos falar de dinheiro ok... podemos ganhar dinheiro juntos'). Gustavo, especialista em tecnologia, tráfego pago e gestão, aceitou estruturar canais de captação digital para o escritório C. Caruso Arquitetura e Interiores Ltda (CNPJ 46.788.820/0001-90).",
             "Sob a alegação de extrema asfixia de caixa para manter a equipe e projetos em andamento, Camila induziu Gustavo a realizar aportes financeiros urgentes a título de capital de giro reembolsável. Em 04/08/2026, Gustavo tomou um empréstimo emergencial no Nubank (valor contratado de R$ 42.050,90 com CET de 63,14% a.a.) e transferiu imediatamente o primeiro Pix de R$ 40.000,00 para a conta da C. Caruso Arquitetura no Santander. Em seguida, para alongar a dívida e aportar mais recursos, Gustavo contratou no Banco Itaú o Giro Pronampe Contrato Principal (nº 4887183848), com saldo restante registrado de R$ 119.343,17 (60 parcelas de R$ 2.324,17), transferindo no dia 19/08/2026 um segundo Pix de R$ 72.000,00 via SISPAG diretamente para Camila, perfazendo R$ 112.000,00 líquidos entregues diretamente à Ré.",
             "Para estancar a taxa de juros de 63,14% a.a. (3,95% a.m.) do Nubank, Gustavo contratou uma segunda linha Giro Pronampe no Itaú (Contrato nº 4886874439), com saldo devedor de R$ 19.527,27 (60 parcelas de R$ 381,45), que liberou R$ 18.653,05. Em 24/08/2026, Gustavo transferiu essa quantia via Pix do Itaú para o Nubank e realizou a quitação antecipada de 13 parcelas no valor de R$ 18.015,62 (com desconto de R$ 17.521,40) do empréstimo de socorro. Com isso, o 2º Pronampe substituiu parte da dívida cara do Nubank, restando no Nubank um saldo devedor de R$ 30.069,79 (11 parcelas agendadas de R$ 2.733,62, ou R$ 24.898,68 para quitação à vista).",
-            "A soma exata dos saldos devedores registrados atualmente nos aplicativos bancários oficiais (Itaú 1 R$ 119.343,17 + Itaú 2 R$ 19.527,27 + Nubank R$ 30.069,79) totaliza R$ 168.940,23 sob exclusiva responsabilidade de Gustavo (ou R$ 192.406,99 se computada a soma nominal projetada das 60 parcelas futuras a prazo), enquanto a Ré apropriou-se de R$ 112.000,00 via Pix e recusou qualquer restituição voluntária."
+            "A soma exata dos saldos devedores registrados atualmente nos aplicativos bancários oficiais (Itaú 1 R$ 119.343,17 + Itaú 2 R$ 19.527,27 + Nubank R$ 30.069,79) totaliza R$ 168.940,23 sob exclusiva responsabilidade de Gustavo (ou R$ 192.406,99 se computada a soma nominal projetada das 60 parcelas futuras a prazo), enquanto a Ré apropriou-se de R$ 112.000,00 via Pix e recusou qualquer restituição voluntária.",
+            "Gastos Próprios de Mobilização e Retificação Contratual (R$ 29.730,00 - Abatidos e NÃO cobrados da Ré): Em 18/08/2026, Gustavo realizou pagamentos via Itaú SISPAG Fornecedores no montante de R$ 29.730,00 (comprovantes anexos) para contratações de profissionais e aquisição de equipamentos para estruturar a sua própria empresa, custos estes que independem de Camila. No primeiro esboço contratual elaborado, constou inadvertidamente uma cláusula contemplando referido reembolso; todavia, Gustavo formalmente retifica o instrumento e declara esse montante como despesa de sua exclusiva responsabilidade, ABATENDO-O integralmente da cobrança judicial e exigindo da Ré unicamente os R$ 112.000,00 repassados diretamente via Pix, demonstrando absoluta probidade e lealdade processual (Art. 5º do CPC e Art. 422 do CC).",
+            "Sugestão Técnica de Danos Morais para Instrução do Patrono (R$ 30.000,00): A conduta de Camila Caruso descambou para a gravíssima coação moral e ilícito penal quando ameaçou expressamente nos áudios periciados 00004874 e 00004880 ingressar com medida protetiva fraudulenta da Lei Maria da Penha ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?') para forçar Gustavo a renunciar à cobrança de sua legítima dívida. Essa chantagem odiosa, somada à ameaça de retaliação em ambiente corporativo e ao abalo de crédito suportado pelo credor, justifica plenamente o pleito indenizatório de R$ 30.000,00 por danos morais (balizado pela jurisprudência do TJSP e STJ entre R$ 30.000,00 e R$ 50.000,00), sugerindo-se o valor da causa inicial de R$ 142.000,00 (Art. 292, V e VI do CPC)."
         ]
     },
     "veiculoSection": {

@@ -202,7 +202,7 @@ function renderFullDossier(data) {
           Caso Gustavo Henrique Castellano x Camila Caruso da Costa Neves (C. Caruso Arquitetura e Interiores Ltda)
         </h2>
         <p class="hero-lead">
-          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix de <strong>R$ 112.000,00</strong> (R$ 40k em 04/08 e R$ 72k em 19/08), a transcrição verbatim de todos os <strong>180 áudios periciados (de 186 do acervo original)</strong> via Whisper, a demonstração da correlação investigativa com a execução de dívida de veículo perante o Banco Volkswagen, o descarte categórico de crime de ameaça pelo credor e a subsunção penal aos delitos de <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
+          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix diretos à Ré de <strong>R$ 112.000,00</strong> (R$ 40k em 04/08 e R$ 72k em 19/08), o abatimento formal e expressa exclusão dos <strong>R$ 29.730,00</strong> de gastos próprios de mobilização do Autor (retificando a cláusula inserida por engano no primeiro contrato, demonstrando boa-fé e lealdade processual), a sugestão técnica de indenização por <strong>Danos Morais de R$ 30.000,00</strong> (para instrução do advogado do Autor diante da chantagem com falsa medida protetiva da Lei Maria da Penha e abalo de crédito), a transcrição verbatim de todos os <strong>180 áudios periciados (de 186 do acervo original)</strong> via Whisper, a demonstração da correlação com a dívida de veículo do Banco Volkswagen e a subsunção a <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
         </p>
 
         <!-- Meta Chips -->
@@ -210,6 +210,18 @@ function renderFullDossier(data) {
           <div class="chip chip-highlight">
             <span class="chip-label">Total Repassado à Ré (Pix Direto):</span>
             <span class="chip-val">R$ 112.000,00</span>
+          </div>
+          <div class="chip">
+            <span class="chip-label">Gastos Próprios de Mobilização:</span>
+            <span class="chip-val">R$ 29.730,00 (Abatidos / Não Cobrados)</span>
+          </div>
+          <div class="chip">
+            <span class="chip-label">Sugestão Danos Morais (Advogado):</span>
+            <span class="chip-val">R$ 30.000,00 (Abalo & Falsa Protetiva)</span>
+          </div>
+          <div class="chip chip-highlight" style="border-color: rgba(99, 102, 241, 0.6);">
+            <span class="chip-label">Pretensão Inicial da Causa:</span>
+            <span class="chip-val">R$ 142.000,00 (Principal + Moral)</span>
           </div>
           <div class="chip">
             <span class="chip-label">1º Pix Emergencial:</span>
@@ -252,15 +264,20 @@ function renderFullDossier(data) {
             <div class="metric-val">R$ 112.000,00</div>
             <div class="metric-sub">R$ 40k (04/08 Nubank) + R$ 72k (19/08 Itaú) retidos sem restituição</div>
           </div>
-          <div class="metric-card danger">
-            <div class="metric-title">1º Pix Emergencial (04/08)</div>
-            <div class="metric-val">R$ 40.000,00</div>
-            <div class="metric-sub">Nu Pagamentos -> Santander Ré (ID E18236120202608041328s14787e325d)</div>
+          <div class="metric-card info">
+            <div class="metric-title">Gastos Próprios de Mobilização (Abatidos)</div>
+            <div class="metric-val" style="color: #38bdf8;">R$ 29.730,00</div>
+            <div class="metric-sub">Itaú SISPAG 18/08; Custos próprios de Gustavo; R$ 0,00 cobrado da Ré</div>
           </div>
-          <div class="metric-card danger">
-            <div class="metric-title">2º Pix Parceria (19/08)</div>
-            <div class="metric-val">R$ 72.000,00</div>
-            <div class="metric-sub">Itaú SISPAG -> Santander Ré (ID E60701190202608191909DYSMAN3D8X4)</div>
+          <div class="metric-card purple">
+            <div class="metric-title">Sugestão Danos Morais (Advogado)</div>
+            <div class="metric-val" style="color: #c084fc;">R$ 30.000,00</div>
+            <div class="metric-sub">Áudios 4874/4880: ameaça com Lei Maria da Penha + abalo de crédito</div>
+          </div>
+          <div class="metric-card warning">
+            <div class="metric-title">Valor Inicial Sugerido da Causa</div>
+            <div class="metric-val" style="color: #fbbf24;">R$ 142.000,00</div>
+            <div class="metric-sub">R$ 112k principal + R$ 30k danos morais (+ encargos bancários a liquidar)</div>
           </div>
           <div class="metric-card warning">
             <div class="metric-title">Saldo Devedor Atual nos Apps</div>
@@ -326,8 +343,11 @@ function renderFullDossier(data) {
               <p style="margin-bottom: 6px;">
                 <strong>2. Quitação Antecipada de 13 Parcelas do Nubank:</strong> Em 24/08/2026, Gustavo pagou <strong>R$ 18.015,62</strong> à vista (comprovante Nu Financeira cód. <code>6a8c7a93</code>), obtendo <strong>R$ 17.521,40 de desconto</strong> sobre o valor original das parcelas (R$ 35.537,03), utilizando recursos do 2º Pronampe Itaú.
               </p>
-              <p style="margin-bottom: 0;">
+              <p style="margin-bottom: 6px;">
                 <strong>3. Não-Duplicidade e Substituição de Dívida:</strong> Dos R$ 42.050,90 tomados originalmente no Nubank (com juros de 63,14% a.a.), Gustavo contratou o 2º Pronampe no Itaú (R$ 19.527,27) com taxa Selic mais baixa e usou R$ 18.015,62 para antecipar as 13 parcelas do Nubank. Logo, o 2º Pronampe substituiu essa fatia da dívida cara, agindo Gustavo para conter o prejuízo provocado pelo socorro prestado a Camila.
+              </p>
+              <p style="margin-bottom: 0;">
+                <strong>4. Gastos Próprios de Mobilização do Autor (R$ 29.730,00 em 18/08/2026 — Abatidos e NÃO cobrados da Ré):</strong> Conforme comprovante SISPAG e extrato da conta Itaú Empresas de 18/08/2026, Gustavo realizou desembolsos de R$ 29.730,00 para fornecedores, contratações e compra de equipamentos para estruturar a sua própria empresa (Agilidade para Todos), custos que independem de Camila. Embora o primeiro rascunho de minuta contratual contivesse inadvertidamente previsão de rateio/reembolso, Gustavo formal e expressamente retifica a minuta e deduz integralmente tais despesas da pretensão deduzida em face de Camila. Cobram-se unicamente os <strong>R$ 112.000,00</strong> de aportes Pix transferidos diretamente à conta bancária da Ré, em inequívoca demonstração de absoluta boa-fé objetiva (Art. 422 do CC) e probidade processual (Art. 5º do CPC).
               </p>
             </div>
           </div>
@@ -386,6 +406,37 @@ function renderFullDossier(data) {
               <div class="bank-card-actions">
                 <button class="filter-btn" onclick="openLightboxImage('00003448-PHOTO-2026-08-19-16-10-56.jpg')">
                   🔍 Ver Comprovante e Autenticação
+                </button>
+              </div>
+            </div>
+
+            <!-- Card 3: Gastos Próprios de Mobilização (Abatidos) -->
+            <div class="bank-card info-border">
+              <div>
+                <div class="bank-card-header">
+                  <div class="bank-card-header-top">
+                    <span class="badge blue">EXCLUSIVO DO AUTOR • NÃO COBRADO DA RÉ (ABATIDO)</span>
+                    <span class="bank-card-source">18/08/2026 (Itaú SISPAG)</span>
+                  </div>
+                </div>
+                <div class="bank-card-value-wrap">
+                  <div class="bank-card-val val-white">R$ 29.730,00</div>
+                  <div class="bank-card-val-sub">Mobilização de fornecedores e equipamentos de tecnologia da empresa de Gustavo</div>
+                </div>
+                <div class="bank-card-details">
+                  <div><strong>Origem do Débito:</strong> Itaú Unibanco S.A. SISPAG Fornecedores (Ag 0173 CC 99110-0)</div>
+                  <div><strong>Destino:</strong> Contratações, terceiros e equipamentos próprios da Agilidade para Todos</div>
+                  <div><strong>Status de Cobrança:</strong> <strong style="color: #38bdf8;">100% ABATIDO • R$ 0,00 COBRADO DE CAMILA</strong></div>
+                  <div><strong>Extrato Bancário do Dia:</strong> Saldo de R$ 84.423,00 (após débito SISPAG de R$ 29,7k e crédito de R$ 113,6k de Giro)</div>
+                  <div style="margin-top:6px;color:#cbd5e1;"><em>Cláusula de reembolso constante do 1º esboço preliminar expressamente retificada pelo Autor. Despesa absorvida pelo credor em demonstração cabal de lealdade e boa-fé objetiva (Art. 5º CPC e Art. 422 CC).</em></div>
+                </div>
+              </div>
+              <div class="bank-card-actions" style="display:flex;flex-direction:column;gap:8px;">
+                <button class="filter-btn" onclick="openLightbox('ev-sispag-29k-detalhes')">
+                  🔍 Ver Comprovante SISPAG (R$ 29.730,00)
+                </button>
+                <button class="filter-btn" onclick="openLightbox('ev-sispag-29k-extrato')">
+                  🔍 Ver Extrato Itaú de 18/08/2026
                 </button>
               </div>
             </div>
@@ -1111,6 +1162,17 @@ window.openEvidenceModal = function(ev) {
     description: ev.description,
     ocrText: ev.ocrText
   });
+};
+
+window.openLightbox = function(idOrFilename) {
+  if (window.DOSSIER_DATA && window.DOSSIER_DATA.evidenceGallery) {
+    const ev = window.DOSSIER_DATA.evidenceGallery.find(e => e.id === idOrFilename);
+    if (ev) {
+      window.openEvidenceModal(ev);
+      return;
+    }
+  }
+  window.openLightboxImage(idOrFilename);
 };
 
 window.openLightboxImage = function(filename) {
