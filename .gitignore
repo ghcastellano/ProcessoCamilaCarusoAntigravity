@@ -1,0 +1,30 @@
+# Sensitive and environment
+.env
+.env.*
+*.log
+*.pem
+*.key
+*.cert
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Large binaries exceeding GitHub / Vercel limits
+00003368-FOTOS SITE.zip
+00000904-IMG_9039.mov
+00003372-_FJR7387.jpg
+00003184-Revisão do site.pptx
+
+# Vercel
+.vercel
+node_modules/
