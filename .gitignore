@@ -5,6 +5,8 @@
 *.pem
 *.key
 *.cert
+*.pfx
+*.p12
 
 # macOS
 .DS_Store

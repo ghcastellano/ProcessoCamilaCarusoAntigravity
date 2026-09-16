@@ -150,10 +150,10 @@ blocks = [
     },
     {
         "id": "bloco-6",
-        "title": "Bloco 6: Formalização das Minutas, Fornecedores/Equipamentos (R$ 29.730,00) e Quitação Nubank",
+        "title": "Bloco 6: Formalização das Minutas, Gestão Financeira e Quitação Nubank",
         "dates": "20/08/2026 a 31/08/2026",
-        "summary": "Gustavo encaminha as minutas formais: Contrato de Parceria Comercial (prevendo na Cláusula 2.2 o ressarcimento dos R$ 29.730,00 pagos diretamente por ele a fornecedores e para compra de equipamentos da sociedade), Anexo II de Reconhecimento de Dívida e Termo NCNDA. Em 24/08/2026, com os recursos do 2º Pronampe Itaú (Contrato nº 4886874439, saldo R$ 19.527,27), Gustavo realiza a quitação antecipada de 13 parcelas do Nubank por R$ 18.015,62 (desconto de R$ 17.521,40, recibo Nu Financeira cód. 6a8c7a93). O total desembolsado diretamente pelo Autor atinge R$ 141.730,00 (R$ 112k Pix + R$ 29.730 fornecedores e equipamentos).",
-        "badge": "Minutas, R$ 29.730 Equipamentos & Quitação Nubank",
+        "summary": "Gustavo encaminha as minutas formais: Contrato de Parceria Comercial, Anexo II de Reconhecimento de Dívida e Termo NCNDA para formalizar a devolução dos R$ 112.000,00 repassados à Ré via Pix. Em 24/08/2026, com os recursos do 2º Pronampe Itaú (Contrato nº 4886874439, saldo R$ 19.527,27), Gustavo realiza a quitação antecipada de 13 parcelas do Nubank por R$ 18.015,62 (desconto de R$ 17.521,40, recibo Nu Financeira cód. 6a8c7a93), substituindo dívida de juros altos (63,14% a.a.) para mitigar o dano financeiro gerado pelo socorro prestado a Camila.",
+        "badge": "Minutas de Parceria & Quitação Nubank",
         "badgeClass": "blue",
         "events": []
     },
@@ -254,8 +254,8 @@ for ev_id in CURATED_EVENT_IDS:
         custom_badge = "Confissão de Desespero e Alívio da Ré"
     elif ev_id in [3652, 3653, 3654]:
         tags = ["CONTRATO_MINUTA", "CONTRATO", "FINANCEIRO"]
-        custom_badge = "Contrato de Parceria (R$ 29.730 Fornecedores) e Anexo II (Confissão)"
-        custom_note = "Gustavo encaminha a minuta oficial do Contrato de Parceria Comercial que discrimina expressamente na Cláusula 2.2 o custeio de R$ 29.730,00 em fornecedores operacionais e equipamentos pelo Autor, cumulado com o Anexo II - Termo de Confissão e Reconhecimento de Dívida."
+        custom_badge = "Contrato de Parceria e Anexo II (Confissão de Dívida)"
+        custom_note = "Gustavo encaminha a minuta formal do Contrato de Parceria Comercial e o Anexo II - Termo de Confissão e Reconhecimento de Dívida com o compromisso irretratável de devolução dos R$ 112.000,00 repassados via Pix e assunção dos encargos bancários."
     elif ev_id in [4367, 4368]:
         tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO_BANCOS", "FINANCEIRO"]
         custom_badge = "Extrato Oficial Itaú: 2 Contratos Pronampe"
@@ -376,18 +376,6 @@ evidence_gallery = [
         "ocrText": "Comprovante de Pagamento - PIX SISPAG. Identificação: CAMILA CARUSO. Conta débito: 0173 / 0099110-0 - GUSTAVO HENRIQUE CASTELLANO. Valor: R$ 72.000,00. Favorecido: ARQUITETA CAMILA CARUSO, CNPJ 46.788.820/0001-90, Banco Santander. Mensagem: deposito referente a obra que estamos operando em parceria Camila Caruso e Agilidade para Todos. ID Transação: E60701190202608191909DYSMAN3D8X4. Autenticação: A84590460945ACACFBE66745CC6299E86E69A7A3."
     },
     {
-        "id": "ev-custos-diretos-29k",
-        "title": "Custos Diretos da Sociedade: Equipamentos & Fornecedores (R$ 29.730,00)",
-        "category": "Comprovantes Financeiros",
-        "filename": "00003652-Anexo II - Termo de Reconhecimento de Divida.docx",
-        "date": "Agosto/2026",
-        "origin": "Desembolsos Diretos pelo Autor (Gustavo)",
-        "destiny": "Fornecedores e Equipamentos para Infraestrutura da Sociedade",
-        "authId": "Cláusula 2.2 Minuta Contrato de Parceria & Anexo II",
-        "description": "Comprovantes e notas de despesas totalizando R$ 29.730,00 despendidos por Gustavo para viabilizar a estruturação física, equipamentos tecnológicos e fornecedores operacionais da parceria prometida por Camila.",
-        "ocrText": "Cláusula 2.2 - Custos Diretos Antecipados: O Parceiro Gestor realizou desembolsos diretos em favor da infraestrutura do projeto e pagamento de fornecedores no montante de R$ 29.730,00."
-    },
-    {
         "id": "ev-nubank-extrato-detalhado",
         "title": "Extrato Nubank: Condições do Empréstimo, Saldo Restante e Taxas",
         "category": "Contratos Bancários",
@@ -451,7 +439,7 @@ evidence_gallery = [
         "date": "21/08/2026 08:22:56",
         "origin": "Minuta jurídica enviada via WhatsApp",
         "authId": "Anexo II - Termo de Reconhecimento de Dívida",
-        "description": "Termo formal discriminando o valor repassado (R$ 112.000,00), os custos diretos com equipamentos e fornecedores da parceria (R$ 29.730,00), as parcelas e os encargos bancários assumidos, com cláusula de confissão irrevogável de dívida.",
+        "description": "Termo formal discriminando os aportes via Pix de R$ 112.000,00, o cronograma de parcelas e os encargos bancários assumidos para viabilizar os recursos, com cláusula de confissão irrevogável de dívida.",
         "ocrText": "Anexo II - Termo de Confissão e Reconhecimento de Dívida e Cronograma de Reembolso Financeiro."
     }
 ]
@@ -493,14 +481,14 @@ Em agosto de 2026, a Noticiada, sob o engodo premeditado de formalizar uma lucra
 Confiando na boa-fé da Noticiada e no compromisso irretratável de formalização contratual expressa ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - mensagem em 19/08/2026 às 16:15), o Noticiante realizou dois repasses via Pix em benefício da empresa da Noticiada:
 1. R$ 40.000,00 em 04/08/2026 (Nubank, ID E18236120202608041328s14787e325d);
 2. R$ 72.000,00 em 19/08/2026 (Itaú SISPAG, ID E60701190202608191909DYSMAN3D8X4).
-Totalizando o montante de R$ 112.000,00 creditados diretamente na conta da Ré, cumulado com o desembolso direto de R$ 29.730,00 efetuado pelo Noticiante para pagamento de fornecedores e aquisição de equipamentos necessários à estruturação operacional da sociedade (previsto expressamente na Cláusula 2.2 do Contrato revisado em 21/08/2026), perfazendo um desfalque patrimonial líquido direto de R$ 141.730,00.
+Totalizando o montante de R$ 112.000,00 creditados diretamente na conta da Ré no Banco Santander.
 
 Para viabilizar tais aportes induzidos pela Ré, o Noticiante tomou empréstimos bancários emergenciais (Pronampe no Banco Itaú e capital de giro no Nubank com juros de 63,14% a.a.), arcando com um passivo bancário total de R$ 168.940,23 nos aplicativos oficiais.
 
 Uma vez na posse dos recursos, a Noticiada revelou seu intento fraudulento: procrastinou e recusou-se reiteradamente a assinar os contratos e termos de confissão de dívida enviados, utilizou os valores para estancar dívidas e execuções pessoais urgentes — em especial parcelas vencidas de veículo financiado sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante a Comarca de Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se expressamente a restituir qualquer quantia e ameaçou o Noticiante com a instrumentalização fraudulenta de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?' - Áudios periciados 00004874 e 00004880).
 
 II. DO ENQUADRAMENTO JURÍDICO-PENAL
-A conduta da Noticiada amolda-se com perfeição ao crime de Estelionato (Art. 171 do CP) pelo ardil antecedente e induzimento em erro para obtenção de vantagem ilícita de R$ 141.730,00 em prejuízo da vítima, ou subsidiariamente Apropriação Indébita Qualificada (Art. 168 do CP), cumulada com Tentativa de Denunciação Caluniosa e Coação no Curso do Processo (Arts. 339 e 344 do CP).
+A conduta da Noticiada amolda-se com perfeição ao crime de Estelionato (Art. 171 do CP) pelo ardil antecedente e induzimento em erro para obtenção de vantagem ilícita de R$ 112.000,00 em prejuízo da vítima, ou subsidiariamente Apropriação Indébita Qualificada (Art. 168 do CP), cumulada com Tentativa de Denunciação Caluniosa e Coação no Curso do Processo (Arts. 339 e 344 do CP).
 
 III. DOS REQUERIMENTOS
 Requer a Vossa Excelência:
@@ -523,21 +511,18 @@ RÉUS:
 2. CAMILA CARUSO DA COSTA NEVES, brasileira, solteira, arquiteta, portadora do CPF/MF sob nº 356.XXX.XXX-XX, residente e domiciliada na Rua Braz Cubas, 375, Centro, Mogi das Cruzes/SP (com desconsideração da personalidade jurídica initio litis com base no Art. 50 do Código Civil).
 
 I. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR INAUDITA ALTERA PARTE (ARTS. 300 E 301 DO CPC)
-Demonstrada a probabilidade do direito (fumus boni iuris) através de comprovantes bancários oficiais de repasse via Pix no montante de R$ 112.000,00, notas fiscais e comprovantes de gastos operacionais em fornecedores e equipamentos da parceria no valor de R$ 29.730,00 (Cláusula 2.2 da minuta revisada em 21/08), confissões textuais e áudios de WhatsApp periciados;
+Demonstrada a probabilidade do direito (fumus boni iuris) através de comprovantes bancários oficiais de repasse via Pix no montante de R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08), confissões textuais e áudios de WhatsApp periciados;
 Demonstrado o perigo de dano irreparável e de desfazimento patrimonial (periculum in mora) pela notória insolvência da Ré, existência de processo executivo/busca e apreensão movido pelo Banco Volkswagen S.A. sob nº 401XXXX-77.2026.8.26.0361, confissão de que colocaria o veículo à venda e iminente vencimento das parcelas dos empréstimos bancários que totalizam R$ 168.940,23 registrados em nome do Autor, REQUER-SE:
-a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante do débito principal de R$ 141.730,00 nas contas bancárias de ambas as Rés (CNPJ e CPF);
+a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante do débito principal de R$ 112.000,00 nas contas bancárias de ambas as Rés (CNPJ e CPF);
 b) A restrição judicial de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.
 
 II. DO DIREITO E DO MÉRITO
 1. DA VALIDADE DA OBRIGAÇÃO E DO CONTRATO PRELIMINAR VERBAL (ARTS. 104, 107 E 422 DO CC):
-O Código Civil consagra a forma livre dos negócios jurídicos. A avença comercial, o adiantamento de capital de giro e o custeio de equipamentos foram amplamente pactuados, gerando a irretratável obrigação de restituição integral e indenização por perdas e danos.
+O Código Civil consagra a forma livre dos negócios jurídicos. A avença comercial e o adiantamento de capital de giro foram amplamente pactuados, gerando a irretratável obrigação de restituição integral e indenização por perdas e danos.
 2. DA DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA (ART. 50 DO CC c/c LEI Nº 13.874/2019):
 Configurada a flagrante confusão patrimonial e desvio de finalidade, pois a sócia utilizou a conta da pessoa jurídica para receber aportes e direcioná-los ao custeio de obrigações estritamente pessoais (financiamento de veículo automotor), justificando a responsabilidade patrimonial solidária e ilimitada de Camila Caruso da Costa Neves.
 3. DAS PERDAS E DANOS EMERGENTES DIRETAS E REFLEXAS (ART. 402 DO CC) SEM BIS IN IDEM:
-O prejuízo patrimonial direto do Autor consubstancia-se em:
-a) R$ 112.000,00 de adiantamentos Pix não devolvidos;
-b) R$ 29.730,00 despendidos em equipamentos e fornecedores da sociedade frustrada por culpa exclusiva da Ré;
-Totalizando R$ 141.730,00 a título de dano emergente principal.
+O prejuízo patrimonial direto do Autor consubstancia-se no principal de R$ 112.000,00 de adiantamentos Pix não devolvidos.
 Cumulativamente, requer a condenação ao ressarcimento das perdas e danos reflexas consistentes nos encargos financeiros, juros bancários e IOF suportados pelo Autor perante os Bancos Itaú e Nubank em razão das linhas de crédito que foi forçado a captar no mercado para viabilizar os repasses induzidos pela Ré, valor a ser quantificado em liquidação de sentença por simples cálculo contábil.
 4. DOS CONSECTÁRIOS LEGAIS (LEI Nº 14.905/2024):
 Os valores deverão ser atualizados monetariamente pelo IPCA a partir de cada desembolso, incidindo juros moratórios legais calculados pela taxa legal atrelada à Selic deduzido o IPCA, nos termos do art. 406 do CC c/c Lei nº 14.905/2024.
@@ -547,8 +532,8 @@ Evidenciado o severo constrangimento, abalo financeiro e a grave extorsão moral
 III. DOS PEDIDOS FINAIS
 Requer a procedência total da ação para:
 a) Confirmar em definitivo a tutela cautelar de arresto Sisbajud e Renajud;
-b) Condenar solidariamente as Rés ao pagamento do dano patrimonial principal de R$ 141.730,00, corrigido monetariamente pelo IPCA e acrescido dos juros legais da Lei nº 14.905/2024 desde cada desembolso;
-c) Condenar as Rés ao pagamento das perdas e danos consistentes nos juros, tributos e encargos financeiros suportados nas operações de crédito contraídas pelo Autor, a serem apurados em liquidação;
+b) Condenar solidariamente as Rés ao pagamento do dano patrimonial principal de R$ 112.000,00, corrigido monetariamente pelo IPCA e acrescido dos juros legais da Lei nº 14.905/2024 desde cada desembolso;
+c) Condenar as Rés ao pagamento das perdas e danos reflexas consistentes nos juros, tributos e encargos financeiros suportados nas operações de crédito contraídas pelo Autor, a serem apurados em liquidação;
 d) Condenar as Rés ao pagamento de R$ 20.000,00 a título de indenização por danos morais;
 e) A condenação ao pagamento de custas processuais e honorários advocatícios sucumbenciais fixados em 20% sobre o valor total da condenação.""",
 
@@ -563,11 +548,11 @@ GUSTAVO HENRIQUE CASTELLANO (CPF 030.193.641-24 / CNPJ 27.626.226/0001-59)
 
 Pela presente NOTIFICAÇÃO EXTRAJUDICIAL, serve o presente instrumento para CONSTITUIR EM MORA as Notificadas, pelos seguintes fatos e fundamentos:
 
-1. As Notificadas receberam diretamente a quantia líquida de R$ 112.000,00 (cento e doze mil reais) via transferências Pix efetuadas em 04/08/2026 (R$ 40.000,00) e 19/08/2026 (R$ 72.000,00), além de terem se beneficiado de R$ 29.730,00 (vinte e nove mil, setecentos e trinta reais) em despesas com fornecedores e aquisição de equipamentos custeados diretamente pelo Notificante para a implantação da infraestrutura da sociedade prometida e frustrada por culpa exclusiva das Notificadas (conforme Cláusula 2.2 do Contrato de Parceria e Anexo II);
+1. As Notificadas receberam diretamente a quantia líquida de R$ 112.000,00 (cento e doze mil reais) via transferências Pix efetuadas em 04/08/2026 (R$ 40.000,00) e 19/08/2026 (R$ 72.000,00), sob a expressa promessa de devolução e formalização contratual;
 
 2. Não obstante o compromisso irrevogável de celebração do contrato formal e restituição dos aportes, as Notificadas recusaram-se a formalizar o instrumento pactuado e incorreram em mora injustificada, tendo ainda a Notificada Camila Caruso proferido ameaças de imputação fraudulenta de infração penal e acionamento indevido de medidas protetivas da Lei Maria da Penha (áudios 00004874 e 00004880);
 
-3. Diante disso, FICA A NOTIFICADA INTIMADA para, no prazo improrrogável de 48 (quarenta e oito) horas a contar do recebimento desta, proceder ao reembolso integral do montante principal de R$ 141.730,00 (cento e quarenta e um mil, setecentos e trinta reais), acrescido dos encargos financeiros bancários incorridos;
+3. Diante disso, FICA A NOTIFICADA INTIMADA para, no prazo improrrogável de 48 (quarenta e oito) horas a contar do recebimento desta, proceder ao reembolso integral do montante principal de R$ 112.000,00 (cento e doze mil reais), acrescido dos encargos financeiros bancários incorridos;
 
 4. O não atendimento no prazo assinalado ensejará o imediato ajuizamento da Competente Ação de Cobrança c/c Pedido Liminar de Arresto Sisbajud e Renajud perante o Poder Judiciário, bem como o protocolo da Notícia-Crime perante a Autoridade Policial competente para apuração dos crimes tipificados nos arts. 171, 168 e 339 do Código Penal.
 
@@ -582,10 +567,9 @@ dossier_data = {
     "metadata": {
         "title": "Dossiê Jurídico e Fático — Caso Gustavo Castellano x Camila Caruso",
         "subtitle": "Análise Cronológica Exaustiva, Transcrições de Áudio Whisper, Provas Financeiras, Enquadramento Penal e Auditoria de Ameaças",
-        "totalAmount": 141730.00,
+        "totalAmount": 112000.00,
         "totalPixRepassado": 112000.00,
-        "custosDiretosFornecedoresEquipamentos": 29730.00,
-        "totalDesembolsoDireto": 141730.00,
+        "totalDesembolsoDireto": 112000.00,
         "pixNu": 40000.00,
         "pixItau": 72000.00,
         "nubankValorContratado": 42050.90,
@@ -619,9 +603,8 @@ dossier_data = {
         "paragraphs": [
             "Em julho de 2026, Camila Caruso da Costa Neves restabeleceu contato com Gustavo Henrique Castellano com o objetivo declarado de celebrar uma lucrativa parceria comercial ('vamos falar de dinheiro ok... podemos ganhar dinheiro juntos'). Gustavo, especialista em tecnologia, tráfego pago e gestão, aceitou estruturar canais de captação digital para o escritório C. Caruso Arquitetura e Interiores Ltda (CNPJ 46.788.820/0001-90).",
             "Sob a alegação de extrema asfixia de caixa para manter a equipe e projetos em andamento, Camila induziu Gustavo a realizar aportes financeiros urgentes a título de capital de giro reembolsável. Em 04/08/2026, Gustavo tomou um empréstimo emergencial no Nubank (valor contratado de R$ 42.050,90 com CET de 63,14% a.a.) e transferiu imediatamente o primeiro Pix de R$ 40.000,00 para a conta da C. Caruso Arquitetura no Santander. Em seguida, para alongar a dívida e aportar mais recursos, Gustavo contratou no Banco Itaú o Giro Pronampe Contrato Principal (nº 4887183848), com saldo restante registrado de R$ 119.343,17 (60 parcelas de R$ 2.324,17), transferindo no dia 19/08/2026 um segundo Pix de R$ 72.000,00 via SISPAG diretamente para Camila, perfazendo R$ 112.000,00 líquidos entregues diretamente à Ré.",
-            "Adicionalmente, Gustavo desembolsou diretamente R$ 29.730,00 para pagamento de fornecedores operacionais e aquisição de equipamentos necessários para a estruturação da empresa/sociedade que iriam operar juntos, despesa formalmente discriminada na Cláusula 2.2 da minuta contratual revisada em 21/08/2026 sob a rubrica de 'Custos Diretos Antecipados', elevando o total de desfalque patrimonial direto a R$ 141.730,00.",
             "Para estancar a taxa de juros de 63,14% a.a. (3,95% a.m.) do Nubank, Gustavo contratou uma segunda linha Giro Pronampe no Itaú (Contrato nº 4886874439), com saldo devedor de R$ 19.527,27 (60 parcelas de R$ 381,45), que liberou R$ 18.653,05. Em 24/08/2026, Gustavo transferiu essa quantia via Pix do Itaú para o Nubank e realizou a quitação antecipada de 13 parcelas no valor de R$ 18.015,62 (com desconto de R$ 17.521,40) do empréstimo de socorro. Com isso, o 2º Pronampe substituiu parte da dívida cara do Nubank, restando no Nubank um saldo devedor de R$ 30.069,79 (11 parcelas agendadas de R$ 2.733,62, ou R$ 24.898,68 para quitação à vista).",
-            "A soma exata dos saldos devedores registrados atualmente nos aplicativos bancários oficiais (Itaú 1 R$ 119.343,17 + Itaú 2 R$ 19.527,27 + Nubank R$ 30.069,79) totaliza R$ 168.940,23 sob exclusiva responsabilidade de Gustavo (ou R$ 192.406,99 se computada a soma nominal projetada das 60 parcelas futuras a prazo), enquanto a Ré apropriou-se de R$ 112.000,00 via Pix e beneficiou-se de R$ 29.730,00 em equipamentos e fornecedores da parceria frustrada, recusando qualquer restituição."
+            "A soma exata dos saldos devedores registrados atualmente nos aplicativos bancários oficiais (Itaú 1 R$ 119.343,17 + Itaú 2 R$ 19.527,27 + Nubank R$ 30.069,79) totaliza R$ 168.940,23 sob exclusiva responsabilidade de Gustavo (ou R$ 192.406,99 se computada a soma nominal projetada das 60 parcelas futuras a prazo), enquanto a Ré apropriou-se de R$ 112.000,00 via Pix e recusou qualquer restituição voluntária."
         ]
     },
     "veiculoSection": {
@@ -663,7 +646,7 @@ dossier_data = {
             "allegations": [
                 "Você que sabe, Gustavo, você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso? Então vamos dar um tempinho para as coisas se ajeitarem? (Áudios 00004874 e 00004880)"
             ],
-            "enquadramento": "A utilização de mecanismos da Lei Maria da Penha como artifício de chantagem para compelir o credor a renunciar a cobrança de dívida legítima de R$ 141.730,00 caracteriza Ameaça de Denunciação Caluniosa (Art. 339 c/c Art. 147 do CP), Coação no Curso do Processo (Art. 344 do CP) e Abuso de Direito (Art. 187 do CC).",
+            "enquadramento": "A utilização de mecanismos da Lei Maria da Penha como artifício de chantagem para compelir o credor a renunciar a cobrança de dívida legítima de R$ 112.000,00 caracteriza Ameaça de Denunciação Caluniosa (Art. 339 c/c Art. 147 do CP), Coação no Curso do Processo (Art. 344 do CP) e Abuso de Direito (Art. 187 do CC).",
             "postura": "Camila ameaçou levar a cobrança ao RH de empresa parceira para causar prejuízo profissional e financeiro à vítima, em evidente manobra de constrangimento ilegal.",
             "conclusao": "⚠️ Conduta com expressa repercussão penal e objeto da Notícia-Crime."
         }

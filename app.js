@@ -202,26 +202,26 @@ function renderFullDossier(data) {
           Caso Gustavo Henrique Castellano x Camila Caruso da Costa Neves (C. Caruso Arquitetura e Interiores Ltda)
         </h2>
         <p class="hero-lead">
-          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix de <strong>R$ 112.000,00</strong>, dos custos diretos com fornecedores e equipamentos da parceria de <strong>R$ 29.730,00</strong> (totalizando <strong>R$ 141.730,00</strong> em prejuízo financeiro direto do credor), a transcrição verbatim de todos os <strong>180 áudios periciados (de 186 do acervo original)</strong> via Whisper, a demonstração da correlação investigativa com a execução de dívida de veículo perante o Banco Volkswagen, o descarte categórico de crime de ameaça pelo credor e a subsunção penal aos delitos de <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
+          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix de <strong>R$ 112.000,00</strong> (R$ 40k em 04/08 e R$ 72k em 19/08), a transcrição verbatim de todos os <strong>180 áudios periciados (de 186 do acervo original)</strong> via Whisper, a demonstração da correlação investigativa com a execução de dívida de veículo perante o Banco Volkswagen, o descarte categórico de crime de ameaça pelo credor e a subsunção penal aos delitos de <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
         </p>
 
         <!-- Meta Chips -->
         <div class="meta-chips">
           <div class="chip chip-highlight">
-            <span class="chip-label">Total Desembolso Direto:</span>
-            <span class="chip-val">R$ 141.730,00</span>
+            <span class="chip-label">Total Repassado à Ré (Pix Direto):</span>
+            <span class="chip-val">R$ 112.000,00</span>
           </div>
           <div class="chip">
-            <span class="chip-label">Repasses Pix (PJ->PJ):</span>
-            <span class="chip-val">R$ 112.000,00 (R$ 40k Nu + R$ 72k Itaú)</span>
+            <span class="chip-label">1º Pix Emergencial:</span>
+            <span class="chip-val">R$ 40.000,00 (04/08 Nubank)</span>
           </div>
           <div class="chip">
-            <span class="chip-label">Fornecedores & Equipamentos:</span>
-            <span class="chip-val">R$ 29.730,00 (Cláusula 2.2 Minuta)</span>
+            <span class="chip-label">2º Pix Parceria:</span>
+            <span class="chip-val">R$ 72.000,00 (19/08 Itaú)</span>
           </div>
           <div class="chip">
             <span class="chip-label">Origem dos Recursos:</span>
-            <span class="chip-val">Giro Pronampe Itaú (R$ 113.653,00)</span>
+            <span class="chip-val">Giro Pronampe Itaú + Capital de Giro Nu</span>
           </div>
           <div class="chip">
             <span class="chip-label">Áudios Periciados:</span>
@@ -241,26 +241,26 @@ function renderFullDossier(data) {
           </div>
           <div class="chip">
             <span class="chip-label">Análise de Ameaças:</span>
-            <span class="chip-val">Gustavo: Exercício Regular | Camila: Falsa Medida Protetiva</span>
+            <span class="chip-val">Gustavo: Exercício Regular | Camila: Falsa Protetiva</span>
           </div>
         </div>
 
         <!-- Metrics Row -->
         <div class="metrics-row">
           <div class="metric-card danger">
-            <div class="metric-title">Desembolso Direto Total do Autor</div>
-            <div class="metric-val">R$ 141.730,00</div>
-            <div class="metric-sub">R$ 112k (Pix direto) + R$ 29.730 (fornecedores/equipamentos)</div>
-          </div>
-          <div class="metric-card danger">
             <div class="metric-title">Repasses Pix Diretos à Ré</div>
             <div class="metric-val">R$ 112.000,00</div>
             <div class="metric-sub">R$ 40k (04/08 Nubank) + R$ 72k (19/08 Itaú) retidos sem restituição</div>
           </div>
-          <div class="metric-card warning">
-            <div class="metric-title">Equipamentos & Fornecedores (Parceria)</div>
-            <div class="metric-val">R$ 29.730,00</div>
-            <div class="metric-sub">Desembolso direto pelo Autor p/ sociedade (Cláusula 2.2 minuta)</div>
+          <div class="metric-card danger">
+            <div class="metric-title">1º Pix Emergencial (04/08)</div>
+            <div class="metric-val">R$ 40.000,00</div>
+            <div class="metric-sub">Nu Pagamentos -> Santander Ré (ID E18236120202608041328s14787e325d)</div>
+          </div>
+          <div class="metric-card danger">
+            <div class="metric-title">2º Pix Parceria (19/08)</div>
+            <div class="metric-val">R$ 72.000,00</div>
+            <div class="metric-sub">Itaú SISPAG -> Santander Ré (ID E60701190202608191909DYSMAN3D8X4)</div>
           </div>
           <div class="metric-card warning">
             <div class="metric-title">Saldo Devedor Atual nos Apps</div>
@@ -332,7 +332,7 @@ function renderFullDossier(data) {
             </div>
           </div>
 
-          <div class="versus-grid">
+          <div class="bank-cards-grid">
             <!-- Card Pix 1 -->
             <div class="bank-card success-border">
               <div>
@@ -386,33 +386,6 @@ function renderFullDossier(data) {
               <div class="bank-card-actions">
                 <button class="filter-btn" onclick="openLightboxImage('00003448-PHOTO-2026-08-19-16-10-56.jpg')">
                   🔍 Ver Comprovante e Autenticação
-                </button>
-              </div>
-            </div>
-
-            <!-- Card 3: Fornecedores e Equipamentos da Parceria -->
-            <div class="bank-card info-border">
-              <div>
-                <div class="bank-card-header">
-                  <div class="bank-card-header-top">
-                    <span class="badge blue">CUSTOS DIRETOS: EQUIPAMENTOS & FORNECEDORES</span>
-                    <span class="bank-card-source">Agosto/2026 · Cláusula 2.2 da Minuta</span>
-                  </div>
-                </div>
-                <div class="bank-card-value-wrap">
-                  <div class="bank-card-val val-white">R$ 29.730,00</div>
-                  <div class="bank-card-val-sub">Infraestrutura, equipamentos e fornecedores operacionais da sociedade</div>
-                </div>
-                <div class="bank-card-details">
-                  <div><strong>Desembolso:</strong> Pago diretamente pelo Autor (Gustavo) aos fornecedores da parceria</div>
-                  <div><strong>Previsão Contratual:</strong> Cláusula 2.2 da Minuta de Parceria e Anexo II (Reconhecimento de Dívida)</div>
-                  <div><strong>Rubrica:</strong> Custos Diretos Antecipados para viabilizar os projetos comerciais</div>
-                  <div style="margin-top:6px;color:#cbd5e1;"><em>Valores suportados pelo Autor para a implantação da sociedade prometida pela Ré e frustrada por sua recusa em formalizar a avença.</em></div>
-                </div>
-              </div>
-              <div class="bank-card-actions">
-                <button class="filter-btn" onclick="openLightboxImage('00003652-Anexo II - Termo de Reconhecimento de Divida.docx')">
-                  📄 Ver Cláusula 2.2 e Minuta Formal
                 </button>
               </div>
             </div>
@@ -521,11 +494,11 @@ function renderFullDossier(data) {
             <div class="section-sub">Pareceres aprofundados emitidos por agentes autônomos com fundamentação de lei e jurisprudência</div>
           </div>
 
-          <div class="card">
-            <div class="agent-tabs" id="agent-tabs-header">
+          <div class="card" style="padding: 24px;">
+            <div class="tabs-header" id="agent-tabs-header">
               <!-- Injected dynamically -->
             </div>
-            <div class="agent-panel active" id="agent-tab-content">
+            <div id="agent-tab-content">
               <!-- Injected dynamically -->
             </div>
           </div>
@@ -610,7 +583,7 @@ function renderFullDossier(data) {
               <div>
                 <label for="draft-selector" style="font-size:13px;color:var(--text-dim);font-weight:600;margin-right:8px;">Selecione a Minuta:</label>
                 <select id="draft-selector" class="search-input" style="width:auto;display:inline-block;padding:6px 12px;">
-                  <option value="peticao_civel">Petição Inicial Cível: Ação de Cobrança c/c Arresto Sisbajud (R$ 141.730,00)</option>
+                  <option value="peticao_civel">Petição Inicial Cível: Ação de Cobrança c/c Arresto Sisbajud (R$ 112.000,00)</option>
                   <option value="noticia_crime">Notícia-Crime: Representação Criminal por Estelionato e Apropriação Indébita (Art. 171/168 CP)</option>
                   <option value="notificacao_extrajudicial">Notificação Extrajudicial: Constituição em Mora (Prazo 48h)</option>
                 </select>
@@ -654,18 +627,27 @@ function initMultiAgents(multiAgentData) {
   const agentKeys = Object.keys(multiAgentData);
   tabsContainer.innerHTML = '';
 
+  const agentLabels = {
+    agent_penal: '⚖️ 1. Penal & Investigação',
+    agent_civil: '📜 2. Civil & Contratos',
+    agent_banking: '💳 3. Bancário & Pronampe',
+    agent_defense: '🛡️ 4. Teses da Defesa',
+    agent_strategy: '🎯 5. Estrategista Processual'
+  };
+
   agentKeys.forEach((key, index) => {
     const agent = multiAgentData[key];
     const btn = document.createElement('button');
-    btn.className = `agent-tab-btn ${index === 0 ? 'active' : ''}`;
-    btn.innerText = agent.title.split(':')[0].trim();
+    btn.className = `tab-btn ${index === 0 ? 'active' : ''}`;
+    btn.setAttribute('data-agent', key);
+    btn.innerHTML = `<span>${agentLabels[key] || agent.title}</span>`;
     btn.title = agent.title;
     btn.onclick = () => selectAgent(key);
     tabsContainer.appendChild(btn);
   });
 
   function selectAgent(selectedKey) {
-    const btns = tabsContainer.querySelectorAll('.agent-tab-btn');
+    const btns = tabsContainer.querySelectorAll('.tab-btn');
     agentKeys.forEach((key, index) => {
       if (key === selectedKey) {
         btns[index].classList.add('active');
@@ -675,13 +657,22 @@ function initMultiAgents(multiAgentData) {
     });
 
     const agent = multiAgentData[selectedKey];
+    
+    // Format section headers and text beautifully
+    let rawContent = escapeHtml(agent.content || '').trim();
+    let formattedBody = rawContent
+      .replace(/^([0-9]+\.\s+[^\n]+)/gm, '<span class="agent-section-heading">$1</span>')
+      .replace(/^(ROTEIRO PRÁTICO[^\n]+)/gm, '<span class="agent-section-heading">$1</span>');
+
     contentContainer.innerHTML = `
-      <div class="agent-title">${escapeHtml(agent.title)}</div>
-      <div class="agent-lead">${escapeHtml(agent.lead)}</div>
-      <div class="agent-articles">
-        ${(agent.articles || []).map(a => `<span class="agent-badge-article">⚖️ ${escapeHtml(a)}</span>`).join('')}
+      <div class="agent-content-card">
+        <div class="agent-content-title">${escapeHtml(agent.title)}</div>
+        <div class="agent-content-lead">${escapeHtml(agent.lead)}</div>
+        <div class="agent-articles-wrap">
+          ${(agent.articles || []).map(a => `<span class="agent-article-badge">⚖️ ${escapeHtml(a)}</span>`).join('')}
+        </div>
+        <div class="agent-body-text">${formattedBody}</div>
       </div>
-      <div class="agent-body">${escapeHtml(agent.content)}</div>
     `;
   }
 
@@ -738,80 +729,89 @@ function initTimeline(blocks) {
       if (filteredEvents.length === 0) return;
       totalRenderedEvents += filteredEvents.length;
 
-      const blockCard = document.createElement('div');
-      blockCard.className = 'block-card';
+      const timelineBlock = document.createElement('div');
+      timelineBlock.className = 'timeline-block';
+      timelineBlock.id = `block-${block.id}`;
 
-      blockCard.innerHTML = `
+      timelineBlock.innerHTML = `
         <div class="block-header">
-          <div class="block-header-title">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
             <h3 class="block-title">${escapeHtml(block.title)}</h3>
             <span class="badge ${block.badgeClass || 'blue'}">${escapeHtml(block.badge)}</span>
           </div>
-          <div class="block-meta">
-            <span class="block-dates">📅 ${escapeHtml(block.dates)}</span>
-            <span class="block-event-count">${filteredEvents.length} eventos periciados</span>
+          <div style="font-size:12px;color:var(--text-dim);font-weight:600;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span>📅 ${escapeHtml(block.dates)}</span>
+            <span>•</span>
+            <span class="badge" style="background:rgba(255,255,255,0.06);color:#cbd5e1;border:1px solid rgba(255,255,255,0.08);">${filteredEvents.length} eventos periciados</span>
           </div>
         </div>
         <div class="block-summary">${escapeHtml(block.summary)}</div>
-        <div class="events-list"></div>
+        <div class="timeline-events"></div>
       `;
 
-      const eventsList = blockCard.querySelector('.events-list');
+      const eventsContainer = timelineBlock.querySelector('.timeline-events');
 
       filteredEvents.forEach(ev => {
         const isCamila = ev.author && ev.author.toLowerCase().includes('camila');
-        const authorClass = isCamila ? 'author-camila' : 'author-gustavo';
+        const isCrit = (ev.tags && ev.tags.some(t => t.includes('CRIME') || t.includes('AMEACA') || t.includes('PROTETIVA'))) || (ev.customBadge && ev.customBadge.toLowerCase().includes('chantagem'));
         const isAudio = ev.attachment && (ev.attachment.includes('AUDIO') || ev.attachment.endsWith('.opus') || ev.attachment.endsWith('.mp3'));
         const isDocx = ev.attachment && ev.attachment.endsWith('.docx');
         const isImg = ev.attachment && ev.attachment.match(/\.(jpg|jpeg|png)$/i);
 
-        const eventCard = document.createElement('div');
-        eventCard.className = `event-card ${authorClass}`;
+        const eventItem = document.createElement('div');
+        eventItem.className = `event-item ${isCrit ? 'crit' : ''}`;
 
-        eventCard.innerHTML = `
-          <div class="event-header">
-            <span class="event-author ${authorClass}">${escapeHtml(ev.author || 'Autor')}</span>
-            <div class="event-timestamp">
-              <span>📅 ${escapeHtml(ev.date || '')} às ${escapeHtml(ev.time || '')}</span>
-              <span class="event-id">Msg #${ev.id}</span>
-            </div>
+        eventItem.innerHTML = `
+          <div class="event-meta">
+            <span class="event-author ${isCamila ? 'camila' : 'gustavo'}">
+              ${isCamila ? '🔴 CAMILA CARUSO' : '🔵 GUSTAVO CASTELLANO'}
+            </span>
+            <span class="event-time">📅 ${escapeHtml(ev.date || '')} às ${escapeHtml(ev.time || '')}</span>
+            <span class="badge" style="background:rgba(255,255,255,0.05);color:var(--text-dim);border:none;font-size:10.5px;">Msg #${ev.id}</span>
+            ${ev.customBadge ? `<span class="badge ${isCamila ? 'red' : 'green'}">${escapeHtml(ev.customBadge)}</span>` : ''}
           </div>
-          ${ev.customBadge ? `<div style="margin-bottom:8px;"><span class="badge red">${escapeHtml(ev.customBadge)}</span></div>` : ''}
+
           ${ev.content ? `<div class="event-content">${escapeHtml(ev.content)}</div>` : ''}
-          ${ev.customNote ? `<div class="event-custom-note">📌 <strong>Nota Pericial:</strong> ${escapeHtml(ev.customNote)}</div>` : ''}
-          
+
+          ${ev.customNote ? `
+            <div class="custom-forensic-note" style="margin-top:10px;background:rgba(30,41,59,0.75);border-left:3px solid #3b82f6;padding:10px 14px;border-radius:4px;font-size:13px;color:#cbd5e1;line-height:1.5;">
+              📌 <strong>Nota Pericial:</strong> ${escapeHtml(ev.customNote)}
+            </div>
+          ` : ''}
+
           ${isAudio ? `
-            <div class="audio-player-box">
-              <audio controls src="${encodeURI(ev.attachment)}" style="width:100%;height:32px;"></audio>
-              <div class="audio-filename">Arquivo: <code>${escapeHtml(ev.attachment)}</code></div>
+            <div class="event-audio-box">
+              <audio controls preload="none" src="${encodeURI(ev.attachment)}" style="width:100%;height:36px;margin-bottom:8px;"></audio>
+              <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:11.5px;color:var(--text-dim);margin-bottom:6px;">
+                <span>🎙️ Arquivo: <code>${escapeHtml(ev.attachment)}</code></span>
+              </div>
               ${ev.audio_transcription ? `
-                <div class="audio-transcription-box">
-                  <div class="audio-transcription-label">Transcrição Oficial Whisper:</div>
-                  <div class="audio-transcription-text">"${escapeHtml(ev.audio_transcription)}"</div>
+                <div class="event-transcription">
+                  <strong style="color:#93c5fd;font-style:normal;">Transcrição Whisper:</strong> "${escapeHtml(ev.audio_transcription)}"
                 </div>
               ` : ''}
             </div>
           ` : ''}
 
           ${(isDocx || isImg) ? `
-            <div style="margin-top:10px;">
-              <button class="filter-btn" style="padding:4px 10px;font-size:12px;" onclick="openLightboxImage('${ev.attachment}')">
+            <div style="margin-top:12px;">
+              <button class="filter-btn" style="padding:6px 14px;font-size:12px;display:inline-flex;align-items:center;gap:6px;" onclick="openLightboxImage('${ev.attachment}')">
                 ${isDocx ? '📄 Ver Minuta de Contrato / DOCX' : '🔍 Ver Documento / Comprovante Oficial'}
               </button>
             </div>
           ` : ''}
 
           ${(ev.tags && ev.tags.length > 0) ? `
-            <div class="event-tags">
-              ${ev.tags.map(t => `<span class="event-tag">${escapeHtml(t)}</span>`).join('')}
+            <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;">
+              ${ev.tags.map(t => `<span class="badge" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);color:var(--text-dim);font-size:10px;">#${escapeHtml(t)}</span>`).join('')}
             </div>
           ` : ''}
         `;
 
-        eventsList.appendChild(eventCard);
+        eventsContainer.appendChild(eventItem);
       });
 
-      container.appendChild(blockCard);
+      container.appendChild(timelineBlock);
     });
 
     if (totalRenderedEvents === 0) {
