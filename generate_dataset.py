@@ -48,7 +48,13 @@ for date_str, time_str, author, content in matches:
         tags.append("FINANCEIRO")
     if any(k in c_lower for k in ["contrato", "cláusula", "clausula", "minuta", "assinar", "termo", "reconhecimento de dívida", "advogado", "advogada"]):
         tags.append("CONTRATO")
-    if any(k in c_lower for k in ["carro", "veículo", "veiculo", "volkswagen", "vw", "venda do carro", "financiamento", "parcela"]):
+    car_debt_kw = [
+        "vender meu carro", "venda do meu carro", "vender o carro", "venda do carro",
+        "carro da camila", "banco volkswagen", "volkswagen", "busca e apreens",
+        "parcelas do carro", "parcela do carro", "dívida do carro", "divida do carro",
+        "oficial de justi", "carro escondido", "processo do carro"
+    ]
+    if any(k in c_lower for k in car_debt_kw):
         tags.append("CARRO_DIVIDA")
     if any(k in c_lower for k in ["ameaça", "ameaca", "ameaçar", "polícia", "policia", "delegacia", "processo", "processar", "b.o", "crime", "justiça"]):
         tags.append("AMEACA_DISPUTA")

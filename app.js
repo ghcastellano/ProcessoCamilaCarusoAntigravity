@@ -84,14 +84,36 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
 
-        // Tags
-        const tagsHtml = ev.tags.map(t => {
-          let badgeColor = 'blue';
-          if (t === 'FINANCEIRO') badgeColor = 'green';
-          if (t === 'AMEACA_DISPUTA') badgeColor = 'red';
-          if (t === 'CARRO_DIVIDA') badgeColor = 'amber';
-          return `<span class="badge ${badgeColor}">${t}</span>`;
-        }).join(' ');
+        // Tags & Custom Badges
+        let tagsHtml = '';
+        if (ev.custom_badge) {
+          tagsHtml += `<span class="badge blue" style="background:rgba(59,130,246,0.2);border:1px solid #3b82f6;color:#93c5fd;font-weight:700;">💼 ${escapeHtml(ev.custom_badge)}</span> `;
+        }
+        tagsHtml += ev.tags
+          .filter(t => !ev.custom_badge || t !== 'PROPOSTA_SOO_TECH')
+          .map(t => {
+            let label = t;
+            let badgeColor = 'blue';
+            if (t === 'PROPOSTA_SOO_TECH') { label = '💼 Proposta Soo Tech (João, Victor e Gustavo)'; badgeColor = 'blue'; }
+            else if (t === 'COMPROVANTE_OFICIAL') { label = '📑 Comprovante Oficial'; badgeColor = 'green'; }
+            else if (t === 'FINANCEIRO' || t === 'FINANCEIRO_APORTE') { label = '💳 Aporte Financeiro'; badgeColor = 'green'; }
+            else if (t === 'CARRO_DIVIDA_RE') { label = '🚗 Dívida do Carro (Ré)'; badgeColor = 'amber'; }
+            else if (t === 'CONTRATO' || t === 'CONTRATO_DIVIDA') { label = '📝 Contrato / Confissão de Dívida'; badgeColor = 'blue'; }
+            else if (t === 'FALSA_MEDIDA_PROTETIVA') { label = '🚨 AMEAÇA: FALSA MEDIDA PROTETIVA'; badgeColor = 'red'; }
+            else if (t === 'CRIME') { label = '⚖️ Notícia-Crime / Art. 171'; badgeColor = 'red'; }
+            else if (t === 'PARCERIA_COMERCIAL') { label = '🤝 Parceria Comercial'; badgeColor = 'blue'; }
+            else if (t === 'JURIDICO_DISPUTA') { label = '⚖️ Cobrança / Notificação'; badgeColor = 'amber'; }
+            return `<span class="badge ${badgeColor}">${label}</span>`;
+          }).join(' ');
+
+        let noteHtml = '';
+        if (ev.custom_note) {
+          noteHtml = `
+            <div class="custom-forensic-note" style="margin-top:10px;padding:10px 14px;background:rgba(30,41,59,0.7);border-left:3px solid #60a5fa;border-radius:4px;font-size:12.5px;color:#cbd5e1;line-height:1.5;">
+              <strong style="color:#60a5fa;">Nota Contextual:</strong> ${escapeHtml(ev.custom_note)}
+            </div>
+          `;
+        }
 
         eventsHtml += `
           <div class="event-item ${critClass}">
@@ -102,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             ${ev.content ? `<div class="event-content">${escapeHtml(ev.content)}</div>` : ''}
             ${attHtml}
+            ${noteHtml}
           </div>
         `;
       });
