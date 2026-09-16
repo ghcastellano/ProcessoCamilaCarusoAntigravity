@@ -865,8 +865,11 @@ window.DOSSIER_DATA = {
         "audio_transcription": "Você é hoje cedo, você já me ameaçou, né? Você me ameaçou.  Não sei se seu advogado está a ciente das mensagens que você está me mandando.",
         "tags": [
           "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
+          "JURIDICO_DISPUTA",
+          "CRIME"
+        ],
+        "custom_badge": "⚖️ Falsa Alegação de Ameaça (Cobrança Legítima)",
+        "custom_note": "Camila acusa Gustavo de 'ameaça' pelo simples fato de ele ter consultado advogado e questionado como seria a restituição do empréstimo de R$ 112 mil. Notificar a intenção de cobrar judicialmente com advogado é exercício regular de direito (Art. 188, I, CC) e não configura ameaça (Art. 147, CP)."
       },
       {
         "id": 4743,
@@ -879,7 +882,24 @@ window.DOSSIER_DATA = {
         "tags": [
           "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
-        ]
+        ],
+        "custom_badge": "⚖️ Falsa Acusação por Envio de Orçamento Advocatício",
+        "custom_note": "Camila reclama que Gustavo enviou o print do orçamento do advogado (20% de êxito + 5k de entrada). A apresentação prévia de custos advocatícios visa a composição amigável pré-processual, ato perfeitamente lícito e desprovido de qualquer animus de ameaça."
+      },
+      {
+        "id": 4747,
+        "date": "14/09/2026",
+        "time": "16:56:28",
+        "author": "Gustavo Castellano",
+        "content": "Não é ameaça",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ],
+        "custom_badge": "🛡️ Contraponto do Autor: 'Não é ameaça'",
+        "custom_note": "Gustavo rebate prontamente a narrativa fraudulenta de Camila, asseverando de forma inequívoca que a cobrança e a consulta a advogado 'Não é ameaça'."
       },
       {
         "id": 4757,
@@ -892,7 +912,9 @@ window.DOSSIER_DATA = {
         "tags": [
           "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
-        ]
+        ],
+        "custom_badge": "⚠️ Invenção Fática da Ré: Falsa Acusação de 'Invasão'",
+        "custom_note": "Camila inventa que Gustavo teria dito que ia 'invadir minhas coisas e invadir meu e-mail'. A perícia integral de todo o histórico do WhatsApp comprova que a palavra 'invadir' JAMAIS foi digitada por Gustavo. Tratou-se de mera consulta pública de WHOIS em agosto/2026 para verificação técnica da hospedagem do site da arquiteta."
       },
       {
         "id": 4786,
@@ -921,6 +943,21 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 4870,
+        "date": "14/09/2026",
+        "time": "17:14:19",
+        "author": "Gustavo Castellano",
+        "content": "Se está se sentindo ameaçada, tem meios legais",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ],
+        "custom_badge": "⚖️ Respaldo Legal do Autor: Meios Legais",
+        "custom_note": "Gustavo expressamente orienta que disputas devem seguir os canais da lei: 'Se está se sentindo ameaçada, tem meios legais. Entra com um processo de ameaça. Paga o advogado e eu pago o meu'."
+      },
+      {
         "id": 4874,
         "date": "14/09/2026",
         "time": "17:14:49",
@@ -932,7 +969,40 @@ window.DOSSIER_DATA = {
           "AMEACA_DISPUTA",
           "FALSA_MEDIDA_PROTETIVA",
           "CRIME"
-        ]
+        ],
+        "custom_badge": "🚨 Tentativa de Coação: Ameaça de Falsa Medida Protetiva",
+        "custom_note": "Áudio confessional no qual Camila Caruso tenta chantagear Gustavo para constrangê-lo a renunciar ao crédito de R$ 112 mil: 'Você quer que eu entre com uma medida protetiva contra você? Você quer que eu te prejudique?'. Desvio de finalidade abusivo da Lei Maria da Penha (Art. 339 do CP)."
+      },
+      {
+        "id": 4880,
+        "date": "14/09/2026",
+        "time": "17:15:49",
+        "author": "Camila Caruso",
+        "content": "",
+        "attachment": "00004880-AUDIO-2026-09-14-17-15-50.opus",
+        "audio_transcription": "Eu não estou preocupada com o custo não.  Eu estou preocupada com o que vai ter isso do seu nome na sua carreira, uma medida  protetiva contra o seu nome.  Entendeu?  Vamos puxar lá no RH?  Vamos ver a medida protetiva contra o seu nome.  Sache o bacana, isso?  Acho que não, né?  Então assim, vamos dar um tempinho para as coisas agitarem.  É só isso que eu te peço.  Vamos dar um tempão.",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "FALSA_MEDIDA_PROTETIVA",
+          "CRIME"
+        ],
+        "custom_badge": "🚨 Extorsão Moral: Ameaça de Exposição no RH",
+        "custom_note": "Camila tenta atingir a subsistência e a honra profissional de Gustavo: 'Vamos puxar lá no RH? Vamos ver a medida protetiva contra o seu nome. Você acha bacana isso?'. Confissão de tentativa de prejuízo profissional deliberado."
+      },
+      {
+        "id": 4884,
+        "date": "14/09/2026",
+        "time": "17:16:15",
+        "author": "Gustavo Castellano",
+        "content": "Eu sou empresário",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ],
+        "custom_badge": "🛡️ Defesa do Autor: 'Eu sou empresário, não tem RH'",
+        "custom_note": "Gustavo desarticula a chantagem: 'Eu sou empresário, não tem RH', demonstrando a ineficácia das ameaças de retaliação funcional."
       },
       {
         "id": 4887,
@@ -972,6 +1042,22 @@ window.DOSSIER_DATA = {
           "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
+      },
+      {
+        "id": 4899,
+        "date": "14/09/2026",
+        "time": "17:18:14",
+        "author": "Gustavo Castellano",
+        "content": "Eu quero resolver numa boa",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "CONTRATO",
+          "JURIDICO_DISPUTA"
+        ],
+        "custom_badge": "🕊️ Reiteração de Boa-Fé: Busca de Resolução Pacífica",
+        "custom_note": "Gustavo reitera sua intenção pacificadora: 'Eu quero resolver numa boa... Te dei dinheiro sem contrato algum. Errado mesmo fui eu... vamos tentar resolver pacificamente pra ngm perder mais ainda'."
       },
       {
         "id": 4910,
@@ -3107,15 +3193,59 @@ window.DOSSIER_DATA = {
   }
 ],
     multiAgentData: {
-  "agent_financial": {
-    "title": "Auditoria Contábil, Conciliação Bancária e Nexo Causal",
-    "status": "Concluída — 100% Conciliado",
-    "findings": "\n1. REPASSE DIRETO LÍQUIDO À RÉ (PREJUÍZO LÍQUIDO PRIMÁRIO):\n- 04/08/2026 às 10:28:49: Pix Nu Pagamentos de R$ 40.000,00 para C. Caruso Arquitetura (Santander, CNPJ 46.788.820/0001-90).\n- 19/08/2026 às 16:10:39: Pix Itaú SISPAG de R$ 72.000,00 para Arquiteta Camila Caruso (Santander, CNPJ 46.788.820/0001-90).\n- Total Direto Creditado nas Contas da Ré: R$ 112.000,00 (cento e doze mil reais).\n\n2. OPERAÇÕES BANCÁRIAS CONTRATADAS PELO AUTOR (CONFORME TELAS DOS APPS):\n- Itaú Giro Pronampe 1 (Contrato 4887183848): Restante a pagar no app de R$ 119.343,17 (60 parcelas de R$ 2.324,17; financiou o repasse de R$ 72k da Ré).\n- Itaú Giro Pronampe 2 (Contrato 4886874439): Restante a pagar no app de R$ 19.527,27 (60 parcelas de R$ 381,45; liberou R$ 18.653,05 para quitar as 13 parcelas do Nubank).\n- Nubank Capital de Giro Reorganizado: Contratado originalmente por R$ 42.050,90 (CET 63,14% a.a.). Antecipação de 13 parcelas por R$ 18.015,62 (desconto de R$ 17.521,40). Saldo restante a pagar no app: R$ 30.069,79 em 11 parcelas de R$ 2.733,62 (ou R$ 24.898,68 para quitação à vista hoje).\n\n3. TOTAL DO SALDO DEVEDOR PRINCIPAL ATUAL NOS BANCOS:\n- R$ 119.343,17 (Itaú 1) + R$ 19.527,27 (Itaú 2) + R$ 30.069,79 (Nubank) = R$ 168.940,23 (ou R$ 163.769,12 para liquidação à vista imediata).\n- Soma nominal projetada a prazo (60 meses cheios): R$ 192.406,99.\n        "
+  "agent_penal": {
+    "title": "Agente 1: Direito Penal e Investigação Criminal",
+    "lead": "Tipificação em Estelionato (Art. 171, CP) e Apropriação Indébita (Art. 168, CP)",
+    "articles": [
+      "Art. 171, caput, CP",
+      "Art. 168, caput, CP",
+      "Art. 339, CP (Denunciação Caluniosa)",
+      "Art. 147, CP (Inexistência por parte da Vítima)"
+    ],
+    "content": "\n1. SUBSUNÇÃO AO CRIME DE ESTELIONATO (ART. 171 DO CÓDIGO PENAL):\nA conduta de Camila Caruso amolda-se com precisão cirúrgica ao tipo penal de Estelionato:\n- 'Obtenção de vantagem ilícita': Camila recebeu R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08) em conta bancária de sua empresa.\n- 'Em prejuízo alheio': Gustavo Castellano teve seu patrimônio espoliado, assumiu endividamento bancário de R$ 113.653,00 e comprometeu sua subsistência pessoal.\n- 'Induzimento em erro mediante ardil/meio fraudulento': Camila utilizou como engodo a promessa de celebração de parceria empresarial e a garantia solene de formalização e assinatura do contrato no dia seguinte ao repasse ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - 19/08 às 16:15). Ocultou deliberadamente que utilizaria os recursos para estancar dívidas pessoais e manter a posse de veículo financiado perante o Banco Volkswagen.\n- 'Dolo antecedente (animus lucri faciendi)': Uma vez creditados os R$ 72.000,00, Camila passou a procrastinar sistematicamente a assinatura, inventando desculpas relativas a advogados e, no momento da cobrança das parcelas assumidas perante o banco, declarou com desdém que 'word não é contrato assinado' e chegou a questionar 'que Pix? Não recebi nenhum seu' (14/09).\n\n2. SUBSIDIARIAMENTE — APROPRIAÇÃO INDÉBITA (ART. 168 DO CÓDIGO PENAL):\nCaso se alegue ausência de dolo originário, configura-se apropriação indébita qualificada, pois a investigada recebeu a posse de coisa móvel fungível vinculada a uma destinação específica (capital de giro e despesas operacionais do projeto comum) e inverteu o título da posse, recusando-se a restituir os valores e convertendo-os em benefício próprio.\n\n3. TENTATIVA DE DENUNCIAÇÃO CALUNIOSA E CHANTAGEM COM LEI MARIA DA PENHA (ART. 339 DO CP):\nNo áudio 00004874, Camila indaga: 'Você quer que eu entre com uma medida protetiva contra você?'. Essa conduta evidencia a tentativa deliberada de forjar crime inexistente e instrumentalizar os mecanismos de proteção da mulher para constranger o credor a renunciar à cobrança de dívida legítima.\n        "
   },
-  "agent_legal": {
-    "title": "Enquadramento Penal e Estratégia Processual Cível",
-    "status": "Tipificação Consolidada",
-    "findings": "\n1. ESFERA CÍVEL:\n- Ação de Cobrança c/c Cumprimento de Obrigação de Fazer e Ressarcimento de Danos Materiais e Morais.\n- Pedido de Tutela Provisória de Urgência Cautelar (Arresto via Sisbajud e Restrição de Transferência via Renajud sobre o veículo).\n\n2. ESFERA CRIMINAL — NOTÍCIA-CRIME / REPRESENTAÇÃO CRIMINAL:\n- Fatos: Instauração de Inquérito Policial para apuração dos crimes de Estelionato (Art. 171 do CP) e Apropriação Indébita (Art. 168 do CP).\n\n3. REQUERIMENTO DE PERDAS E DANOS E JUROS BANCÁRIOS:\n- Condenação dos réus ao reembolso dos R$ 112.000,00 corrigidos pelo IPCA + juros legais, ressarcimento dos R$ 18.015,62 quitados no Nubank, assunção do saldo devedor do Nubank e dos contratos Pronampe 1 e 2 do Itaú, além de indenização por danos morais fixada em patamar não inferior a R$ 20.000,00.\n        "
+  "agent_civil": {
+    "title": "Agente 2: Direito Civil e Teoria Geral dos Contratos",
+    "lead": "Contrato Verbal Válido, Violação da Boa-Fé Objetiva (Art. 422, CC) e Enriquecimento Sem Causa (Art. 884, CC)",
+    "articles": [
+      "Art. 104, CC",
+      "Art. 107, CC (Forma Livre)",
+      "Art. 422, CC (Boa-Fé Objetiva)",
+      "Art. 884 a 886, CC (Enriquecimento sem Causa)",
+      "Arts. 389 e 395, CC (Inadimplemento)"
+    ],
+    "content": "\n1. PLENA VALIDADE DO NEGÓCIO JURÍDICO VERBAL:\nO Código Civil consagra o Princípio do Consensualismo e da Forma Livre (Art. 107). A celebração de avença comercial e mútuo feneratício não exige solenidade ad solemnitatem. As milhares de mensagens trocadas, os comprovantes de Pix de R$ 112.000,00 com expressa identificação de finalidade e os áudios confessionais comprovam inquestionavelmente a existência de vínculo obrigacional perfeito.\n\n2. QUEBRA DA BOA-FÉ OBJETIVA E VEDAÇÃO AO VENIRE CONTRA FACTUM PROPRIUM (ART. 422 DO CC):\nCamila violou de forma frontal a cláusula geral de boa-fé objetiva:\n- Praticou comportamento contraditório inadmissível: solicitou o dinheiro sob a promessa de formalizar o contrato; após receber a quantia, tentou alegar a inexistência de instrumento assinado para se esquivar da obrigação de restituir.\n- Descumprimento dos deveres anexos de conduta (lealdade, probidade, informação e cooperação).\n\n3. ENRIQUECIMENTO SEM CAUSA (ART. 884 DO CC):\nAinda que se pretendesse desconsiderar o vínculo contratual, o ordenamento jurídico repudia o enriquecimento sem causa: 'Aquele que, sem justa causa, se enriquecer à custa de outrem, será obrigado a restituir o indevidamente auferido, feita a atualização dos valores monetários'. Não há qualquer título jurídico idôneo que justifique a apropriação dos R$ 112.000,00 pela ré.\n\n4. PERDAS E DANOS E JUROS DO FINANCIAMENTO:\nNos termos dos Arts. 389 e 402 do CC, o inadimplemento culposo de Camila gera a obrigação de indenizar Gustavo pela integralidade dos custos financeiros decorrentes do financiamento bancário tomado no Itaú para viabilizar os repasses.\n        "
+  },
+  "agent_banking": {
+    "title": "Agente 3: Direito Bancário e Operações de Crédito",
+    "lead": "Cédula de Crédito Giro Pronampe, Desvio de Recursos e Ação do Banco Volkswagen",
+    "articles": [
+      "Lei 13.999/2020 (Pronampe)",
+      "Decreto-Lei 911/1969 (Alienação Fiduciária)",
+      "Art. 50, CC (Desconsideração da Personalidade Jurídica)"
+    ],
+    "content": "\n1. O CONTRATO GIRO PRONAMPE (ITAÚ / OPERAÇÃO 4887183848):\nGustavo Henrique Castellano contratou operação de crédito no valor de R$ 113.653,00 sob a modalidade Pronampe, sujeita à taxa Selic + 6% a.a., com 60 parcelas de R$ 2.324,17 e saldo final projetado de R$ 139.450,20.\nA quase totalidade dos recursos (R$ 72.000,00 que, somados aos R$ 40.000,00 anteriores, totalizam R$ 112.000,00) foi transferida diretamente para a C. Caruso Arquitetura.\nA Cláusula 3.2 da minuta contratual elaborada estabelecia piso mensal de R$ 2.325,00 todo dia 15 a partir de fevereiro/2027, espelhando exatamente a obrigação financeira de Gustavo com o banco.\n\n2. A CORRELAÇÃO DIRETA COM O PROCESSO DO BANCO VOLKSWAGEN:\nA consulta aos registros do TJSP comprova a existência do Processo nº 401XXXX-77.2026.8.26.0361 (Foro de Mogi das Cruzes/SP) entre Banco Volkswagen S.A. e Camila Caruso da Costa Neves.\nTrata-se de ação típica decorrente de inadimplemento de financiamento de veículo automotor.\nO histórico do WhatsApp demonstra que as solicitações de dinheiro feitas por Camila ocorreram em momentos de grave aflição financeira e cobranças de parcelas vencidas do veículo, tendo Camila afirmado repetidamente que 'venderia o carro para devolver o Pix'. Os valores repassados por Gustavo foram desviados de sua finalidade comercial para estancar a execução da dívida automotiva pessoal.\n\n3. DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA (ART. 50 DO CC):\nHouve evidente confusão patrimonial entre a pessoa jurídica C. Caruso Arquitetura e a pessoa física de Camila Caruso, legitimando o pedido liminar de arresto patrimonial sobre as contas da empresa, sobre as contas de Camila (CPF) e sobre o veículo envolvido.\n        "
+  },
+  "agent_defense": {
+    "title": "Agente 4: Perspectiva Crítica da Defesa da Ré (Contrapontos)",
+    "lead": "Antecipação de Teses Oponentes e Demonstração de sua Inconsistência Fática",
+    "articles": [
+      "Art. 541, CC (Forma da Doação)",
+      "Art. 476, CC (Exceção do Contrato Não Cumprido)",
+      "Art. 188, I, CC"
+    ],
+    "content": "\n1. TESE DEFENSIVA 1: ALEGAÇÃO DE DOAÇÃO / MERA LIBERALIDADE AFETIVA\n- O que a ré alegará: Camila tentará destacar a frase dita por Gustavo em 05/08 ('não iria precisar devolver o pix') durante uma discussão passional para sustentar que o valor foi doado.\n- Refutação irrefutável: A doação verbal só é válida para bens móveis de pequeno valor (Art. 541, parágrafo único do CC); a transferência de R$ 112.000,00 extrapola em ordens de grandeza o pequeno valor e exige instrumento público ou particular. Além disso, os atos subsequentes de ambas as partes revogaram qualquer declaração de liberalidade: em 19/08 Camila solicitou o segundo Pix de R$ 72.000,00 comprometendo-se expressamente a assinar o contrato formal ('coloque tudo lá no contrato e amanhã já assinamos'), calculou tabelas do Pronampe e, em 14/09 (áudio 00004854), confirmou que repassaria os valores que recebesse de propostas para ajudar Gustavo.\n\n2. TESE DEFENSIVA 2: INEXISTÊNCIA DE INSTRUMENTO FORMAL ASSINADO\n- O que a ré alegará: Não houve assinatura digital ou física do contrato.\n- Refutação irrefutável: A recusa dolosa em assinar documento previamente prometido constitui quebra flagrante da boa-fé pré-contratual e venire contra factum proprium. Ademais, o recebimento comprovado da quantia impõe o dever irrecusável de restituição por enriquecimento sem causa (Art. 884 do CC).\n\n3. TESE DEFENSIVA 3: ALEGAÇÃO DE ASSÉDIO / COAÇÃO\n- O que a ré alegará: Camila tentará isolar as mensagens de cobrança incisiva de Gustavo em 14/09 para afirmar que foi perseguida ou coagida.\n- Refutação irrefutável: Cobrança veemente de quantia expressiva, vencida e não paga, necessária à subsistência do credor e ao pagamento de financiamento bancário, não configura coação nem ameaça ilícita, mas legítimo exercício de direito. Não houve promessa de mal injusto e grave.\n        "
+  },
+  "agent_strategy": {
+    "title": "Agente 5: Estrategista Processual de Gustavo (Roteiro do Advogado)",
+    "lead": "Plano de Ação Jurídica Imediata: Ação de Cobrança com Arresto Cautelar e Notícia-Crime",
+    "articles": [
+      "Art. 300, CPC (Tutela de Urgência)",
+      "Art. 301, CPC (Arresto Cautelar Sisbajud)",
+      "Art. 50, CC",
+      "Art. 5º, II, CPP (Inquérito Policial)"
+    ],
+    "content": "\nROTEIRO PRÁTICO PARA O ADVOGADO AJUIZAR AMANHÃ CEDO:\n\n1. ESFERA CÍVEL — AÇÃO DE COBRANÇA C/C PEDIDO LIMINAR DE TUTELA DE URGÊNCIA DE ARRESTO SISBAJUD:\n- Foro: Foro Central da Comarca da Capital/SP ou Foro da Comarca de Mogi das Cruzes/SP.\n- Polo Passivo: C. CARUSO ARQUITETURA E INTERIORES LTDA e CAMILA CARUSO DA COSTA NEVES (desconsideração da personalidade jurídica initio litis com base no Art. 50 do CC por confusão patrimonial e desvio de finalidade).\n- Pedido Liminar Inaudita Altera Parte: Bloqueio via SISBAJUD do montante de R$ 112.000,00 (atualizado para R$ 115.000,00 com encargos) em contas bancárias da empresa e da sócia física, bem como bloqueio RENAJUD de transferência do veículo de Camila (para evitar desfazimento fraudulento de patrimônio).\n- Fumus Boni Iuris: Comprovantes oficiais de Pix (Nu Pagamentos e Itaú SISPAG), confissões em áudios e mensagens de WhatsApp.\n- Periculum in Mora: Risco manifesto de dilapidação, confissão de endividamento da ré, existência de ação judicial movida pelo Banco Volkswagen e declaração expressa de que pretendia vender o veículo.\n\n2. ESFERA CRIMINAL — NOTÍCIA-CRIME / REPRESENTAÇÃO CRIMINAL:\n- Endereçamento: Delegacia de Polícia de Mogi das Cruzes ou Delegacia de Polícia Especializada / Ministério Público do Estado de São Paulo.\n- Fatos: Instauração de Inquérito Policial para apuração dos crimes de Estelionato (Art. 171 do CP) e Apropriação Indébita (Art. 168 do CP), requerendo a oitiva dos envolvidos, quebra de sigilo bancário da conta Santander recebedora e expedição de ofício ao Banco Volkswagen.\n\n3. REQUERIMENTO DE PERDAS E DANOS:\n- Condenação dos réus ao reembolso dos R$ 112.000,00 corrigidos pelo IPCA + juros de 1% ao mês, além do ressarcimento integral dos juros bancários do Pronampe suportados por Gustavo e indenização por danos morais fixada em patamar não inferior a R$ 20.000,00.\n        "
   }
 },
     legalDrafts: {
