@@ -182,11 +182,11 @@ function renderFullDossier(data) {
           <li><a href="#audios" class="nav-btn">Áudios (${m.totalAudiosPericiados})</a></li>
           <li><a href="#pecas" class="nav-btn">Minutas Jurídicas</a></li>
         </ul>
-        <div style="display:flex;gap:8px;align-items:center;">
+        <div class="nav-actions">
           <button class="btn-print" onclick="window.print()" title="Imprimir ou Salvar em PDF">
             <span>🖨️</span> PDF
           </button>
-          <button class="btn-print" onclick="lockDossier()" style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3);color:#fca5a5;" title="Bloquear com senha">
+          <button class="btn-print btn-lock" onclick="lockDossier()" title="Bloquear com senha">
             <span>🔒</span> Bloquear
           </button>
         </div>
@@ -580,9 +580,9 @@ function renderFullDossier(data) {
 
           <div class="card">
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:10px;">
-              <div>
-                <label for="draft-selector" style="font-size:13px;color:var(--text-dim);font-weight:600;margin-right:8px;">Selecione a Minuta:</label>
-                <select id="draft-selector" class="search-input" style="width:auto;display:inline-block;padding:6px 12px;">
+              <div style="flex:1;min-width:0;max-width:100%;">
+                <label for="draft-selector" style="display:block;font-size:13px;color:var(--text-dim);font-weight:600;margin-bottom:6px;">Selecione a Minuta:</label>
+                <select id="draft-selector" class="search-input" style="max-width:100%;width:100%;padding:8px 12px;text-overflow:ellipsis;">
                   <option value="peticao_civel">Petição Inicial Cível: Ação de Cobrança c/c Arresto Sisbajud (R$ 112.000,00)</option>
                   <option value="noticia_crime">Notícia-Crime: Representação Criminal por Estelionato e Apropriação Indébita (Art. 171/168 CP)</option>
                   <option value="notificacao_extrajudicial">Notificação Extrajudicial: Constituição em Mora (Prazo 48h)</option>
