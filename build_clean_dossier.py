@@ -2,6 +2,9 @@ import json
 import os
 import re
 import base64
+import glob
+import html
+import docx
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
@@ -19,6 +22,8 @@ with open("chat_dataset.json", "r", encoding="utf-8") as f:
 msg_by_id = {m["id"]: m for m in chat_messages}
 
 BLACKLIST_TEXT_PATTERNS = [
+    # 0. Personal messages excluded by request
+    r"prefiro você ao dinheiro",
     # 1. Gustavo's traffic accident (02/08 - 03/08)
     r"bateu no meu carro",
     r"batendo seu carro",
@@ -198,7 +203,7 @@ blocks = [
 # Curated, strictly audited event list
 CURATED_EVENT_IDS = [
     # Bloco 1: Início da Parceria
-    9, 17, 20, 46, 51, 73, 93,
+    9, 17, 46, 51, 73, 93,
     # Bloco 2: Capacidade Financeira do Autor, Proposta Soo Tech, Confissão de Contrato e Pix 40k
     1459, 1509, 1511, 1512, 1513, 1514, 1516, 1517, 1540, 1604, 1788, 1947,
     # Bloco 3: Confissões de Dívida e Venda do Carro
@@ -402,7 +407,7 @@ evidence_gallery = [
         "id": "ev-nubank-extrato-detalhado",
         "title": "Extrato Nubank: Condições do Empréstimo, Saldo Restante e Taxas",
         "category": "Contratos Bancários",
-        "filename": "00004393-PHOTO-2026-09-09-18-05-16.jpg",
+        "filename": "00004393-PHOTO-2026-09-09-18-03-38.jpg",
         "date": "09/09/2026",
         "origin": "App Nubank PJ",
         "authId": "Capital de Giro Nubank - Cód. Empréstimo",
@@ -473,17 +478,22 @@ with open("extracted_agents.json", "r", encoding="utf-8") as f_agents:
 
 # Load DOCX Previews into the encrypted payload
 docx_previews = {}
-if os.path.exists("docx_previews.js"):
-    with open("docx_previews.js", "r", encoding="utf-8") as f_dp:
-        dp_text = f_dp.read().strip()
-    if dp_text.startswith("window.DOCX_PREVIEWS ="):
-        dp_text = dp_text[len("window.DOCX_PREVIEWS ="):].strip()
-    if dp_text.endswith(";"):
-        dp_text = dp_text[:-1].strip()
+for fpath in glob.glob("*.docx"):
     try:
-        docx_previews = json.loads(dp_text)
+        doc = docx.Document(fpath)
+        html_parts = []
+        for p in doc.paragraphs:
+            txt = p.text.strip()
+            if not txt:
+                continue
+            style_name = p.style.name if p.style and hasattr(p.style, "name") else ""
+            if style_name.startswith("Heading") or "Título" in style_name:
+                html_parts.append(f'<h4 style="color:#60a5fa;margin-top:16px;margin-bottom:8px;">{html.escape(txt)}</h4>')
+            else:
+                html_parts.append(f'<p style="margin-bottom:8px;line-height:1.6;color:#cbd5e1;">{html.escape(txt)}</p>')
+        docx_previews[fpath] = "".join(html_parts)
     except Exception as e:
-        print(f"Warning parsing docx_previews: {e}")
+        print(f"Error reading docx {fpath}: {e}")
 
 # Legal drafts
 legal_drafts = {

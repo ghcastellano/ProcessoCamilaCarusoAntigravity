@@ -912,7 +912,7 @@ function initEvidenceGallery(evidenceGallery) {
     card.innerHTML = `
       <div class="evidence-thumb-wrap">
         ${isImg ? `
-          <img src="${encodeURI(ev.filename)}" alt="${escapeHtml(ev.title)}" class="evidence-thumb" loading="lazy">
+          <img src="${encodeURI(ev.filename)}" alt="${escapeHtml(ev.title)}" class="evidence-thumb-img" loading="lazy">
         ` : isDocx ? `
           <div style="height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg, #1e3a8a, #0f172a);color:#fff;">
             <span style="font-size:36px;">📄</span>
