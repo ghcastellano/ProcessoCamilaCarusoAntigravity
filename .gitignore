@@ -28,3 +28,10 @@ ENV/
 # Vercel
 .vercel
 node_modules/
+
+# Local audit scripts
+audit_*.py
+curate_events.py
+filter_and_verify_timeline.py
+find_car_messages.py
+inspect_*.py
