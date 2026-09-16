@@ -296,17 +296,39 @@ function copyLegalDraft() {
 }
 
 // Lightbox Modal Functions
+function toggleModalZoom() {
+  const preview = document.getElementById('modal-preview');
+  const btn = document.getElementById('modal-zoom-btn');
+  if (preview) {
+    const isZoomed = preview.classList.toggle('zoomed');
+    if (btn) {
+      btn.innerText = isZoomed ? '🔍 Reduzir (-)' : '🔍 Zoom / Expandir';
+    }
+  }
+}
+
 function openEvidenceModal(ev) {
   const modal = document.getElementById('lightbox-modal');
   const title = document.getElementById('modal-title');
   const preview = document.getElementById('modal-preview');
   const ocrText = document.getElementById('modal-ocr');
   const authDetails = document.getElementById('modal-auth-details');
+  const openTab = document.getElementById('modal-open-tab');
+  const zoomBtn = document.getElementById('modal-zoom-btn');
 
   title.innerText = ev.title;
+  preview.classList.remove('zoomed');
+  if (zoomBtn) zoomBtn.innerText = '🔍 Zoom / Expandir';
+
+  if (openTab) {
+    openTab.href = ev.filename;
+    openTab.style.display = 'inline-flex';
+  }
+
   const isImg = ev.filename.toLowerCase().match(/\.(jpg|jpeg|png|webp)$/);
   if (isImg) {
-    preview.innerHTML = `<img src="${ev.filename}" alt="${escapeHtml(ev.title)}">`;
+    preview.innerHTML = `<img src="${ev.filename}" alt="${escapeHtml(ev.title)}" onclick="toggleModalZoom()" title="Clique para ampliar/reduzir">`;
+    if (zoomBtn) zoomBtn.style.display = 'inline-block';
   } else {
     preview.innerHTML = `
       <div style="padding:40px;color:var(--text-muted);text-align:center;">
@@ -315,6 +337,7 @@ function openEvidenceModal(ev) {
         <p style="font-size:12px;margin-top:6px;">Documento técnico anexado aos autos</p>
       </div>
     `;
+    if (zoomBtn) zoomBtn.style.display = 'none';
   }
 
   authDetails.innerHTML = `
@@ -337,11 +360,24 @@ function openLightboxImage(filename) {
   const preview = document.getElementById('modal-preview');
   const ocrText = document.getElementById('modal-ocr');
   const authDetails = document.getElementById('modal-auth-details');
+  const openTab = document.getElementById('modal-open-tab');
+  const zoomBtn = document.getElementById('modal-zoom-btn');
 
   title.innerText = `Evidência Anexa: ${filename}`;
-  preview.innerHTML = `<img src="${filename}" alt="${filename}">`;
-  authDetails.innerHTML = `<div style="font-size:13px;color:var(--text-muted);">Arquivo fotográfico anexado no fluxo da conversa do WhatsApp.</div>`;
-  ocrText.innerText = 'Captura de tela / Registro anexado ao chat.';
+  preview.classList.remove('zoomed');
+  if (zoomBtn) {
+    zoomBtn.innerText = '🔍 Zoom / Expandir';
+    zoomBtn.style.display = 'inline-block';
+  }
+
+  if (openTab) {
+    openTab.href = filename;
+    openTab.style.display = 'inline-flex';
+  }
+
+  preview.innerHTML = `<img src="${filename}" alt="${filename}" onclick="toggleModalZoom()" title="Clique para ampliar/reduzir">`;
+  authDetails.innerHTML = `<div style="font-size:13px;color:var(--text-muted);">Arquivo fotográfico anexado no fluxo da conversa do WhatsApp e comprovantes bancários oficiais.</div>`;
+  ocrText.innerText = 'Captura de tela / Registro anexado aos autos.';
   modal.classList.add('active');
 }
 
@@ -349,5 +385,7 @@ function closeLightbox() {
   const modal = document.getElementById('lightbox-modal');
   if (modal) {
     modal.classList.remove('active');
+    const preview = document.getElementById('modal-preview');
+    if (preview) preview.classList.remove('zoomed');
   }
 }
