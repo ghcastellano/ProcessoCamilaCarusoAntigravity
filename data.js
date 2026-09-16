@@ -8,7 +8,17 @@ window.DOSSIER_DATA = {
         totalAmount: 112000.00,
         pixNu: 40000.00,
         pixItau: 72000.00,
-        pronampeAmount: 113653.00,
+        nubankLoanInitial: 40000.00,
+        nubankQuitadoPronampe: 18015.62,
+        nubankParcelasQuitadas: 13,
+        nubankSaldoRestante: 30069.79,
+        pronampe1Total: 139450.20,
+        pronampe1Parcela: 2324.17,
+        pronampe1QtdParcelas: 60,
+        pronampe2Total: 22887.00,
+        pronampe2Parcela: 381.45,
+        pronampe2QtdParcelas: 60,
+        totalEndividamentoConsolidado: 192406.99,
         vwLawsuit: "Processo nº 401XXXX-77.2026.8.26.0361 (TJSP Mogi das Cruzes)",
         totalMessages: 4934,
         totalAudios: 186,
@@ -195,7 +205,7 @@ window.DOSSIER_DATA = {
     "id": "bloco-2",
     "title": "Bloco 2: Diagnóstico da C. Caruso, Apuros Financeiros e o Primeiro Pix de R$ 40.000,00",
     "dates": "03/08/2026 a 04/08/2026",
-    "summary": "Gustavo analisa as finanças da empresa de Camila via Contabilizei (faturamento 2025 de R$ 454k). Camila relata desespero financeiro com contas atrasadas e equipe a pagar: 'Gu não passa de 40... to dura né'. Em 04/08 às 10:28, Gustavo transfere R$ 40.000,00 via Nu Pagamentos para o CNPJ de Camila. Camila comemora aliviada: 'Nossa... nem sei como te agradecer... tudo o que eu for falar é pouco'. Logo em seguida, surgem atritos e Camila fala pela primeira vez em vender o carro para devolver o dinheiro.",
+    "summary": "Gustavo analisa as finanças da empresa de Camila via Contabilizei (faturamento 2025 de R$ 454k). Camila relata desespero financeiro com contas atrasadas e equipe a pagar: 'Gu não passa de 40... to dura né'. Em 04/08, para socorrer Camila com urgência antes da liberação do Pronampe, Gustavo contrata empréstimo emergencial de Capital de Giro no Nubank com juros elevados (R$ 40.000,00) e às 10:28 transfere o 1º Pix de R$ 40.000,00 diretamente para o CNPJ de Camila (Santander). Camila comemora aliviada: 'Nossa... nem sei como te agradecer... tudo o que eu for falar é pouco'. Logo em seguida surgem atritos e Camila promete: 'Vou vender meu carro e te devolvo com juros'.",
     "badge": "1º Pix: R$ 40.000,00 (04/08)",
     "badgeClass": "green",
     "events": [
@@ -209,6 +219,20 @@ window.DOSSIER_DATA = {
         "audio_transcription": "Gostava, não minta, fala a verdade, fala que o cara batendo seu carro e acabou batendo  e você foi isso, não minta, mentira temperar na porta.",
         "tags": [
           "CARRO_DIVIDA"
+        ]
+      },
+      {
+        "id": 1421,
+        "date": "03/08/2026",
+        "time": "17:27:33",
+        "author": "Gustavo Castellano",
+        "content": "E envie, de uma vez:\n\n* DRE de 2025 e 2026 (ou balancetes disponíveis);\n* extratos do Nubank PJ dos últimos meses;\n* contrato ou proposta da empresa de arquitetura;\n* orçamento da obra/projeto;\n* descrição resumida do investimento;\n* comprovante do compartilhamento do e-CAC, se já tiver feito.",
+        "attachment": null,
+        "audio_transcription": null,
+        "tags": [
+          "FINANCEIRO",
+          "CONTRATO",
+          "COMERCIAL"
         ]
       },
       {
@@ -501,6 +525,46 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 2295,
+        "date": "05/08/2026",
+        "time": "17:47:34",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00002295-PHOTO-2026-08-05-17-47-34.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 2296,
+        "date": "05/08/2026",
+        "time": "17:47:34",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00002296-PHOTO-2026-08-05-17-47-34.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 2297,
+        "date": "05/08/2026",
+        "time": "17:47:34",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00002297-PHOTO-2026-08-05-17-47-34.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 2298,
+        "date": "05/08/2026",
+        "time": "17:47:34",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00002298-PHOTO-2026-08-05-17-47-34.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
         "id": 2299,
         "date": "05/08/2026",
         "time": "17:47:35",
@@ -742,16 +806,6 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 2863,
-        "date": "15/08/2026",
-        "time": "12:45:32",
-        "author": "Gustavo Castellano",
-        "content": "",
-        "attachment": "00002863-PHOTO-2026-08-15-12-45-32.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
         "id": 2864,
         "date": "15/08/2026",
         "time": "12:45:50",
@@ -762,36 +816,6 @@ window.DOSSIER_DATA = {
         "tags": [
           "HOSPITAL_SAUDE"
         ]
-      },
-      {
-        "id": 2867,
-        "date": "15/08/2026",
-        "time": "12:48:58",
-        "author": "Camila Caruso",
-        "content": "",
-        "attachment": "00002867-PHOTO-2026-08-15-12-48-59.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
-        "id": 2878,
-        "date": "15/08/2026",
-        "time": "13:08:33",
-        "author": "Camila Caruso",
-        "content": "Estou aqui com meus pais",
-        "attachment": "00002878-PHOTO-2026-08-15-13-08-34.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
-        "id": 2881,
-        "date": "15/08/2026",
-        "time": "13:10:49",
-        "author": "Gustavo Castellano",
-        "content": "",
-        "attachment": "00002881-PHOTO-2026-08-15-13-10-49.jpg",
-        "audio_transcription": null,
-        "tags": []
       },
       {
         "id": 2889,
@@ -1070,10 +1094,10 @@ window.DOSSIER_DATA = {
   },
   {
     "id": "bloco-6",
-    "title": "Bloco 6: Formalização Jurídica, Envio dos Contratos e Início da Procrastinação",
+    "title": "Bloco 6: Formalização Jurídica, Quitação de 13 Parcelas Nubank e Início da Procrastinação",
     "dates": "20/08/2026 a 31/08/2026",
-    "summary": "Gustavo envia a minuta completa do Contrato de Parceria Comercial e o Anexo II (Termo de Reconhecimento de Dívida e Confissão com Camila como garantidora solidária física). Camila passa a postergar: alega que o advogado dela está analisando, que foi ao advogado, mas nunca devolve os documentos assinados. Gustavo retira o próprio carro da venda e cobra celeridade.",
-    "badge": "Minutas Enviadas & Procrastinação",
+    "summary": "Gustavo envia a minuta completa do Contrato de Parceria Comercial e o Anexo II (Termo de Confissão de Dívida solidária física). Em 24/08/2026, com a aprovação de linha complementar no Itaú Pronampe, Gustavo realiza Pix de R$ 18.653,05 do Itaú para o Nubank (Foto 4395) e antecipa 13 parcelas (R$ 18.015,62) do empréstimo de socorro do Nubank (Foto 4396), reduzindo os juros e restando 11 parcelas agendadas de R$ 2.733,62 (R$ 30.069,79 de saldo remanescente, Foto 4393). No Itaú constam 2 contratos Pronampe ativos (Foto 4367). Paralelamente, Camila passa a postergar a assinatura alegando que seu advogado está analisando.",
+    "badge": "Quitação Nubank 13x & Minutas",
     "badgeClass": "amber",
     "events": [
       {
@@ -1221,6 +1245,19 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 3841,
+        "date": "22/08/2026",
+        "time": "06:58:45",
+        "author": "Gustavo Castellano",
+        "content": "Mas se puder quitá-los de forma antecipada, será melhor (quando receber um valor alto de algum cliente, por exemplo), quitar mais de uma parcela",
+        "attachment": null,
+        "audio_transcription": null,
+        "tags": [
+          "CARRO_DIVIDA",
+          "COMERCIAL"
+        ]
+      },
+      {
         "id": 3858,
         "date": "22/08/2026",
         "time": "07:31:54",
@@ -1270,6 +1307,16 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 3941,
+        "date": "24/08/2026",
+        "time": "11:56:07",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00003941-PHOTO-2026-08-24-11-56-08.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
         "id": 3944,
         "date": "24/08/2026",
         "time": "12:04:14",
@@ -1288,6 +1335,20 @@ window.DOSSIER_DATA = {
         "attachment": "00003945-Documento.pdf",
         "audio_transcription": null,
         "tags": []
+      },
+      {
+        "id": 3952,
+        "date": "24/08/2026",
+        "time": "14:21:06",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00003952-AUDIO-2026-08-24-14-21-06.opus",
+        "audio_transcription": "Oi Camela, tudo bom? Bom tarde. Eu fui lá no Itaú, eu consegui acessar mais 18.600  e pouco do pronumpitar, já pré-provado, já peguei, que tem 13 parcelas daquele de 24.  Então agora está faltando bem menos dos 40 mil lá, né?  E aí não deu para pegar uma outra linha de crédito agora, porque não estava disponível.  Então parece que tem uma linha chamada FGi que é barata,  só que ela fica só disponibilizada no início do mês, é algo assim.  E aí ela falou que está esperando para o próximo mês, aí próximo mês vai ter essa linha  ou de repente no mês que vem, eles já liberam mais pronump,  aí eu pego o pronump, eu FGi que também é baixo.  Aí eu já quito em brest, não fica mais para frente, as parcelas entendeu?  E aí a gente paga depois, né? Já não começa a pagar agora, paga aquela carencia de nove meses,  de que eu fiveriero uma coisa assim, tá bom?  Eu te passo todas as informações certinhas, só pra ele ajustar no contrato certo  e aí se você puder pedir para ele colocar uma clausula aqui, se você tiver condição,  você vai, proitivamente, adiantar algumas parcelas, para mim fica bom,  porque eu vou precisar de tomar a empréstimo também, entendeu?  Para outras coisas, inclusive eu não sei, talvez até para me resgatar no mês que vem,  porque a partir do outro mês aí eu já estou sem renda, por conta do que aconteceu lá,  e também por um, pelo projeto lá do Porto de Santos que eu estou fazendo com,  com o Junaid, tá bom? Obrigado.",
+        "tags": [
+          "CONTRATO",
+          "CARRO_DIVIDA",
+          "COMERCIAL"
+        ]
       },
       {
         "id": 3957,
@@ -1482,6 +1543,18 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 4248,
+        "date": "02/09/2026",
+        "time": "17:38:20",
+        "author": "Camila Caruso",
+        "content": "",
+        "attachment": "00004248-AUDIO-2026-09-02-17-38-21.opus",
+        "audio_transcription": "A gente tem senso de urgência, né? A gente quer resolver as coisas na hora,  quer fazer, quer fazer acontecer, não sei o que, quer ir ligar,  e eu sou igual também tem senso de urgência, eu fico incomodada das coisas ficarem soltas.  Entendeu? Incomodada. E eu gosto de amarrar tudo, eu gosto de estar tudo certinho aqui, não é nada certinho aqui.  Então, eu te perso desculpa, não é culpa a minha, não é mais assim, é culpa do sistema, infeliz.  Mas se demorar mais um pouco, eu vou ver uma outra pessoa para resolver isso,  porque nós também estou esgotada assim, sabe? Parece que você está fazendo um favor.  E olha que eu pago todo mês, porque ele que revisa todos meus contratos.",
+        "tags": [
+          "CONTRATO"
+        ]
+      },
+      {
         "id": 4253,
         "date": "02/09/2026",
         "time": "17:39:58",
@@ -1519,10 +1592,10 @@ window.DOSSIER_DATA = {
   },
   {
     "id": "bloco-8",
-    "title": "Bloco 8: Agravamento da Situação Financeira de Gustavo e Alertas Formais",
+    "title": "Bloco 8: Prestação de Contas Bancárias (Nubank e Itaú) e Alertas Formais",
     "dates": "03/09/2026 a 10/09/2026",
-    "summary": "Gustavo relata que está em situação crítica, com sabático sem faturamento, despesas médicas da internação e cobrança tributária pelo repasse em conta. Pergunta como Camila pode ajudá-lo a pagar as parcelas bancárias. Camila responde de forma monossilábica e distante. Gustavo convoca alinhamento formal de calendário para segunda-feira, 14/09.",
-    "badge": "Alerta de Asfixia Financeira",
+    "summary": "Gustavo relata que está em situação crítica, sem faturamento e com crédito esgotado. Em 09/09/2026, Gustavo envia para Camila a comprovação documental cabal de todas as dívidas assumidas: foto dos 2 contratos Pronampe no Itaú (Foto 4367), extrato do Nubank comprovando as 13 parcelas quitadas e 11 restantes (Foto 4393), o Pix de R$ 18.653,05 Itaú-Nubank (Foto 4395) e a antecipação de R$ 18.015,62 (Foto 4396). Camila responde com evasivas e frieza. Gustavo convoca alinhamento formal de calendário para segunda-feira, 14/09.",
+    "badge": "Provas Bancárias & Alerta",
     "badgeClass": "amber",
     "events": [
       {
@@ -1538,6 +1611,48 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 4367,
+        "date": "09/09/2026",
+        "time": "17:56:19",
+        "author": "Gustavo Castellano",
+        "content": "Oi Camila, tudo bem ?! Já não consigo pegar mais no Itaú, pq já tem 2 empréstimos lá (aquele maior de 113 mil, e o outro que paguei parte do valor do Nubank (40k)",
+        "attachment": "00004367-PHOTO-2026-09-09-17-56-20.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 4368,
+        "date": "09/09/2026",
+        "time": "17:56:43",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00004368-PHOTO-2026-09-09-17-56-44.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 4393,
+        "date": "09/09/2026",
+        "time": "18:03:37",
+        "author": "Gustavo Castellano",
+        "content": "Os 40k do Nubank eu negociei pegando empréstimo mais barato do Itaú pra abater o do Nubank pra começarmos a pagar só ano que vem, pra dar um respiro",
+        "attachment": "00004393-PHOTO-2026-09-09-18-03-38.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 4394,
+        "date": "09/09/2026",
+        "time": "18:03:52",
+        "author": "Gustavo Castellano",
+        "content": "Por isso 13 parcelas pagas já",
+        "attachment": null,
+        "audio_transcription": null,
+        "tags": [
+          "CARRO_DIVIDA"
+        ]
+      },
+      {
         "id": 4395,
         "date": "09/09/2026",
         "time": "18:05:15",
@@ -1547,6 +1662,28 @@ window.DOSSIER_DATA = {
         "audio_transcription": null,
         "tags": [
           "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 4396,
+        "date": "09/09/2026",
+        "time": "18:05:34",
+        "author": "Gustavo Castellano",
+        "content": "E antecipei o dos 40k",
+        "attachment": "00004396-PHOTO-2026-09-09-18-05-35.jpg",
+        "audio_transcription": null,
+        "tags": []
+      },
+      {
+        "id": 4397,
+        "date": "09/09/2026",
+        "time": "18:05:54",
+        "author": "Gustavo Castellano",
+        "content": "Por isso tem 13 parcelas quitadas",
+        "attachment": null,
+        "audio_transcription": null,
+        "tags": [
+          "CARRO_DIVIDA"
         ]
       },
       {
@@ -1609,16 +1746,6 @@ window.DOSSIER_DATA = {
     "badgeClass": "red",
     "events": [
       {
-        "id": 4545,
-        "date": "11/09/2026",
-        "time": "15:02:14",
-        "author": "Gustavo Castellano",
-        "content": "",
-        "attachment": "00004545-PHOTO-2026-09-11-15-02-15.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
         "id": 4554,
         "date": "11/09/2026",
         "time": "16:19:37",
@@ -1629,16 +1756,6 @@ window.DOSSIER_DATA = {
         "tags": [
           "CARRO_DIVIDA"
         ]
-      },
-      {
-        "id": 4569,
-        "date": "11/09/2026",
-        "time": "16:21:53",
-        "author": "Gustavo Castellano",
-        "content": "nunca aconteceu, prometo",
-        "attachment": "00004569-PHOTO-2026-09-11-16-21-54.jpg",
-        "audio_transcription": null,
-        "tags": []
       },
       {
         "id": 4576,
@@ -1719,16 +1836,6 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 4599,
-        "date": "11/09/2026",
-        "time": "16:37:22",
-        "author": "Gustavo Castellano",
-        "content": "é super raro pra mim isso... nunca aconteceu",
-        "attachment": "00004599-PHOTO-2026-09-11-16-37-23.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
         "id": 4611,
         "date": "11/09/2026",
         "time": "16:40:03",
@@ -1739,6 +1846,18 @@ window.DOSSIER_DATA = {
         "tags": [
           "CONTRATO",
           "AMEACA_DISPUTA"
+        ]
+      },
+      {
+        "id": 4618,
+        "date": "11/09/2026",
+        "time": "16:43:10",
+        "author": "Camila Caruso",
+        "content": "Está sofrendo por antecipação porque ? Antes da primeira parcela já estarei quitado isso.",
+        "attachment": null,
+        "audio_transcription": null,
+        "tags": [
+          "CARRO_DIVIDA"
         ]
       },
       {
@@ -1755,26 +1874,6 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 4623,
-        "date": "11/09/2026",
-        "time": "16:47:02",
-        "author": "Gustavo Castellano",
-        "content": "precisamos saber com quem estamos lidando, principalmente com quem fazemos um empréstimo de 40k + 72k",
-        "attachment": "00004623-PHOTO-2026-09-11-16-47-03.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
-        "id": 4637,
-        "date": "11/09/2026",
-        "time": "16:48:45",
-        "author": "Gustavo Castellano",
-        "content": "isso aqui oh",
-        "attachment": "00004637-PHOTO-2026-09-11-16-48-46.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
         "id": 4650,
         "date": "11/09/2026",
         "time": "16:50:13",
@@ -1785,38 +1884,6 @@ window.DOSSIER_DATA = {
         "tags": [
           "CONTRATO"
         ]
-      },
-      {
-        "id": 4655,
-        "date": "11/09/2026",
-        "time": "16:51:07",
-        "author": "Gustavo Castellano",
-        "content": "1 mês e 7 dias e nada de contrato",
-        "attachment": "00004655-PHOTO-2026-09-11-16-51-08.jpg",
-        "audio_transcription": null,
-        "tags": [
-          "CONTRATO"
-        ]
-      },
-      {
-        "id": 4663,
-        "date": "11/09/2026",
-        "time": "16:53:17",
-        "author": "Gustavo Castellano",
-        "content": "Pega esse print aqui tb",
-        "attachment": "00004663-PHOTO-2026-09-11-16-53-18.jpg",
-        "audio_transcription": null,
-        "tags": []
-      },
-      {
-        "id": 4664,
-        "date": "11/09/2026",
-        "time": "16:53:41",
-        "author": "Gustavo Castellano",
-        "content": "Essa tb, como eu tava no dia 04/09",
-        "attachment": "00004664-PHOTO-2026-09-11-16-53-42.jpg",
-        "audio_transcription": null,
-        "tags": []
       }
     ]
   },
@@ -4344,7 +4411,7 @@ window.DOSSIER_DATA = {
     "origin": "Nu Pagamentos S.A. — Agilidade para Todos (CNPJ 27.626.226/0001-59)",
     "destiny": "C. Caruso Arquitetura e Interiores Ltda (CNPJ 46.788.820/0001-90) — Banco Santander",
     "authId": "E18236120202608041328s14787e325d",
-    "description": "Comprovante oficial de transferência bancária via Pix no valor de R$ 40.000,00 creditado imediatamente na conta PJ de Camila Caruso.",
+    "description": "Comprovante oficial de transferência bancária via Pix no valor de R$ 40.000,00 creditado imediatamente na conta PJ de Camila Caruso, viabilizado por empréstimo de Capital de Giro tomado por Gustavo no Nubank.",
     "ocrText": "Comprovante de transferência 04 AGO 2026 - 10:28:49. Valor: R$ 40.000,00. Tipo: Pix. Destino: C. CARUSO ARQUITETURA E INTERIORES LTDA CNPJ 46.788.820/0001-90 Santander. Origem: AGILIDADE PARA TODOS CNPJ 27.626.226/0001-59 Nubank. ID: E18236120202608041328s14787e325d."
   },
   {
@@ -4356,7 +4423,7 @@ window.DOSSIER_DATA = {
     "origin": "Itaú Unibanco S.A. SISPAG — Gustavo Henrique Castellano (CNPJ 27.626.226/0001-59)",
     "destiny": "Arquiteta Camila Caruso — Banco Santander (CNPJ 46.788.820/0001-90)",
     "authId": "E60701190202608191909DYSMAN3D8X4",
-    "description": "Comprovante oficial do segundo repasse no valor de R$ 72.000,00 via Itaú SISPAG, vinculado expressamente na mensagem à parceria comercial e capital de giro.",
+    "description": "Comprovante oficial do segundo repasse no valor de R$ 72.000,00 via Itaú SISPAG, vinculado expressamente na mensagem à parceria comercial e capital de giro, oriundo da Cédula Pronampe Itaú.",
     "ocrText": "19 ago. 2026, 16:10:39, via SISPAG no app Itaú. PIX TRANSFERENCIA. Valor: R$ 72.000,00. De: GUSTAVO HENRIQUE CASTELLANO Ag 0173 CC 99110-0 CNPJ 27.626.226/0001-59. Para: ARQUITETA CAMILA CARUSO Santander CNPJ 46.788.820/0001-90. Mensagem: deposito referente a obra que estamos operando em parceria Camila Caruso e Agilidade para Todos. ID: E60701190202608191909DYSMAN3D8X4. Autenticação: A84590460945ACACFBE66745CC6299E86E69A7A3."
   },
   {
@@ -4367,8 +4434,54 @@ window.DOSSIER_DATA = {
     "date": "Agosto/2026",
     "origin": "Itaú Unibanco S.A. -> Gustavo Henrique Castellano",
     "authId": "Operação 4887183848",
-    "description": "Contrato de financiamento federal Giro Pronampe contratado por Gustavo no valor líquido de R$ 113.653,00 (montante total com juros de R$ 139.450,20 em 60 parcelas de R$ 2.324,17), integralmente repassado para Camila Caruso.",
+    "description": "Contrato de financiamento federal Giro Pronampe contratado por Gustavo no valor líquido de R$ 113.653,00 (montante total com juros de R$ 139.450,20 em 60 parcelas de R$ 2.324,17), de onde saíram os R$ 72.000,00 repassados à ré.",
     "ocrText": "GUSTAVO HENRIQUE CASTELLANO. Giro Pronampe. Operação: 4887183848. Valor Liberado: R$ 113.653,00. Total Financiado: R$ 117.563,82. Total com Juros: R$ 139.450,20. 60 parcelas de R$ 2.324,17."
+  },
+  {
+    "id": "ev-nubank-loan",
+    "title": "Comprovante de Antecipação de 13 Parcelas Nubank (R$ 18.015,62)",
+    "category": "Contratos Bancários",
+    "filename": "00004396-PHOTO-2026-09-09-18-05-35.jpg",
+    "date": "24/08/2026 às 14:08:35",
+    "origin": "Nu Financeira S.A. — Gustavo Henrique Castellano (Conta 39971663-6)",
+    "destiny": "Quitação Parcial de Capital de Giro tomado para socorrer Camila",
+    "authId": "Antecipação Nubank 13 parcelas",
+    "description": "Comprovante oficial de pagamento de R$ 18.015,62 antecipando 13 parcelas do empréstimo de Capital de Giro do Nubank contratado inicialmente para viabilizar o primeiro Pix de R$ 40k à Camila.",
+    "ocrText": "Comprovante de pagamento 24 ago 2026 14:08:35. Valor: R$ 18.015,62. Método: Antecipação. Origem: Gustavo Henrique Castellano, Nu Financeira S.A. Empréstimo: Capital de Giro reorganizado. Valor original: R$ 35.537,03. Quitação de 13 parcelas antecipadas."
+  },
+  {
+    "id": "ev-pix-itau-nubank",
+    "title": "Pix Itaú para Nubank para Quitação das 13 Parcelas (R$ 18.653,05)",
+    "category": "Comprovantes Financeiros",
+    "filename": "00004395-PHOTO-2026-09-09-18-05-16.jpg",
+    "date": "24/08/2026 às 14:06:16",
+    "origin": "Itaú Unibanco S.A. (Giro Pronampe 2) -> Nu Pagamentos S.A.",
+    "destiny": "Agilidade Para Todos (Gustavo Henrique Castellano)",
+    "authId": "Pix 24 AGO 2026 14:06:16",
+    "description": "Transferência recebida no Nubank oriunda da conta Itaú Pronampe para liquidar a antecipação de R$ 18.015,62 das parcelas do empréstimo de giro.",
+    "ocrText": "Agilidade Para Todos. R$ 18.653,05. 24 AGO 2026 - 14:06:16. Transferência recebida Pix de Gustavo Henrique Castellano - Itaú Unibanco S.A."
+  },
+  {
+    "id": "ev-nubank-app",
+    "title": "Extrato Nubank: 13 Parcelas Pagas e 11 Parcelas Restantes",
+    "category": "Contratos Bancários",
+    "filename": "00004393-PHOTO-2026-09-09-18-03-38.jpg",
+    "date": "09/09/2026",
+    "origin": "App Nubank PJ",
+    "authId": "Capital de Giro Reorganizado",
+    "description": "Demonstrativo no app Nubank comprovando 13 parcelas pagas e saldo devedor remanescente de R$ 30.069,79 distribuído em 11 parcelas agendadas de R$ 2.733,62 sob exclusiva responsabilidade de Gustavo.",
+    "ocrText": "Valor restante de Capital de Giro reorganizado: R$ 30.069,79. 13 parcelas pagas. 11 parcelas agendadas de R$ 2.733,62."
+  },
+  {
+    "id": "ev-itau-contratos",
+    "title": "Extrato Itaú Empresas: 2 Contratos de Giro Pronampe",
+    "category": "Contratos Bancários",
+    "filename": "00004367-PHOTO-2026-09-09-17-56-20.jpg",
+    "date": "09/09/2026",
+    "origin": "App Itaú Empresas",
+    "authId": "Contratos Pronampe 1 e 2",
+    "description": "Demonstrativo dos 2 contratos de Giro Pronampe tomados por Gustavo no Itaú: Contrato 1 com parcela de R$ 2.324,17 (60 parcelas = R$ 139.450,20) e Contrato 2 com parcela de R$ 381,45 (60 parcelas = R$ 22.887,00).",
+    "ocrText": "Meus contratos. Giro Pronampe: Valor da parcela R$ 2.324,17 (0 de 60 pagas). Giro Pronampe: Valor da parcela R$ 381,45 (0 de 60 pagas)."
   },
   {
     "id": "ev-termo-divida",
@@ -4383,17 +4496,17 @@ window.DOSSIER_DATA = {
   },
   {
     "id": "ev-contrato-parceria",
-    "title": "Contrato de Parceria Comercial e Operacional Revisado",
+    "title": "Minuta do Contrato de Parceria Comercial e Operacional",
     "category": "Instrumentos Contratuais",
-    "filename": "00004157-Contrato de Parceria Comercial - C Caruso x Castellano - REVISADO.docx",
-    "date": "Agosto/2026",
-    "origin": "Elaborado por Castellano / Advocacia de Santos",
-    "authId": "Contrato Comercial",
-    "description": "Contrato contendo detalhamento das obrigações, Cláusula 3ª de Reembolso Prioritário dos Aportes, piso mensal de R$ 2.325,00 a partir de 15/02/2027 e repartição de resultados.",
-    "ocrText": "CONTRATO DE PARCERIA COMERCIAL E OPERACIONAL com reconhecimento de aportes financeiros, reembolso prioritário e repartição de resultados. Partes: C. Caruso Arquitetura e Gustavo Henrique Castellano. Cláusula 3ª: Reembolso dos Aportes (60% dos recebimentos ou piso mensal de R$ 2.325,00)."
+    "filename": "00003944-6a87e441-f02c-4af4-a291-a27a1aab1c0b.pdf",
+    "date": "24/08/2026",
+    "origin": "Elaborado por Castellano / Enviado à Camila Caruso",
+    "authId": "Doc 6a87e441-f02c",
+    "description": "Instrumento formal com 9 páginas estipulando 20% sobre o faturamento bruto, piso mensal de reembolso bancário de R$ 2.325,00 a partir de fevereiro/2027 e prestação de contas quinzenal.",
+    "ocrText": "INSTRUMENTO PARTICULAR DE PARCERIA COMERCIAL E OPERACIONAL. PARCEIRO 1: GUSTAVO HENRIQUE CASTELLANO. PARCEIRO 2: C. CARUSO ARQUITETURA E INTERIORES LTDA / CAMILA CARUSO DA COSTA NEVES. Cláusula 3.2: Piso mensal compensatório de R$ 2.325,00 todo dia 15..."
   },
   {
-    "id": "ev-hospital",
+    "id": "ev-internacao",
     "title": "Declaração de Internação Hospitalar — Hospital Serpiero",
     "category": "Saúde e Fatos",
     "filename": "00002864-Declaração de INTERNAÇÃO HOSPITALAR.pdf",
@@ -4425,7 +4538,7 @@ window.DOSSIER_DATA = {
       "Art. 339, CP (Denunciação Caluniosa)",
       "Art. 147, CP (Inexistência por parte da Vítima)"
     ],
-    "content": "\n1. SUBSUNÇÃO AO CRIME DE ESTELIONATO (ART. 171 DO CÓDIGO PENAL):\nA conduta de Camila Caruso amolda-se com precisão cirúrgica ao tipo penal de Estelionato:\n- 'Obtenção de vantagem ilícita': Camila recebeu R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08) em conta bancária de sua empresa.\n- 'Em prejuízo alheio': Gustavo Castellano teve seu patrimônio espoliado, assumiu endividamento bancário de R$ 113.653,00 e comprometeu sua subsistência pessoal.\n- 'Induzimento em erro mediante ardil/meio fraudulento': Camila utilizou como engodo a promessa de celebração de parceria empresarial e a garantia solene de formalização e assinatura do contrato no dia seguinte ao repasse ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - 19/08 às 16:15). Ocultou deliberadamente que utilizaria os recursos para estancar dívidas pessoais e manter a posse de veículo financiado perante o Banco Volkswagen.\n- 'Dolo antecedente (animus lucri faciendi)': Uma vez creditados os R$ 72.000,00, Camila passou a procrastinar sistematicamente a assinatura, inventando desculpas relativas a advogados e, no momento da cobrança das parcelas assumidas perante o banco, declarou com desdém que 'word não é contrato assinado' e chegou a questionar 'que Pix? Não recebi nenhum seu' (14/09).\n\n2. SUBSIDIARIAMENTE — APROPRIAÇÃO INDÉBITA (ART. 168 DO CÓDIGO PENAL):\nCaso se alegue ausência de dolo originário, configura-se apropriação indébita qualificada, pois a investigada recebeu a posse de coisa móvel fungível vinculada a uma destinação específica (capital de giro e despesas operacionais do projeto comum) e inverteu o título da posse, recusando-se a restituir os valores e convertendo-os em benefício próprio.\n\n3. TENTATIVA DE DENUNCIAÇÃO CALUNIOSA E CHANTAGEM COM LEI MARIA DA PENHA (ART. 339 DO CP):\nNo áudio 00004874, Camila indaga: 'Você quer que eu entre com uma medida protetiva contra você?'. Essa conduta evidencia a tentativa deliberada de forjar crime inexistente e instrumentalizar os mecanismos de proteção da mulher para constranger o credor a renunciar à cobrança de dívida legítima.\n        "
+    "content": "\n1. SUBSUNÇÃO AO CRIME DE ESTELIONATO (ART. 171 DO CÓDIGO PENAL):\nA conduta de Camila Caruso amolda-se com precisão cirúrgica ao tipo penal de Estelionato:\n- 'Obtenção de vantagem ilícita': Camila recebeu R$ 112.000,00 líquidos (R$ 40k em 04/08 e R$ 72k em 19/08) na conta bancária Santander de sua empresa C. Caruso Arquitetura.\n- 'Em prejuízo alheio': Gustavo Castellano teve seu patrimônio espoliado e foi induzido a contrair um endividamento bancário consolidado de R$ 192.406,99 (empréstimo de socorro no Nubank + 2 Cédulas de Crédito Pronampe no Itaú), comprometendo gravemente sua subsistência pessoal e capacidade de crédito.\n- 'Induzimento em erro mediante ardil/meio fraudulento': Camila utilizou como engodo a promessa de celebração de parceria empresarial e a garantia solene de formalização e assinatura do contrato no dia seguinte ao repasse ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - 19/08 às 16:15). Ocultou deliberadamente que utilizaria os recursos para estancar dívidas pessoais urgentes e manter a posse de veículo financiado perante o Banco Volkswagen (Processo nº 401XXXX-77.2026.8.26.0361 TJSP).\n- 'Dolo antecedente (animus lucri faciendi)': Uma vez creditados os recursos, Camila passou a procrastinar sistematicamente a assinatura formal, inventando desculpas relativas a advogados e, no momento da cobrança legítima das parcelas bancárias, declarou com desdém que 'word não é contrato assinado' e chegou a questionar 'que Pix? Não recebi nenhum seu' (14/09).\n\n2. SUBSIDIARIAMENTE — APROPRIAÇÃO INDÉBITA (ART. 168 DO CÓDIGO PENAL):\nCaso se cogite de ausência de dolo originário, configura-se apropriação indébita qualificada, pois a investigada recebeu a posse de recursos financeiros com destinação vinculada e específica (capital de giro e despesas operacionais da parceria) e inverteu arbitrariamente o título da posse, recusando-se a restituir os valores e convertendo-os em proveito próprio e quitação de passivos pessoais.\n\n3. TENTATIVA DE DENUNCIAÇÃO CALUNIOSA E CHANTAGEM COM LEI MARIA DA PENHA (ART. 339 DO CP):\nNo áudio 00004874, Camila indaga com tom intimidador: 'Você quer que eu entre com uma medida protetiva contra você?'. Essa conduta evidencia a tentativa deliberada de forjar crime inexistente e instrumentalizar os mecanismos de proteção da mulher para constranger o credor a renunciar à cobrança de dívida legítima.\n        "
   },
   "agent_civil": {
     "title": "Agente 2: Direito Civil e Teoria Geral dos Contratos",
@@ -4437,7 +4550,7 @@ window.DOSSIER_DATA = {
       "Art. 884 a 886, CC (Enriquecimento sem Causa)",
       "Arts. 389 e 395, CC (Inadimplemento)"
     ],
-    "content": "\n1. PLENA VALIDADE DO NEGÓCIO JURÍDICO VERBAL:\nO Código Civil consagra o Princípio do Consensualismo e da Forma Livre (Art. 107). A celebração de avença comercial e mútuo feneratício não exige solenidade ad solemnitatem. As milhares de mensagens trocadas, os comprovantes de Pix de R$ 112.000,00 com expressa identificação de finalidade e os áudios confessionais comprovam inquestionavelmente a existência de vínculo obrigacional perfeito.\n\n2. QUEBRA DA BOA-FÉ OBJETIVA E VEDAÇÃO AO VENIRE CONTRA FACTUM PROPRIUM (ART. 422 DO CC):\nCamila violou de forma frontal a cláusula geral de boa-fé objetiva:\n- Praticou comportamento contraditório inadmissível: solicitou o dinheiro sob a promessa de formalizar o contrato; após receber a quantia, tentou alegar a inexistência de instrumento assinado para se esquivar da obrigação de restituir.\n- Descumprimento dos deveres anexos de conduta (lealdade, probidade, informação e cooperação).\n\n3. ENRIQUECIMENTO SEM CAUSA (ART. 884 DO CC):\nAinda que se pretendesse desconsiderar o vínculo contratual, o ordenamento jurídico repudia o enriquecimento sem causa: 'Aquele que, sem justa causa, se enriquecer à custa de outrem, será obrigado a restituir o indevidamente auferido, feita a atualização dos valores monetários'. Não há qualquer título jurídico idôneo que justifique a apropriação dos R$ 112.000,00 pela ré.\n\n4. PERDAS E DANOS E JUROS DO FINANCIAMENTO:\nNos termos dos Arts. 389 e 402 do CC, o inadimplemento culposo de Camila gera a obrigação de indenizar Gustavo pela integralidade dos custos financeiros decorrentes do financiamento bancário tomado no Itaú para viabilizar os repasses.\n        "
+    "content": "\n1. PLENA VALIDADE DO NEGÓCIO JURÍDICO VERBAL:\nO Código Civil consagra o Princípio do Consensualismo e da Forma Livre (Art. 107). A celebração de avença comercial e mútuo feneratício não exige solenidade ad solemnitatem. As milhares de mensagens trocadas, os comprovantes de Pix de R$ 112.000,00 com expressa identificação de finalidade e os áudios confessionais comprovam inquestionavelmente a existência de vínculo obrigacional perfeito.\n\n2. QUEBRA DA BOA-FÉ OBJETIVA E VEDAÇÃO AO VENIRE CONTRA FACTUM PROPRIUM (ART. 422 DO CC):\nCamila violou de forma frontal a cláusula geral de boa-fé objetiva:\n- Praticou comportamento contraditório inadmissível: solicitou o dinheiro sob a promessa solene de formalizar o contrato; após receber a quantia, tentou alegar a inexistência de instrumento assinado para se esquivar da obrigação de restituir.\n- Descumprimento dos deveres anexos de conduta (lealdade, probidade, informação e cooperação).\n\n3. ENRIQUECIMENTO SEM CAUSA (ART. 884 DO CC):\nAinda que se pretendesse desconsiderar o vínculo contratual, o ordenamento jurídico repudia o enriquecimento sem causa: 'Aquele que, sem justa causa, se enriquecer à custa de outrem, será obrigado a restituir o indevidamente auferido, feita a atualização dos valores monetários'. Não há qualquer título jurídico idôneo que justifique a apropriação dos R$ 112.000,00 pela ré.\n\n4. PERDAS E DANOS E RESSARCIMENTO INTEGRAL DO PASSIVO BANCÁRIO:\nNos termos dos Arts. 389, 395 e 402 do CC, o inadimplemento culposo e doloso de Camila gera a obrigação de indenizar Gustavo pela integralidade dos custos financeiros decorrentes:\n- Devolução dos R$ 112.000,00 corrigidos monetariamente;\n- Ressarcimento das 13 parcelas quitadas antecipadamente no Nubank (R$ 18.015,62);\n- Assunção ou ressarcimento do saldo devedor de 11 parcelas restantes no Nubank (R$ 30.069,79);\n- Ressarcimento integral das 60 parcelas de R$ 2.324,17 do Pronampe 1 (R$ 139.450,20) e das 60 parcelas de R$ 381,45 do Pronampe 2 (R$ 22.887,00).\n        "
   },
   "agent_banking": {
     "title": "Agente 3: Direito Bancário e Operações de Crédito",
@@ -4447,7 +4560,7 @@ window.DOSSIER_DATA = {
       "Decreto-Lei 911/1969 (Alienação Fiduciária)",
       "Art. 50, CC (Desconsideração da Personalidade Jurídica)"
     ],
-    "content": "\n1. O CONTRATO GIRO PRONAMPE (ITAÚ / OPERAÇÃO 4887183848):\nGustavo Henrique Castellano contratou operação de crédito no valor de R$ 113.653,00 sob a modalidade Pronampe, sujeita à taxa Selic + 6% a.a., com 60 parcelas de R$ 2.324,17 e saldo final projetado de R$ 139.450,20.\nA quase totalidade dos recursos (R$ 72.000,00 que, somados aos R$ 40.000,00 anteriores, totalizam R$ 112.000,00) foi transferida diretamente para a C. Caruso Arquitetura.\nA Cláusula 3.2 da minuta contratual elaborada estabelecia piso mensal de R$ 2.325,00 todo dia 15 a partir de fevereiro/2027, espelhando exatamente a obrigação financeira de Gustavo com o banco.\n\n2. A CORRELAÇÃO DIRETA COM O PROCESSO DO BANCO VOLKSWAGEN:\nA consulta aos registros do TJSP comprova a existência do Processo nº 401XXXX-77.2026.8.26.0361 (Foro de Mogi das Cruzes/SP) entre Banco Volkswagen S.A. e Camila Caruso da Costa Neves.\nTrata-se de ação típica decorrente de inadimplemento de financiamento de veículo automotor.\nO histórico do WhatsApp demonstra que as solicitações de dinheiro feitas por Camila ocorreram em momentos de grave aflição financeira e cobranças de parcelas vencidas do veículo, tendo Camila afirmado repetidamente que 'venderia o carro para devolver o Pix'. Os valores repassados por Gustavo foram desviados de sua finalidade comercial para estancar a execução da dívida automotiva pessoal.\n\n3. DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA (ART. 50 DO CC):\nHouve evidente confusão patrimonial entre a pessoa jurídica C. Caruso Arquitetura e a pessoa física de Camila Caruso, legitimando o pedido liminar de arresto patrimonial sobre as contas da empresa, sobre as contas de Camila (CPF) e sobre o veículo envolvido.\n        "
+    "content": "\n1. O EMPRÉSTIMO EMERGENCIAL NUBANK (R$ 40.000,00) E A ANTECIPAÇÃO DE 13 PARCELAS:\nPara viabilizar o primeiro repasse imediato em 04/08/2026, Gustavo tomou empréstimo de Capital de Giro no Nubank com taxas elevadas. Em 24/08/2026, para diminuir a asfixia provocada pelos juros do Nubank, Gustavo contratou um 2º empréstimo Pronampe no Itaú no valor de R$ 18.653,05 (parcela de R$ 381,45) e transferiu via Pix para sua conta Nubank (Foto 4395), realizando a antecipação e quitação de 13 parcelas no total de R$ 18.015,62 (Foto 4396). Restou no Nubank um saldo devedor de R$ 30.069,79 distribuído em 11 parcelas vincendas de R$ 2.733,62 (Foto 4393).\n\n2. AS CÉDULAS DE CRÉDITO BANCÁRIO GIRO PRONAMPE (ITAÚ EMPRESAS):\nGustavo contratou duas operações Pronampe no Itaú (Foto 4367):\n- Contrato Principal (Operação 4887183848): R$ 113.653,00 liberados, amortizados em 60 parcelas mensais de R$ 2.324,17 (total a prazo: R$ 139.450,20). Desses fundos saíram os R$ 72.000,00 repassados à Camila em 19/08. O valor de R$ 2.325,00 da Cláusula 3.2 do contrato refletia exatamente essa parcela.\n- Contrato Complementar: 60 parcelas mensais de R$ 381,45 (total a prazo: R$ 22.887,00), cujos recursos de R$ 18.653,05 foram direcionados integralmente para quitar as 13 parcelas do socorro Nubank.\n\n3. CONSOLIDAÇÃO DO PASSIVO BANCÁRIO ASSUMIDO (R$ 192.406,99):\nO passivo futuro total assumido por Gustavo perante as instituições financeiras soma R$ 192.406,99 (R$ 139.450,20 do Pronampe 1 + R$ 22.887,00 do Pronampe 2 + R$ 30.069,79 do Nubank remanescente). Camila apropriou-se de R$ 112.000,00 líquidos e deixou toda a carga da dívida bancária sob responsabilidade exclusiva de Gustavo.\n\n4. A CORRELAÇÃO COM O PROCESSO DO BANCO VOLKSWAGEN (TJSP MOGI DAS CRUZES):\nAção nº 401XXXX-77.2026.8.26.0361 movida pelo Banco Volkswagen S.A. contra Camila Caruso da Costa Neves. Confirma que os pedidos de socorro visavam evitar a apreensão de seu veículo pessoal, tendo prometido vendê-lo para ressarcir Gustavo ('vou vender meu carro e te devolvo com juros'). Os valores repassados por Gustavo foram desviados de sua finalidade comercial para estancar a execução da dívida automotiva pessoal.\n\n5. DESCONSIDERAÇÃO DA PERSONALIDADE JURÍDICA (ART. 50 DO CC):\nHouve flagrante confusão patrimonial entre a pessoa jurídica C. Caruso Arquitetura e a pessoa física de Camila Caruso, legitimando o pedido liminar de arresto patrimonial sobre as contas da empresa, sobre as contas de Camila (CPF) e sobre o veículo envolvido.\n        "
   },
   "agent_defense": {
     "title": "Agente 4: Perspectiva Crítica da Defesa da Ré (Contrapontos)",
@@ -4457,7 +4570,7 @@ window.DOSSIER_DATA = {
       "Art. 476, CC (Exceção do Contrato Não Cumprido)",
       "Art. 188, I, CC"
     ],
-    "content": "\n1. TESE DEFENSIVA 1: ALEGAÇÃO DE DOAÇÃO / MERA LIBERALIDADE AFETIVA\n- O que a ré alegará: Camila tentará destacar a frase dita por Gustavo em 05/08 ('não iria precisar devolver o pix') durante uma discussão passional para sustentar que o valor foi doado.\n- Refutação irrefutável: A doação verbal só é válida para bens móveis de pequeno valor (Art. 541, parágrafo único do CC); a transferência de R$ 112.000,00 extrapola em ordens de grandeza o pequeno valor e exige instrumento público ou particular. Além disso, os atos subsequentes de ambas as partes revogaram qualquer declaração de liberalidade: em 19/08 Camila solicitou o segundo Pix de R$ 72.000,00 comprometendo-se expressamente a assinar o contrato formal ('coloque tudo lá no contrato e amanhã já assinamos'), calculou tabelas do Pronampe e, em 14/09 (áudio 00004854), confirmou que repassaria os valores que recebesse de propostas para ajudar Gustavo.\n\n2. TESE DEFENSIVA 2: INEXISTÊNCIA DE INSTRUMENTO FORMAL ASSINADO\n- O que a ré alegará: Não houve assinatura digital ou física do contrato.\n- Refutação irrefutável: A recusa dolosa em assinar documento previamente prometido constitui quebra flagrante da boa-fé pré-contratual e venire contra factum proprium. Ademais, o recebimento comprovado da quantia impõe o dever irrecusável de restituição por enriquecimento sem causa (Art. 884 do CC).\n\n3. TESE DEFENSIVA 3: ALEGAÇÃO DE ASSÉDIO / COAÇÃO\n- O que a ré alegará: Camila tentará isolar as mensagens de cobrança incisiva de Gustavo em 14/09 para afirmar que foi perseguida ou coagida.\n- Refutação irrefutável: Cobrança veemente de quantia expressiva, vencida e não paga, necessária à subsistência do credor e ao pagamento de financiamento bancário, não configura coação nem ameaça ilícita, mas legítimo exercício de direito. Não houve promessa de mal injusto e grave.\n        "
+    "content": "\n1. TESE DEFENSIVA 1: ALEGAÇÃO DE DOAÇÃO / MERA LIBERALIDADE AFETIVA\n- O que a ré alegará: Camila tentará destacar a frase dita por Gustavo em 05/08 ('não iria precisar devolver o pix') durante uma discussão passional para sustentar que o valor foi doado.\n- Refutação irrefutável: A doação verbal só é válida para bens móveis de pequeno valor (Art. 541, parágrafo único do CC); a transferência de R$ 112.000,00 extrapola em ordens de grandeza o pequeno valor e exige instrumento público ou particular. Além disso, os atos subsequentes de ambas as partes revogaram qualquer declaração de liberalidade: em 19/08 Camila solicitou o segundo Pix de R$ 72.000,00 comprometendo-se expressamente a assinar o contrato formal ('coloque tudo lá no contrato e amanhã já assinamos'), calculou tabelas do Pronampe e, em 14/09 (áudio 00004854), confirmou que repassaria os valores que recebesse de propostas para ajudar Gustavo.\n\n2. TESE DEFENSIVA 2: INEXISTÊNCIA DE INSTRUMENTO FORMAL ASSINADO\n- O que a ré alegará: Não houve assinatura digital ou física do contrato.\n- Refutação irrefutável: A recusa dolosa em assinar documento previamente prometido constitui quebra flagrante da boa-fé pré-contratual e venire contra factum proprium. Ademais, o recebimento comprovado da quantia impõe o dever irrecusável de restituição por enriquecimento sem causa (Art. 884 do CC).\n\n3. TESE DEFENSIVA 3: ALEGAÇÃO DE ASSÉDIO / COAÇÃO\n- O que a ré alegará: Camila tentará isolar as mensagens de cobrança incisiva de Gustavo em 14/09 para afirmar que foi perseguida ou coagida.\n- Refutação irrefutável: Cobrança veemente de quantia expressiva, vencida e não paga, necessária à subsistência do credor e ao pagamento de financiamento bancário, não configura coação nem ameaça ilícita, mas legítimo exercício de direito (Art. 188, I do CC). Não houve promessa de mal injusto e grave.\n        "
   },
   "agent_strategy": {
     "title": "Agente 5: Estrategista Processual de Gustavo (Roteiro do Advogado)",
@@ -4468,11 +4581,11 @@ window.DOSSIER_DATA = {
       "Art. 50, CC",
       "Art. 5º, II, CPP (Inquérito Policial)"
     ],
-    "content": "\nROTEIRO PRÁTICO PARA O ADVOGADO AJUIZAR AMANHÃ CEDO:\n\n1. ESFERA CÍVEL — AÇÃO DE COBRANÇA C/C PEDIDO LIMINAR DE TUTELA DE URGÊNCIA DE ARRESTO SISBAJUD:\n- Foro: Foro Central da Comarca da Capital/SP ou Foro da Comarca de Mogi das Cruzes/SP.\n- Polo Passivo: C. CARUSO ARQUITETURA E INTERIORES LTDA e CAMILA CARUSO DA COSTA NEVES (desconsideração da personalidade jurídica initio litis com base no Art. 50 do CC por confusão patrimonial e desvio de finalidade).\n- Pedido Liminar Inaudita Altera Parte: Bloqueio via SISBAJUD do montante de R$ 112.000,00 (atualizado para R$ 115.000,00 com encargos) em contas bancárias da empresa e da sócia física, bem como bloqueio RENAJUD de transferência do veículo de Camila (para evitar desfazimento fraudulento de patrimônio).\n- Fumus Boni Iuris: Comprovantes oficiais de Pix (Nu Pagamentos e Itaú SISPAG), confissões em áudios e mensagens de WhatsApp.\n- Periculum in Mora: Risco manifesto de dilapidação, confissão de endividamento da ré, existência de ação judicial movida pelo Banco Volkswagen e declaração expressa de que pretendia vender o veículo.\n\n2. ESFERA CRIMINAL — NOTÍCIA-CRIME / REPRESENTAÇÃO CRIMINAL:\n- Endereçamento: Delegacia de Polícia de Mogi das Cruzes ou Delegacia de Polícia Especializada / Ministério Público do Estado de São Paulo.\n- Fatos: Instauração de Inquérito Policial para apuração dos crimes de Estelionato (Art. 171 do CP) e Apropriação Indébita (Art. 168 do CP), requerendo a oitiva dos envolvidos, quebra de sigilo bancário da conta Santander recebedora e expedição de ofício ao Banco Volkswagen.\n\n3. REQUERIMENTO DE PERDAS E DANOS:\n- Condenação dos réus ao reembolso dos R$ 112.000,00 corrigidos pelo IPCA + juros de 1% ao mês, além do ressarcimento integral dos juros bancários do Pronampe suportados por Gustavo e indenização por danos morais fixada em patamar não inferior a R$ 20.000,00.\n        "
+    "content": "\nROTEIRO PRÁTICO PARA O ADVOGADO AJUIZAR AMANHÃ CEDO:\n\n1. ESFERA CÍVEL — AÇÃO DE COBRANÇA C/C PEDIDO LIMINAR DE TUTELA DE URGÊNCIA DE ARRESTO SISBAJUD:\n- Foro: Foro Central da Comarca da Capital/SP ou Foro da Comarca de Mogi das Cruzes/SP.\n- Polo Passivo: C. CARUSO ARQUITETURA E INTERIORES LTDA e CAMILA CARUSO DA COSTA NEVES (desconsideração da personalidade jurídica initio litis com base no Art. 50 do CC por confusão patrimonial e desvio de finalidade).\n- Pedido Liminar Inaudita Altera Parte: Bloqueio via SISBAJUD do montante de R$ 112.000,00 (atualizado para R$ 115.000,00 com encargos) em contas bancárias da empresa e da sócia física, bem como bloqueio RENAJUD de transferência do veículo de Camila (para evitar desfazimento fraudulento de patrimônio).\n- Fumus Boni Iuris: Comprovantes oficiais de Pix (Nu Pagamentos e Itaú SISPAG), confissões em áudios e mensagens de WhatsApp.\n- Periculum in Mora: Risco manifesto de dilapidação, confissão de endividamento da ré, existência de ação judicial movida pelo Banco Volkswagen e declaração expressa de que pretendia vender o veículo.\n\n2. ESFERA CRIMINAL — NOTÍCIA-CRIME / REPRESENTAÇÃO CRIMINAL:\n- Endereçamento: Delegacia de Polícia de Mogi das Cruzes ou Delegacia de Polícia Especializada / Ministério Público do Estado de São Paulo.\n- Fatos: Instauração de Inquérito Policial para apuração dos crimes de Estelionato (Art. 171 do CP) e Apropriação Indébita (Art. 168 do CP), requerendo a oitiva dos envolvidos, quebra de sigilo bancário da conta Santander recebedora e expedição de ofício ao Banco Volkswagen.\n\n3. REQUERIMENTO DE PERDAS E DANOS E JUROS BANCÁRIOS:\n- Condenação dos réus ao reembolso dos R$ 112.000,00 corrigidos pelo IPCA + juros de 1% ao mês, ressarcimento dos R$ 18.015,62 amortizados no Nubank, assunção do saldo devedor do Nubank de R$ 30.069,79 e das 60 parcelas do Pronampe 1 e 2, além de indenização por danos morais fixada em patamar não inferior a R$ 20.000,00.\n        "
   }
 },
     legalDrafts: {
-  "noticia_crime": "EXCELENTÍSSIMO SENHOR DOUTOR DELEGADO DE POLÍCIA TITULAR DA COMARCA DE MOGI DAS CRUZES / SÃO PAULO\n\nNOTÍCIA-CRIME COM PEDIDO DE INSTAURAÇÃO DE INQUÉRITO POLICIAL\nTipificação: Estelionato (Art. 171, caput do Código Penal) e Apropriação Indébita (Art. 168, caput do Código Penal)\n\nNOTICIANTE:\nGUSTAVO HENRIQUE CASTELLANO, empresário individual, portador do CPF nº 030.193.641-24 e CNPJ nº 27.626.226/0001-59, residente e domiciliado na Alameda Barão de Limeira, 912, São Paulo/SP;\n\nNOTICIADA:\nCAMILA CARUSO DA COSTA NEVES, arquiteta, residente e domiciliada em Mogi das Cruzes/SP, representante legal de C. CARUSO ARQUITETURA E INTERIORES LTDA, inscrita no CNPJ sob nº 46.788.820/0001-90, com sede na Av. Vereador Narciso Yague Guimarães, 1.145, Conj. 1214, Mogi das Cruzes/SP.\n\nI. DOS FATOS\nEm agosto de 2026, a Noticiada, sob o ardil de formalizar uma parceria comercial de expansão de seu escritório de arquitetura, induziu o Noticiante em erro ao solicitar aportes financeiros urgentes sob pretexto de capital de giro e pagamento de equipe.\nO Noticiante, confiando na boa-fé da Noticiada e na sua promessa formal de celebração contratual expressa ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - WhatsApp em 19/08/2026), efetuou duas transferências via Pix em benefício da conta bancária da empresa da Noticiada (Banco Santander, chave CNPJ 46.788.820/0001-90):\n1. R$ 40.000,00 em 04/08/2026 às 10:28:49 (Nu Pagamentos, ID E18236120202608041328s14787e325d);\n2. R$ 72.000,00 em 19/08/2026 às 16:10:39 (Itaú SISPAG, ID E60701190202608191909DYSMAN3D8X4).\nTotalizando o montante de R$ 112.000,00 (cento e doze mil reais), obtidos pelo Noticiante mediante contração de Cédula de Crédito Bancário Giro Pronampe junto ao Banco Itaú (Operação nº 4887183848).\n\nUma vez na posse dos valores, a Noticiada revelou seu intento fraudulento: recusou-se reiteradamente a assinar os contratos e termos de dívida enviados, utilizou os valores para amortizar dívidas pessoais urgentes — em especial parcelas em atraso de veículo sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante o TJSP em Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se a devolver os valores e ameaçou o Noticiante com a formulação de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você?' - Áudio 00004874).\n\nII. DO ENQUADRAMENTO JURÍDICO\nResta plenamente configurado o delito de Estelionato (Art. 171 do CP), em razão do manifesto ardil pré-concebido e da obtenção de vantagem ilícita em prejuízo da vítima, ou subsidiariamente Apropriação Indébita (Art. 168 do CP).\n\nIII. DOS PEDIDOS\nDiante do exposto, requer a instauração imediata de Inquérito Policial, com a oitiva da Noticiada, requisição de extratos bancários da conta recebedora e posterior remessa ao Ministério Público para oferecimento de denúncia criminal.",
-  "peticao_civel": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA CÍVEL DO FORO CENTRAL DA COMARCA DE SÃO PAULO / OU MOGI DAS CRUZES\n\nAÇÃO DE COBRANÇA C/C PEDIDO DE TUTELA PROVISÓRIA DE URGÊNCIA CAUTELAR DE ARRESTO (SISBAJUD / RENAJUD)\n\nAUTOR:\nGUSTAVO HENRIQUE CASTELLANO, empresário individual, inscrito no CNPJ sob nº 27.626.226/0001-59 e CPF nº 030.193.641-24;\n\nRÉUS:\n1. C. CARUSO ARQUITETURA E INTERIORES LTDA, CNPJ nº 46.788.820/0001-90, sediada na Av. Vereador Narciso Yague Guimarães, 1.145, Conj. 1214, Mogi das Cruzes/SP;\n2. CAMILA CARUSO DA COSTA NEVES, arquiteta, administradora e devedora solidária na pessoa física.\n\nI. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR (ARTS. 300 E 301 DO CPC)\nDemonstrada a probabilidade do direito (comprovantes bancários oficiais de repasse de R$ 112.000,00, confissões textuais e áudios de WhatsApp) e o perigo de dano irreparável (notória insolvência da Ré, existência de processo executivo movido pelo Banco Volkswagen sob nº 401XXXX-77.2026.8.26.0361 e iminente vencimento das parcelas do Pronampe contraídas pelo Autor), REQUER-SE:\na) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante de R$ 112.000,00 nas contas bancárias de ambas as Rés;\nb) Restrição de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.\n\nII. DO DIREITO E DO MÉRITO\n1. A existência e validade de contrato verbal e obrigação de restituição (Arts. 104, 107 e 422 do CC);\n2. O enriquecimento ilícito e sem causa vedado pelo Art. 884 do Código Civil;\n3. A desconsideração da personalidade jurídica com fulcro no Art. 50 do Código Civil por flagrante desvio de finalidade e confusão patrimonial.\n\nIII. DOS PEDIDOS FINAIS\nRequer a citação das Rés para que paguem a quantia de R$ 112.000,00 devidamente atualizada com correção monetária pelo IPCA e juros moratórios de 1% ao mês a partir de cada desembolso, cumulada com o ressarcimento dos juros bancários do Pronampe e indenização por danos morais em R$ 20.000,00, além de custas e honorários advocatícios sucumbenciais."
+  "noticia_crime": "EXCELENTÍSSIMO SENHOR DOUTOR DELEGADO DE POLÍCIA TITULAR DA COMARCA DE MOGI DAS CRUZES / SÃO PAULO\n\nNOTÍCIA-CRIME COM PEDIDO DE INSTAURAÇÃO DE INQUÉRITO POLICIAL\nTipificação: Estelionato (Art. 171, caput do Código Penal) e Apropriação Indébita (Art. 168, caput do Código Penal)\n\nNOTICIANTE:\nGUSTAVO HENRIQUE CASTELLANO, empresário individual, portador do CPF nº 030.193.641-24 e CNPJ nº 27.626.226/0001-59, residente e domiciliado na Alameda Barão de Limeira, 912, São Paulo/SP;\n\nNOTICIADA:\nCAMILA CARUSO DA COSTA NEVES, arquiteta, residente e domiciliada em Mogi das Cruzes/SP, representante legal de C. CARUSO ARQUITETURA E INTERIORES LTDA, inscrita no CNPJ sob nº 46.788.820/0001-90, com sede na Av. Vereador Narciso Yague Guimarães, 1.145, Conj. 1214, Mogi das Cruzes/SP.\n\nI. DOS FATOS\nEm agosto de 2026, a Noticiada, sob o ardil de formalizar uma parceria comercial de expansão de seu escritório de arquitetura, induziu o Noticiante em erro ao solicitar aportes financeiros urgentes sob pretexto de capital de giro e pagamento de equipe.\nO Noticiante, confiando na boa-fé da Noticiada e na sua promessa formal de celebração contratual expressa ('veja o contrato, coloque tudo lá, e amanhã já assinamos por favor' - WhatsApp em 19/08/2026), efetuou duas transferências via Pix em benefício da conta bancária da empresa da Noticiada (Banco Santander, chave CNPJ 46.788.820/0001-90):\n1. R$ 40.000,00 em 04/08/2026 às 10:28:49 (Nu Pagamentos, ID E18236120202608041328s14787e325d), viabilizado por empréstimo emergencial de giro no Nubank;\n2. R$ 72.000,00 em 19/08/2026 às 16:10:39 (Itaú SISPAG, ID E60701190202608191909DYSMAN3D8X4), viabilizado por Cédula de Crédito Bancário Giro Pronampe junto ao Banco Itaú (Operação nº 4887183848).\nTotalizando o montante de R$ 112.000,00 (cento e doze mil reais) diretamente creditados na conta da Ré.\n\nPara viabilizar essas operações e mitigar os pesados encargos do socorro emergencial, o Noticiante contratou uma segunda linha Pronampe no Itaú e realizou em 24/08/2026 a quitação antecipada de 13 parcelas (R$ 18.015,62) do empréstimo do Nubank, remanescendo ainda 11 parcelas vincendas de R$ 2.733,62 (R$ 30.069,79), além das 60 parcelas mensais de R$ 2.324,17 e R$ 381,45 do Itaú Pronampe, totalizando um passivo bancário consolidado de R$ 192.406,99 assumido exclusivamente pelo Noticiante.\n\nUma vez na posse dos valores, a Noticiada revelou seu intento fraudulento: recusou-se reiteradamente a assinar os contratos e termos de dívida enviados, utilizou os valores para amortizar dívidas pessoais urgentes — em especial parcelas em atraso de veículo sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante o TJSP em Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se a devolver os valores e ameaçou o Noticiante com a formulação de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você?' - Áudio 00004874).\n\nII. DO ENQUADRAMENTO JURÍDICO\nResta plenamente configurado o delito de Estelionato (Art. 171 do CP), em razão do manifesto ardil pré-concebido e da obtenção de vantagem ilícita em prejuízo da vítima, ou subsidiariamente Apropriação Indébita (Art. 168 do CP).\n\nIII. DOS PEDIDOS\nDiante do exposto, requer a instauração imediata de Inquérito Policial, com a oitiva da Noticiada, requisição de extratos bancários da conta recebedora e posterior remessa ao Ministério Público para oferecimento de denúncia criminal.",
+  "peticao_civel": "EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA CÍVEL DO FORO CENTRAL DA COMARCA DE SÃO PAULO / OU MOGI DAS CRUZES\n\nAÇÃO DE COBRANÇA C/C PEDIDO DE TUTELA PROVISÓRIA DE URGÊNCIA CAUTELAR DE ARRESTO (SISBAJUD / RENAJUD)\n\nAUTOR:\nGUSTAVO HENRIQUE CASTELLANO, empresário individual, inscrito no CNPJ sob nº 27.626.226/0001-59 e CPF nº 030.193.641-24;\n\nRÉUS:\n1. C. CARUSO ARQUITETURA E INTERIORES LTDA, CNPJ nº 46.788.820/0001-90, sediada na Av. Vereador Narciso Yague Guimarães, 1.145, Conj. 1214, Mogi das Cruzes/SP;\n2. CAMILA CARUSO DA COSTA NEVES, arquiteta, administradora e devedora solidária na pessoa física.\n\nI. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR (ARTS. 300 E 301 DO CPC)\nDemonstrada a probabilidade do direito (comprovantes bancários oficiais de repasse de R$ 112.000,00, confissões textuais e áudios de WhatsApp) e o perigo de dano irreparável (notória insolvência da Ré, existência de processo executivo movido pelo Banco Volkswagen sob nº 401XXXX-77.2026.8.26.0361 e iminente vencimento das parcelas do Pronampe e Nubank contraídas pelo Autor que totalizam passivo de R$ 192.406,99), REQUER-SE:\na) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante de R$ 112.000,00 nas contas bancárias de ambas as Rés;\nb) Restrição de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.\n\nII. DO DIREITO E DO MÉRITO\n1. A existência e validade de contrato verbal e obrigação de restituição (Arts. 104, 107 e 422 do CC);\n2. O enriquecimento ilícito e sem causa vedado pelo Art. 884 do Código Civil;\n3. A desconsideração da personalidade jurídica com fulcro no Art. 50 do Código Civil por flagrante desvio de finalidade e confusão patrimonial.\n\nIII. DOS PEDIDOS FINAIS\nRequer a citação das Rés para que paguem a quantia de R$ 112.000,00 devidamente atualizada com correção monetária pelo IPCA e juros moratórios de 1% ao mês a partir de cada desembolso, cumulada com o ressarcimento das 13 parcelas quitadas do Nubank (R$ 18.015,62), do saldo remanescente do Nubank (R$ 30.069,79), dos juros e parcelas dos Pronampos 1 e 2 assumidos perante o Itaú, e indenização por danos morais em R$ 20.000,00, além de custas e honorários advocatícios sucumbenciais."
 }
 };
