@@ -68,93 +68,80 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 746,
-        "date": "30/07/2026",
-        "time": "01:08:13",
+        "id": 20,
+        "date": "29/07/2026",
+        "time": "11:14:55",
         "author": "Gustavo Castellano",
-        "content": "Reabri minha conta PJ no Itaú pra simular o pronampe (amanhã de explico), assim dá pra dar uma aliviada na situação, pagar os poucos até receber (se receber tb ne, pq do jeito que as pessoas são…) e aí vamos elaborando com mais calma a estratégia de vendas",
+        "content": "Mas eu prefiro você ao dinheiro, mas podemos começar com o dinheiro",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
         ]
       },
       {
-        "id": 1147,
-        "date": "02/08/2026",
-        "time": "21:24:57",
+        "id": 46,
+        "date": "29/07/2026",
+        "time": "11:21:03",
         "author": "Gustavo Castellano",
-        "content": "Pra não prejudicar o pronampe",
+        "content": "Tráfego pago pra quem comprou imóveis/ está buscando imóveis pra comprar",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
         ]
       },
       {
-        "id": 1148,
-        "date": "02/08/2026",
-        "time": "21:25:12",
+        "id": 51,
+        "date": "29/07/2026",
+        "time": "11:22:59",
         "author": "Gustavo Castellano",
-        "content": "Pq meu foco é o pronampe, pq sei que isso realmente vai te ajudar",
+        "content": "Abordagem direta - ligações, follow ups- tráfego pago, e essa do sistema de geolocalização já podem gerar muito mais negócios ‎<Mensagem editada>",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 73,
+        "date": "29/07/2026",
+        "time": "11:31:40",
+        "author": "Camila Caruso",
+        "content": "Eu faço as propostas",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 93,
+        "date": "29/07/2026",
+        "time": "11:42:36",
+        "author": "Camila Caruso",
+        "content": "Um proposta residencial começa com uns 12k",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
         ]
       }
     ]
   },
   {
     "id": "bloco-2",
-    "title": "Bloco 2: Diagnóstico da C. Caruso, Soo Tech e o 1º Pix de R$ 40.000,00",
+    "title": "Bloco 2: Diagnóstico Financeiro, Soo Tech e o 1º Pix de R$ 40.000,00",
     "dates": "03/08/2026 a 04/08/2026",
-    "summary": "Gustavo analisa o faturamento oficial da empresa de Camila via Contabilizei (R$ 454k em 2025). Em áudio formal (Áudio 1509), Gustavo apresenta a proposta inicial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio), ressaltando que os sócios não participariam de empréstimos e que o socorro financeiro seria assumido pessoalmente por Gustavo. Camila alega extrema asfixia ('Pq to dura né... Gu não passa de 40'). Em 04/08, Gustavo contrata empréstimo de giro no Nubank e transfere o 1º Pix de R$ 40.000,00 às 10:28 (Foto 1604). Camila agradece aliviada e promete vender seu carro para quitar o valor.",
+    "summary": "Gustavo analisa o faturamento oficial de sua própria empresa via Contabilizei (R$ 454k em 2025 e R$ 289k até julho/2026), comprovando que sua empresa possuía capacidade de crédito de sobra para contratar o Pronampe no Itaú. Em áudio formal (Áudio 1509), Gustavo apresenta a proposta inicial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio), ressaltando que os sócios não participariam de empréstimos e que o socorro financeiro seria assumido pessoalmente por Gustavo. Camila concorda expressamente: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513). Diante do desespero de Camila ('Pq to dura né... Gu não passa de 40'), Gustavo contrata empréstimo de giro no Nubank e transfere o 1º Pix de R$ 40.000,00 às 10:28 (Foto 1604). Camila agradece aliviada e promete vender seu carro para quitar o valor.",
     "badge": "1º Pix: R$ 40.000,00 (04/08)",
     "badgeClass": "green",
     "events": [
-      {
-        "id": 1355,
-        "date": "03/08/2026",
-        "time": "10:30:44",
-        "author": "Gustavo Castellano",
-        "content": "E aí qualquer coisa tento pegar os 40k logo depois",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
-      },
-      {
-        "id": 1421,
-        "date": "03/08/2026",
-        "time": "17:27:33",
-        "author": "Gustavo Castellano",
-        "content": "E envie, de uma vez:\n\n* DRE de 2025 e 2026 (ou balancetes disponíveis);\n* extratos do Nubank PJ dos últimos meses;\n* contrato ou proposta da empresa de arquitetura;\n* orçamento da obra/projeto;\n* descrição resumida do investimento;\n* comprovante do compartilhamento do e-CAC, se já tiver feito.",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "PARCERIA_COMERCIAL",
-          "CONTRATO"
-        ]
-      },
-      {
-        "id": 1422,
-        "date": "03/08/2026",
-        "time": "17:28:48",
-        "author": "Gustavo Castellano",
-        "content": "",
-        "attachment": "00001422-AUDIO-2026-08-03-17-28-48.opus",
-        "audio_transcription": "Camila, deixa eu te perguntar, você conseguiria fazer rápido um contrato ou proposta da empresa  de arquitetura da sua, que provavelmente um dos documentos que ela vai pedir é esse e aí eu vou  pegar mais detalhes aqui do que precisa para ser aprovado logo e aí eu te falo, aí qualquer coisa  te ajuda a fazer, a montar, tá? Não tem problema, mas provavelmente eu vou precisar só que você  revise o esse contrato ou proposta, mas aí se você me manda algum modelo, só proté como referência,  porque daí eu uso como base e esse que você usa sabe, e aí a gente já atreça, eu vou ver se eu manda  uma mensagem aqui para ela, já vi aqui como abordar, e aí vou até tentar ligar para ela para  ver se apreça isso, eu vou falar que o projeto já está em execução, tá bom? Só para apreçar e ver o que  ela consegue fazer mais rápido, tá bom?",
-        "tags": [
-          "PARCERIA_COMERCIAL",
-          "CONTRATO"
-        ]
-      },
       {
         "id": 1459,
         "date": "03/08/2026",
@@ -186,6 +173,81 @@ window.DOSSIER_DATA = {
         "custom_note": "Áudio oficial no qual Gustavo detalha a proposta inicial de parceria comercial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio). Gustavo destaca expressamente que os demais sócios não aceitariam operação de mútuo bancário, pactuando-se que o aporte de R$ 40k e os contratos seguintes seriam contraídos estritamente em caráter pessoal por Gustavo para socorrer Camila."
       },
       {
+        "id": 1511,
+        "date": "03/08/2026",
+        "time": "20:49:03",
+        "author": "Camila Caruso",
+        "content": "Beleza Gu, acho bem justo",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Acordo Expresso da Ré: 'Vamos fazer contrato sim'",
+        "custom_note": "Camila concorda expressamente com a celebração do contrato formal exclusivo com Gustavo: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513)."
+      },
+      {
+        "id": 1512,
+        "date": "03/08/2026",
+        "time": "20:49:49",
+        "author": "Camila Caruso",
+        "content": "Claro , só nós dois.",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Acordo Expresso da Ré: 'Vamos fazer contrato sim'",
+        "custom_note": "Camila concorda expressamente com a celebração do contrato formal exclusivo com Gustavo: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513)."
+      },
+      {
+        "id": 1513,
+        "date": "03/08/2026",
+        "time": "20:50:00",
+        "author": "Camila Caruso",
+        "content": "Vamos fazer contrato sim",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Acordo Expresso da Ré: 'Vamos fazer contrato sim'",
+        "custom_note": "Camila concorda expressamente com a celebração do contrato formal exclusivo com Gustavo: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513)."
+      },
+      {
+        "id": 1514,
+        "date": "03/08/2026",
+        "time": "20:50:12",
+        "author": "Camila Caruso",
+        "content": "Obrigada Você !",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Acordo Expresso da Ré: 'Vamos fazer contrato sim'",
+        "custom_note": "Camila concorda expressamente com a celebração do contrato formal exclusivo com Gustavo: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513)."
+      },
+      {
+        "id": 1516,
+        "date": "03/08/2026",
+        "time": "21:45:54",
+        "author": "Gustavo Castellano",
+        "content": "Preenchendo aqui, e fiquei até assustado pq não sabia que ganhava isso kkkk, achei que fosse menos",
+        "attachment": "00001516-PHOTO-2026-08-03-21-45-55.jpg",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Capacidade de Crédito da Empresa do Autor",
+        "custom_note": "Gustavo analisa a capacidade financeira oficial de sua própria empresa via Contabilizei (faturamento de R$ 454k em 2025), atestando: 'Então vai sobrar renda pro pronampe' para viabilizar a liberação do crédito bancário no Itaú."
+      },
+      {
         "id": 1517,
         "date": "03/08/2026",
         "time": "21:46:28",
@@ -194,9 +256,11 @@ window.DOSSIER_DATA = {
         "attachment": "00001517-PHOTO-2026-08-03-21-46-29.jpg",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Capacidade de Crédito da Empresa do Autor",
+        "custom_note": "Gustavo analisa a capacidade financeira oficial de sua própria empresa via Contabilizei (faturamento de R$ 454k em 2025), atestando: 'Então vai sobrar renda pro pronampe' para viabilizar a liberação do crédito bancário no Itaú."
       },
       {
         "id": 1540,
@@ -204,45 +268,6 @@ window.DOSSIER_DATA = {
         "time": "07:18:58",
         "author": "Gustavo Castellano",
         "content": "Cá, depois faz as contas e me fala quanto que cobre o mais urgente pra agora antes do  pronampe que eu já te deposito hoje, só me confirma o valor certinho se é 40k mesmo, assim que confirmar já te transfiro logo após",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
-      },
-      {
-        "id": 1568,
-        "date": "04/08/2026",
-        "time": "08:25:36",
-        "author": "Camila Caruso",
-        "content": "Pq to dura né",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
-      },
-      {
-        "id": 1579,
-        "date": "04/08/2026",
-        "time": "08:27:19",
-        "author": "Gustavo Castellano",
-        "content": "É 40k ?",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
-      },
-      {
-        "id": 1582,
-        "date": "04/08/2026",
-        "time": "08:27:47",
-        "author": "Camila Caruso",
-        "content": "Mas se for depositar não deposita na conta pessoal",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
@@ -262,20 +287,8 @@ window.DOSSIER_DATA = {
           "COMPROVANTE_OFICIAL",
           "FINANCEIRO",
           "FINANCEIRO_APORTE"
-        ]
-      },
-      {
-        "id": 1607,
-        "date": "04/08/2026",
-        "time": "10:33:14",
-        "author": "Camila Caruso",
-        "content": "Tudo o que eu for falar é pouco.",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
+        ],
+        "custom_badge": "Comprovante Pix R$ 40.000,00 (Nu Pagamentos)"
       },
       {
         "id": 1788,
@@ -307,12 +320,51 @@ window.DOSSIER_DATA = {
   },
   {
     "id": "bloco-3",
-    "title": "Bloco 3: Internação Hospitalar de Gustavo e Estruturação do Pronampe",
+    "title": "Bloco 3: Confissões Expressas de Dívida da Ré e Venda do Carro",
     "dates": "05/08/2026 a 15/08/2026",
-    "summary": "Gustavo é internado no Hospital Serpiero em Santos. Camila envia flores em agradecimento e reitera a promessa solene de devolução com juros assim que vender o carro dela ('qdo sair o carro, te devolvo exatamente como esse print com juros'). Gustavo estrutura a simulação oficial de amortização do Pronampe.",
-    "badge": "Internação & Projeção Pronampe",
+    "summary": "Após receber o socorro inicial de R$ 40 mil, Camila Caruso reitera expressamente por escrito o compromisso solene de restituição dos valores com juros: 'Hoje vou colocar meu carro à venda e te devolvo. Te agradeço por me salvar' (msg 2217) e 'graças a Deus minha palavra vale muito e eu vou te devolver seu dinheiro... qdo sair o carro, te devolvo exatamente como esse print com juros' (msgs 2291, 2299), comprometendo-se ainda a enviar o contrato através de seu advogado ('o Silvio vai te procurar para enviar o contrato', msg 2356). Gustavo estrutura a planilha oficial de premissas e amortização do Pronampe Itaú (Tabela_Pronampe_Custo_Total.pdf, msgs 2890-2891).",
+    "badge": "Confissão de Dívida & Venda do Carro",
     "badgeClass": "amber",
     "events": [
+      {
+        "id": 2217,
+        "date": "05/08/2026",
+        "time": "08:41:15",
+        "author": "Camila Caruso",
+        "content": "Hoje vou colocar meu carro à venda e te devolvo. Te agradeço por me salvar, mas isso não é motivo pra custar a minha paz, que tanto batalhei pra ter.",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 2229,
+        "date": "05/08/2026",
+        "time": "17:41:01",
+        "author": "Gustavo Castellano",
+        "content": "Eu peguei um empréstimo com juros alto pra conseguir te passar aquele pix de 40 mil",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 2291,
+        "date": "05/08/2026",
+        "time": "17:46:29",
+        "author": "Camila Caruso",
+        "content": "Mas graças a Deus minha palavra vale muito e eu vou te devolver seu dinheiro.",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
       {
         "id": 2299,
         "date": "05/08/2026",
@@ -327,28 +379,54 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 2864,
-        "date": "15/08/2026",
-        "time": "12:45:50",
-        "author": "Gustavo Castellano",
-        "content": "Declaração de INTERNAÇÃO HOSPITALAR.pdf • ‎1 página",
-        "attachment": "00002864-Declaração de INTERNAÇÃO HOSPITALAR.pdf",
+        "id": 2356,
+        "date": "05/08/2026",
+        "time": "18:13:18",
+        "author": "Camila Caruso",
+        "content": "Até sexta o Silvio vai te procurar ok pra enviar o contrato e resolvemos isso. Não quero problema com você. Acho que eu e você temos de sobra já. Te peço desculpas por tudo, sou do bem por mais que ache que não, e repito vou resolver isso. Obrigada e te peço para parar de me ofender e me agredir verbalmente. Eu tentei de todas as formas estar presente e te ajudar da forma que pude, e falhei. Infelizmente não sei ser perfeita, estou em evolução. Mas … espero de verdade que se recupere, e realmente seja feliz.",
+        "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "HOSPITAL_SAUDE",
-          "COMPROVANTE_OFICIAL"
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 2744,
+        "date": "05/08/2026",
+        "time": "19:47:35",
+        "author": "Camila Caruso",
+        "content": "To vendendo o carro",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
         ]
       }
     ]
   },
   {
     "id": "bloco-4",
-    "title": "Bloco 4: Aprovação do Giro Pronampe no Itaú",
+    "title": "Bloco 4: Demanda por Mais Capital para Equipe e Estruturação do Pronampe no Itaú",
     "dates": "16/08/2026 a 18/08/2026",
-    "summary": "Gustavo obtém a aprovação da linha Giro Pronampe principal no Itaú (Contrato nº 4887183848, saldo restante no app de R$ 119.343,17 em 60 parcelas de R$ 2.324,17). Camila reitera a urgência de mais capital para manter a folha da equipe ('Preciso de $$ mais pra poder pagar equipe').",
+    "summary": "Camila alega nova asfixia de caixa e solicita expressamente novos aportes financeiros para cobrir a folha de pagamento de seus colaboradores: 'Preciso de $$ mais pra poder pagar equipe' (msg 3025). Gustavo confirma a viabilização da linha de crédito Pronampe no Banco Itaú (Contrato nº 4887183848): 'Assim saberei amanhã já se os 40k + os 113k do Itaú já serão suficientes' (msg 2978), estruturando a viabilização do segundo repasse de R$ 72.000,00.",
     "badge": "Crédito Itaú Aprovado",
     "badgeClass": "blue",
     "events": [
+      {
+        "id": 2890,
+        "date": "16/08/2026",
+        "time": "00:39:39",
+        "author": "Gustavo Castellano",
+        "content": "Para criar essa projeção, é necessário estabelecer algumas premissas matemáticas. Como o Pronampe utiliza uma taxa pós-fixada (atrelada à Selic) e a maioria dos bancos aplica o Sistema de Amortização Constante (SAC), o valor da sua parcela não será o mesmo do início ao fim do contrato.\nNo sistema SAC, a primeira parcela é sempre a mais alta e o valor vai diminuindo mensalmente até a quitação.\nPara este cálculo, assumi as seguintes premissas:\n * Valor do Empréstimo: R$ 113.000,00\n * Taxa Selic Estimada: 10,50% ao ano (equivalente a cerca de 0,83% ao mês).\n * Taxa Total Mensal Projetada: 1,32% ao mês (0,49% fixo + 0,83% Selic).\n * Durante a carência, os juros são somados ao saldo devedor.\nAbaixo está a comparação com o valor aproximado da primeira parcela ao final da carência:\n| Prazo Total | Tempo de Carência | Meses Pagando | Saldo Devedor Pós-Carência | Valor da 1ª Parcela (Estimada) |\n|---|---|---|---|---|\n| 48 meses | 3 meses | 45 meses | R$ 117.534 | R$ 4.163 |\n| 48 meses | 6 meses | 42 meses | R$ 122.247 | R$ 4.524 |\n| 48 meses | 9 meses | 39 meses | R$ 127.151 | R$ 4.938 |\n|  |  |  |  |  |\n| 60 meses | 3 meses | 57 meses | R$ 117.534 | R$ 3.613 |\n| 60 meses | 6 meses | 54 meses | R$ 122.247 | R$ 3.877 |\n| 60 meses | 9 meses | 51 meses | R$ 127.151 | R$ 4.171 |\n|  |  |  |  |  |\n| 72 meses | 3 meses | 69 meses | R$ 117.534 | R$ 3.254 |\n| 72 meses | 6 meses | 66 meses | R$ 122.247 | R$ 3.465 |\n| 72 meses | 9 meses | 63 meses | R$ 127.151 | R$ 3.696 |\nO Que a Tabela Mostra na Prática:\n * A armadilha da carência longa com prazo curto: Observe o cenário de 48 meses com 9 meses de carência. O seu saldo sobe para mais de R$ 127 mil devido aos juros do período sem pagamento. Como sobram apenas 39 meses para quitar esse valor inflado, a parcela dispara para quase R$ 5.000.\n * O fôlego do alongamento: Esticar o prazo total para 72 meses (mesmo pegando os 9 meses de carência) derruba a primeira prestação para a faixa de R$ 3.696, aliviando consideravelmente o fluxo de caixa mensal da empresa.\n * Redução mês a mês: Como o sistema é SAC, as parcelas caem gradualmente. No cenário de 60 meses com 6 meses de carência, por exemplo, a primeira parcela é de cerca de R$ 3.877, mas a última (lá no mês 60) será em torno de R$ 2.290.",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
       {
         "id": 2891,
         "date": "16/08/2026",
@@ -364,16 +442,29 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 2987,
+        "id": 2978,
         "date": "16/08/2026",
-        "time": "20:37:53",
+        "time": "20:37:07",
         "author": "Gustavo Castellano",
-        "content": "Mais 113 ?",
+        "content": "Assim saberei amanhã já se os 40k + os 113k do Itaú já serão suficientes",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
+          "PARCERIA_COMERCIAL",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 3025,
+        "date": "16/08/2026",
+        "time": "20:57:01",
+        "author": "Camila Caruso",
+        "content": "Preciso de $$ mais pra poder pagar equipe",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "FINANCEIRO"
         ]
       },
       {
@@ -387,6 +478,19 @@ window.DOSSIER_DATA = {
         "tags": [
           "FINANCEIRO",
           "FINANCEIRO_APORTE"
+        ]
+      },
+      {
+        "id": 3224,
+        "date": "18/08/2026",
+        "time": "17:57:51",
+        "author": "Camila Caruso",
+        "content": "Considero 33% vc 33% e 33% despesas de equipe e etc ?",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "FINANCEIRO"
         ]
       }
     ]
@@ -424,7 +528,8 @@ window.DOSSIER_DATA = {
           "COMPROVANTE_OFICIAL",
           "FINANCEIRO",
           "FINANCEIRO_APORTE"
-        ]
+        ],
+        "custom_badge": "Comprovante Pix R$ 72.000,00 (Itaú SISPAG)"
       },
       {
         "id": 3449,
@@ -436,8 +541,25 @@ window.DOSSIER_DATA = {
         "audio_transcription": "",
         "tags": [
           "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
+      },
+      {
+        "id": 3451,
+        "date": "19/08/2026",
+        "time": "16:13:40",
+        "author": "Camila Caruso",
+        "content": "Muito obrigada !",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
       },
       {
         "id": 3452,
@@ -448,9 +570,26 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Compromisso Honrado pelo Autor",
+        "custom_note": "Gustavo confirma o repasse prometido ('Como prometido' e 'Por nada') e assegura o envio do contrato formal para assinatura até o dia seguinte."
+      },
+      {
+        "id": 3453,
+        "date": "19/08/2026",
+        "time": "16:13:52",
+        "author": "Camila Caruso",
+        "content": "To até com vontade de chorar",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
       },
       {
         "id": 3454,
@@ -461,9 +600,101 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Compromisso Honrado pelo Autor",
+        "custom_note": "Gustavo confirma o repasse prometido ('Como prometido' e 'Por nada') e assegura o envio do contrato formal para assinatura até o dia seguinte."
+      },
+      {
+        "id": 3455,
+        "date": "19/08/2026",
+        "time": "16:13:58",
+        "author": "Camila Caruso",
+        "content": "Nossa tava desesperada",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
+      },
+      {
+        "id": 3459,
+        "date": "19/08/2026",
+        "time": "16:14:48",
+        "author": "Camila Caruso",
+        "content": "Obrigada mesmo",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
+      },
+      {
+        "id": 3460,
+        "date": "19/08/2026",
+        "time": "16:14:54",
+        "author": "Camila Caruso",
+        "content": "De vdd",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Confissão de Desespero e Alívio da Ré",
+        "custom_note": "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
+      },
+      {
+        "id": 3462,
+        "date": "19/08/2026",
+        "time": "16:15:16",
+        "author": "Camila Caruso",
+        "content": "Veja o contrato, coloque tudo lá",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "CONTRATO_DIVIDA"
+        ],
+        "custom_badge": "Compromisso Irretratável de Assinar Contrato",
+        "custom_note": "Camila assume compromisso expresso e irretratável logo após o crédito dos R$ 72 mil: 'Veja o contrato, coloque tudo lá. E amanhã já assinamos por favor' (msgs 3462 e 3464)."
+      },
+      {
+        "id": 3464,
+        "date": "19/08/2026",
+        "time": "16:15:22",
+        "author": "Camila Caruso",
+        "content": "E amanhã já assinamos por favor",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "CONTRATO_DIVIDA"
+        ],
+        "custom_badge": "Compromisso Irretratável de Assinar Contrato",
+        "custom_note": "Camila assume compromisso expresso e irretratável logo após o crédito dos R$ 72 mil: 'Veja o contrato, coloque tudo lá. E amanhã já assinamos por favor' (msgs 3462 e 3464)."
+      },
+      {
+        "id": 3466,
+        "date": "19/08/2026",
+        "time": "16:16:12",
+        "author": "Gustavo Castellano",
+        "content": "Fique tranquila, estará tudo assinado até amanhã, mas sua paz é mais importante para nós aqui da Agilidade para Todos",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "FINANCEIRO",
+          "PARCERIA_COMERCIAL"
+        ],
+        "custom_badge": "Compromisso Honrado pelo Autor",
+        "custom_note": "Gustavo confirma o repasse prometido ('Como prometido' e 'Por nada') e assegura o envio do contrato formal para assinatura até o dia seguinte."
       }
     ]
   },
@@ -536,8 +767,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
+          "CONTRATO",
+          "FINANCEIRO"
         ]
       },
       {
@@ -549,8 +780,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
+          "CONTRATO",
+          "FINANCEIRO"
         ]
       }
     ]
@@ -611,8 +842,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
+          "CONTRATO",
+          "FINANCEIRO"
         ]
       },
       {
@@ -730,6 +961,45 @@ window.DOSSIER_DATA = {
           "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
+      },
+      {
+        "id": 4398,
+        "date": "09/09/2026",
+        "time": "18:06:06",
+        "author": "Gustavo Castellano",
+        "content": "E nem to me importando mais com contrato, pq nunca foi sobre isso",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 4399,
+        "date": "09/09/2026",
+        "time": "18:06:11",
+        "author": "Gustavo Castellano",
+        "content": "Eu confio em você",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "FINANCEIRO"
+        ]
+      },
+      {
+        "id": 4400,
+        "date": "09/09/2026",
+        "time": "18:06:14",
+        "author": "Gustavo Castellano",
+        "content": "Que irá pagar",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "CONTRATO",
+          "FINANCEIRO"
+        ]
       }
     ]
   },
@@ -755,24 +1025,24 @@ window.DOSSIER_DATA = {
         ]
       },
       {
-        "id": 4561,
-        "date": "11/09/2026",
-        "time": "16:20:33",
-        "author": "Gustavo Castellano",
-        "content": "e emprestei 40k + 72k",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
-        ]
-      },
-      {
         "id": 4582,
         "date": "11/09/2026",
         "time": "16:25:36",
         "author": "Gustavo Castellano",
         "content": "Meu advogado pegou os prints e ia te processar na época pq não sabia da história… se quiser te mostro… mandou minhas mensagens pra mim mesmo do meu celular",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ]
+      },
+      {
+        "id": 4586,
+        "date": "11/09/2026",
+        "time": "16:26:14",
+        "author": "Gustavo Castellano",
+        "content": "Se tiver muito complicado, só falar com seu advogado",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
@@ -794,6 +1064,19 @@ window.DOSSIER_DATA = {
         ]
       },
       {
+        "id": 4617,
+        "date": "11/09/2026",
+        "time": "16:42:01",
+        "author": "Camila Caruso",
+        "content": "Mas qdo é o vencimento da parcela ?",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ]
+      },
+      {
         "id": 4618,
         "date": "11/09/2026",
         "time": "16:43:10",
@@ -804,6 +1087,32 @@ window.DOSSIER_DATA = {
         "tags": [
           "FINANCEIRO",
           "FINANCEIRO_APORTE"
+        ]
+      },
+      {
+        "id": 4619,
+        "date": "11/09/2026",
+        "time": "16:43:15",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00004619-AUDIO-2026-09-11-16-43-15.opus",
+        "audio_transcription": "Então, Camila, quando a alvencimento da parcela seria o meu empréstimo, né?  Então, o dia que eu vou pagar é isso, é no ano que vem, mas você vai me pagar, ou a gente vai entrar na justiça.  Um tempo problema, aí a gente faz assim, é sobrevencimento da parcela, não tem problema.  Sem problema algum, nenhum, tem problema nenhum.  Mas aí, não sei, né? Você vai querer pagar devogado?  Completado, né? Simplesmente, por estar me perguntando isso, você vai?  Ou não? Ou prefere vender suas coisas?  Entendeu? Que já deveria ser feito.  Porque eu fiz empréstimo pela minha empresa, é legal, né?  É legal, entende? Tá bom.",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ]
+      },
+      {
+        "id": 4621,
+        "date": "11/09/2026",
+        "time": "16:44:32",
+        "author": "Gustavo Castellano",
+        "content": "",
+        "attachment": "00004621-AUDIO-2026-09-11-16-44-32.opus",
+        "audio_transcription": "Mas aí Camila, vamos resolver logo? Até porque assim, eu não tenho saúde para continuar essa conversa.  Você vai pagar antes da primeira passela, você sabe quando é a primeira passela?  Ou não? É no ano que vem, porque eu já adiantei as coisas.  Mas aí você decide, pagando que vem ou entro com o processo, que aí eu já falo com o Pedro agora, não tem problema.  Que aí a gente vai para a Justiça. Aí eu pago advogado, aqui você paga daí, está tudo certo.  Porque eu já cansei de pedir boa vontade, não dá. Tem que ser na força mesmo.",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
         ]
       },
       {
@@ -830,16 +1139,42 @@ window.DOSSIER_DATA = {
     "badgeClass": "red",
     "events": [
       {
-        "id": 4680,
+        "id": 4671,
         "date": "14/09/2026",
-        "time": "13:55:26",
+        "time": "13:53:01",
         "author": "Gustavo Castellano",
-        "content": "A preço de banana só pra não ter meu nome levado ao Serasa",
+        "content": "Olá Camila, boa tarde. Como faremos para a devolução do dinheiro do empréstimo no valor total ?",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "FINANCEIRO",
-          "FINANCEIRO_APORTE"
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ]
+      },
+      {
+        "id": 4673,
+        "date": "14/09/2026",
+        "time": "13:53:32",
+        "author": "Gustavo Castellano",
+        "content": "Iremos entrar com advogado pra isso ou conseguiremos fazer entre nós aqui ?",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
+        ]
+      },
+      {
+        "id": 4683,
+        "date": "14/09/2026",
+        "time": "15:06:37",
+        "author": "Gustavo Castellano",
+        "content": "Falando com meu advogado aqui, essa causa ele irá me cobrar 20% do valor ganho + 5 mil de entrada",
+        "attachment": "",
+        "audio_transcription": "",
+        "tags": [
+          "AMEACA_DISPUTA",
+          "JURIDICO_DISPUTA"
         ]
       },
       {
@@ -1005,37 +1340,11 @@ window.DOSSIER_DATA = {
         "custom_note": "Gustavo desarticula a chantagem: 'Eu sou empresário, não tem RH', demonstrando a ineficácia das ameaças de retaliação funcional."
       },
       {
-        "id": 4887,
+        "id": 4894,
         "date": "14/09/2026",
-        "time": "17:16:29",
-        "author": "Camila Caruso",
-        "content": "Que eu fiz o pix",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
-      },
-      {
-        "id": 4896,
-        "date": "14/09/2026",
-        "time": "17:17:52",
+        "time": "17:17:33",
         "author": "Gustavo Castellano",
-        "content": "Que pix ?",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
-      },
-      {
-        "id": 4897,
-        "date": "14/09/2026",
-        "time": "17:17:56",
-        "author": "Gustavo Castellano",
-        "content": "Não recebi nenhum seu",
+        "content": "Continua com as ameaças",
         "attachment": "",
         "audio_transcription": "",
         "tags": [
@@ -1070,32 +1379,6 @@ window.DOSSIER_DATA = {
         "tags": [
           "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
-        ]
-      },
-      {
-        "id": 4920,
-        "date": "15/09/2026",
-        "time": "17:06:54",
-        "author": "Gustavo Castellano",
-        "content": "Olá Camila, já conseguiu verificar com seu advogado ?",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
-        ]
-      },
-      {
-        "id": 4934,
-        "date": "15/09/2026",
-        "time": "17:23:27",
-        "author": "Gustavo Castellano",
-        "content": "Mas se preferir com advogado, tudo bem, mas iremos perder igual",
-        "attachment": "",
-        "audio_transcription": "",
-        "tags": [
-          "AMEACA_DISPUTA",
-          "JURIDICO_DISPUTA"
         ]
       }
     ]

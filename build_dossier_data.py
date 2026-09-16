@@ -110,27 +110,27 @@ blocks = [
     },
     {
         "id": "bloco-2",
-        "title": "Bloco 2: Diagnóstico da C. Caruso, Soo Tech e o 1º Pix de R$ 40.000,00",
+        "title": "Bloco 2: Diagnóstico Financeiro, Soo Tech e o 1º Pix de R$ 40.000,00",
         "dates": "03/08/2026 a 04/08/2026",
-        "summary": "Gustavo analisa o faturamento oficial da empresa de Camila via Contabilizei (R$ 454k em 2025). Em áudio formal (Áudio 1509), Gustavo apresenta a proposta inicial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio), ressaltando que os sócios não participariam de empréstimos e que o socorro financeiro seria assumido pessoalmente por Gustavo. Camila alega extrema asfixia ('Pq to dura né... Gu não passa de 40'). Em 04/08, Gustavo contrata empréstimo de giro no Nubank e transfere o 1º Pix de R$ 40.000,00 às 10:28 (Foto 1604). Camila agradece aliviada e promete vender seu carro para quitar o valor.",
+        "summary": "Gustavo analisa o faturamento oficial de sua própria empresa via Contabilizei (R$ 454k em 2025 e R$ 289k até julho/2026), comprovando que sua empresa possuía capacidade de crédito de sobra para contratar o Pronampe no Itaú. Em áudio formal (Áudio 1509), Gustavo apresenta a proposta inicial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio), ressaltando que os sócios não participariam de empréstimos e que o socorro financeiro seria assumido pessoalmente por Gustavo. Camila concorda expressamente: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513). Diante do desespero de Camila ('Pq to dura né... Gu não passa de 40'), Gustavo contrata empréstimo de giro no Nubank e transfere o 1º Pix de R$ 40.000,00 às 10:28 (Foto 1604). Camila agradece aliviada e promete vender seu carro para quitar o valor.",
         "badge": "1º Pix: R$ 40.000,00 (04/08)",
         "badgeClass": "green",
         "events": []
     },
     {
         "id": "bloco-3",
-        "title": "Bloco 3: Internação Hospitalar de Gustavo e Estruturação do Pronampe",
+        "title": "Bloco 3: Confissões Expressas de Dívida da Ré e Venda do Carro",
         "dates": "05/08/2026 a 15/08/2026",
-        "summary": "Gustavo é internado no Hospital Serpiero em Santos. Camila envia flores em agradecimento e reitera a promessa solene de devolução com juros assim que vender o carro dela ('qdo sair o carro, te devolvo exatamente como esse print com juros'). Gustavo estrutura a simulação oficial de amortização do Pronampe.",
-        "badge": "Internação & Projeção Pronampe",
+        "summary": "Após receber o socorro inicial de R$ 40 mil, Camila Caruso reitera expressamente por escrito o compromisso solene de restituição dos valores com juros: 'Hoje vou colocar meu carro à venda e te devolvo. Te agradeço por me salvar' (msg 2217) e 'graças a Deus minha palavra vale muito e eu vou te devolver seu dinheiro... qdo sair o carro, te devolvo exatamente como esse print com juros' (msgs 2291, 2299), comprometendo-se ainda a enviar o contrato através de seu advogado ('o Silvio vai te procurar para enviar o contrato', msg 2356). Gustavo estrutura a planilha oficial de premissas e amortização do Pronampe Itaú (Tabela_Pronampe_Custo_Total.pdf, msgs 2890-2891).",
+        "badge": "Confissão de Dívida & Venda do Carro",
         "badgeClass": "amber",
         "events": []
     },
     {
         "id": "bloco-4",
-        "title": "Bloco 4: Aprovação do Giro Pronampe no Itaú",
+        "title": "Bloco 4: Demanda por Mais Capital para Equipe e Estruturação do Pronampe no Itaú",
         "dates": "16/08/2026 a 18/08/2026",
-        "summary": "Gustavo obtém a aprovação da linha Giro Pronampe principal no Itaú (Contrato nº 4887183848, saldo restante no app de R$ 119.343,17 em 60 parcelas de R$ 2.324,17). Camila reitera a urgência de mais capital para manter a folha da equipe ('Preciso de $$ mais pra poder pagar equipe').",
+        "summary": "Camila alega nova asfixia de caixa e solicita expressamente novos aportes financeiros para cobrir a folha de pagamento de seus colaboradores: 'Preciso de $$ mais pra poder pagar equipe' (msg 3025). Gustavo confirma a viabilização da linha de crédito Pronampe no Banco Itaú (Contrato nº 4887183848): 'Assim saberei amanhã já se os 40k + os 113k do Itaú já serão suficientes' (msg 2978), estruturando a viabilização do segundo repasse de R$ 72.000,00.",
         "badge": "Crédito Itaú Aprovado",
         "badgeClass": "blue",
         "events": []
@@ -193,26 +193,26 @@ blocks = [
 
 # Curated, strictly audited event list
 CURATED_EVENT_IDS = [
-    # Bloco 1
-    9, 17, 746, 1147, 1148,
-    # Bloco 2
-    1355, 1421, 1422, 1459, 1509, 1517, 1540, 1568, 1579, 1582, 1604, 1607, 1788, 1947,
-    # Bloco 3
-    2299, 2864, 2891,
-    # Bloco 4
-    2987, 3119,
-    # Bloco 5
-    3356, 3448, 3449, 3452, 3454,
-    # Bloco 6
+    # Bloco 1: Início da Parceria
+    9, 17, 20, 46, 51, 73, 93,
+    # Bloco 2: Capacidade Financeira do Autor, Proposta Soo Tech, Confissão de Contrato e Pix 40k
+    1459, 1509, 1511, 1512, 1513, 1514, 1516, 1517, 1540, 1604, 1788, 1947,
+    # Bloco 3: Confissões de Dívida e Venda do Carro
+    2217, 2229, 2291, 2299, 2356, 2744, 2890, 2891,
+    # Bloco 4: Demanda de Capital para Equipe e Estruturação Pronampe
+    2978, 3025, 3119, 3224,
+    # Bloco 5: Pix 72k, Alívio da Ré e Compromisso Irretratável de Assinatura
+    3356, 3448, 3449, 3451, 3452, 3453, 3454, 3455, 3459, 3460, 3462, 3464, 3466,
+    # Bloco 6: Minutas e Quitação Antecipada Nubank
     3652, 3653, 3654, 3811, 3837, 3841,
-    # Bloco 7
+    # Bloco 7: Reenvio de Termos de Dívida e Cobrança
     4156, 4157, 4158, 4228, 4276,
-    # Bloco 8
-    4367, 4368, 4393, 4394, 4395, 4396, 4397,
-    # Bloco 9
-    4554, 4561, 4582, 4591, 4618, 4650,
-    # Bloco 10
-    4680, 4687, 4729, 4743, 4747, 4757, 4786, 4822, 4870, 4874, 4880, 4884, 4887, 4896, 4897, 4899, 4910, 4920, 4934
+    # Bloco 8: Prestação de Contas Bancárias Oficiais (Pronampe 1 e 2, Nubank)
+    4367, 4368, 4393, 4394, 4395, 4396, 4397, 4398, 4399, 4400,
+    # Bloco 9: Ultimato, Risco de Serasa e Desdém da Ré
+    4554, 4582, 4586, 4591, 4617, 4618, 4619, 4621, 4650,
+    # Bloco 10: Cobrança Legítima, Falsa Acusação de Ameaça e Chantagem
+    4671, 4673, 4683, 4687, 4729, 4743, 4747, 4757, 4786, 4822, 4870, 4874, 4880, 4884, 4894, 4899, 4910
 ]
 
 for ev_id in CURATED_EVENT_IDS:
@@ -231,7 +231,33 @@ for ev_id in CURATED_EVENT_IDS:
         tags = ["PROPOSTA_SOO_TECH", "CONTRATO_DIVIDA", "CONTRATO", "FINANCEIRO"]
         custom_badge = "Proposta Inicial Soo Tech (João, Victor e Gustavo)"
         custom_note = "Áudio oficial no qual Gustavo detalha a proposta inicial de parceria comercial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio). Gustavo destaca expressamente que os demais sócios não aceitariam operação de mútuo bancário, pactuando-se que o aporte de R$ 40k e os contratos seguintes seriam contraídos estritamente em caráter pessoal por Gustavo para socorrer Camila."
-    elif ev_id in [1604, 3448, 4395, 4396]:
+    elif ev_id in [1511, 1512, 1513, 1514]:
+        tags = ["CONTRATO", "PARCERIA_COMERCIAL"]
+        custom_badge = "Acordo Expresso da Ré: 'Vamos fazer contrato sim'"
+        custom_note = "Camila concorda expressamente com a celebração do contrato formal exclusivo com Gustavo: 'Beleza Gu, acho bem justo... Claro, só nós dois. Vamos fazer contrato sim' (msgs 1511-1513)."
+    elif ev_id in [1516, 1517]:
+        tags = ["FINANCEIRO", "PARCERIA_COMERCIAL"]
+        custom_badge = "Capacidade de Crédito da Empresa do Autor"
+        custom_note = "Gustavo analisa a capacidade financeira oficial de sua própria empresa via Contabilizei (faturamento de R$ 454k em 2025), atestando: 'Então vai sobrar renda pro pronampe' para viabilizar a liberação do crédito bancário no Itaú."
+    elif ev_id == 1604:
+        tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO", "FINANCEIRO_APORTE"]
+        custom_badge = "Comprovante Pix R$ 40.000,00 (Nu Pagamentos)"
+    elif ev_id == 3448:
+        tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO", "FINANCEIRO_APORTE"]
+        custom_badge = "Comprovante Pix R$ 72.000,00 (Itaú SISPAG)"
+    elif ev_id in [3449, 3451, 3453, 3455, 3459, 3460]:
+        tags = ["FINANCEIRO", "PARCERIA_COMERCIAL"]
+        custom_badge = "Confissão de Desespero e Alívio da Ré"
+        custom_note = "Camila confessa o desespero e agradece com emoção o recebimento dos R$ 72 mil: 'Muito obrigada! To até com vontade de chorar... nossa tava desesperada' (msgs 3451, 3453, 3455)."
+    elif ev_id in [3452, 3454, 3466]:
+        tags = ["FINANCEIRO", "PARCERIA_COMERCIAL"]
+        custom_badge = "Compromisso Honrado pelo Autor"
+        custom_note = "Gustavo confirma o repasse prometido ('Como prometido' e 'Por nada') e assegura o envio do contrato formal para assinatura até o dia seguinte."
+    elif ev_id in [3462, 3464]:
+        tags = ["CONTRATO", "CONTRATO_DIVIDA"]
+        custom_badge = "Compromisso Irretratável de Assinar Contrato"
+        custom_note = "Camila assume compromisso expresso e irretratável logo após o crédito dos R$ 72 mil: 'Veja o contrato, coloque tudo lá. E amanhã já assinamos por favor' (msgs 3462 e 3464)."
+    elif ev_id in [4395, 4396]:
         tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO", "FINANCEIRO_APORTE"]
     elif ev_id in [1788, 1947, 2299, 4554, 4687, 4822, 4910]:
         tags = ["CARRO_DIVIDA", "CARRO_DIVIDA_RE"]
@@ -277,12 +303,19 @@ for ev_id in CURATED_EVENT_IDS:
         custom_note = "Gustavo reitera sua intenção pacificadora: 'Eu quero resolver numa boa... Te dei dinheiro sem contrato algum. Errado mesmo fui eu... vamos tentar resolver pacificamente pra ngm perder mais ainda'."
     elif ev_id in [3356, 3652, 3653, 3654, 3811, 4156, 4157, 4158, 4276]:
         tags = ["CONTRATO", "CONTRATO_DIVIDA"]
-    elif ev_id in [746, 1147, 1148, 1355, 1540, 1568, 1579, 1582, 1607, 3119, 3449, 4367, 4368, 4393, 4394, 4397, 4561, 4618, 4680]:
+    elif ev_id in [746, 1147, 1148, 1355, 1540, 1568, 1579, 1582, 1607, 3119, 4367, 4368, 4393, 4394, 4397, 4561, 4618, 4680]:
         tags = ["FINANCEIRO", "FINANCEIRO_APORTE"]
     elif ev_id in [9, 17, 1421, 1422, 1459]:
         tags = ["PARCERIA_COMERCIAL", "CONTRATO"]
-    else:
+    elif ev_id in [4582, 4591, 4650, 4786, 4822, 4887, 4896, 4897, 4920, 4934]:
         tags = ["AMEACA_DISPUTA", "JURIDICO_DISPUTA"]
+    else:
+        if ev_id < 3000:
+            tags = ["PARCERIA_COMERCIAL", "FINANCEIRO"]
+        elif ev_id < 4500:
+            tags = ["CONTRATO", "FINANCEIRO"]
+        else:
+            tags = ["AMEACA_DISPUTA", "JURIDICO_DISPUTA"]
         
     ev_obj = {
         "id": msg["id"],
