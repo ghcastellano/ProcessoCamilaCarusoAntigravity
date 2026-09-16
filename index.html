@@ -17,6 +17,27 @@
 </head>
 <body>
 
+  <!-- Confidential Auth Gate (STJ REsp 1.903.366/PR) -->
+  <div id="auth-gate" class="auth-gate-overlay">
+    <div class="auth-gate-card">
+      <div class="auth-gate-icon">🔐</div>
+      <div class="auth-gate-badge">DOCUMENTO DE ACESSO RESTRITO & CONFIDENCIAL</div>
+      <h2>Dossiê Jurídico & Pericial</h2>
+      <p class="auth-gate-subtitle">Caso Gustavo Castellano x Camila Caruso (C. Caruso Arquitetura Ltda)</p>
+      <div class="auth-gate-notice">
+        <strong>Aviso Legal de Sigilo:</strong> Conteúdo probatório confidencial protegido para instrução de processo judicial e exercício regular de direito (Art. 188, I, do Código Civil e STJ REsp 1.903.366/PR). O acesso é restrito a advogados, peritos e partes interessadas.
+      </div>
+      <form id="auth-form" onsubmit="handleAuthSubmit(event)">
+        <div class="auth-input-group">
+          <input type="password" id="auth-password" placeholder="Digite a chave de acesso..." autocomplete="current-password" autofocus required>
+          <button type="submit" id="auth-submit-btn">Acessar Dossiê ➔</button>
+        </div>
+        <div id="auth-error" class="auth-error-msg"></div>
+      </form>
+      <div class="auth-footer-hint">Ambiente Seguro • Chave Pessoal Autenticada</div>
+    </div>
+  </div>
+
   <!-- Top Sticky Navigation -->
   <nav class="top-nav">
     <div class="container nav-wrapper">
@@ -35,9 +56,14 @@
         <li><a href="#audios" class="nav-btn">Áudios (186)</a></li>
         <li><a href="#pecas" class="nav-btn">Minutas Jurídicas</a></li>
       </ul>
-      <button class="btn-print" onclick="window.print()">
-        <span>🖨️</span> Imprimir / PDF
-      </button>
+      <div style="display:flex;gap:8px;align-items:center;">
+        <button class="btn-print" onclick="window.print()" title="Imprimir ou Salvar em PDF">
+          <span>🖨️</span> PDF
+        </button>
+        <button class="btn-print" onclick="lockDossier()" style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3);color:#fca5a5;" title="Bloquear tela com senha">
+          <span>🔒</span> Bloquear
+        </button>
+      </div>
     </div>
   </nav>
 

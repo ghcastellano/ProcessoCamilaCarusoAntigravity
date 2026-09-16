@@ -1,6 +1,55 @@
 // DOSSIÊ JURÍDICO: CASTELLANO x CARUSO — INTERACTIVE ENGINE
 
+// --- AUTHENTICATION GATE (STJ REsp 1.903.366/PR Protection) ---
+const AUTH_KEY = 'dossier_auth_status';
+const VALID_PASSWORD = 'senha123';
+
+function checkAuth() {
+  const isAuth = sessionStorage.getItem(AUTH_KEY) === 'authenticated';
+  const gate = document.getElementById('auth-gate');
+  if (isAuth && gate) {
+    gate.classList.add('hidden');
+  } else if (gate) {
+    gate.classList.remove('hidden');
+    const pwdInput = document.getElementById('auth-password');
+    if (pwdInput) setTimeout(() => pwdInput.focus(), 150);
+  }
+}
+
+window.handleAuthSubmit = function(e) {
+  if (e) e.preventDefault();
+  const pwdInput = document.getElementById('auth-password');
+  const errorEl = document.getElementById('auth-error');
+  if (!pwdInput) return;
+
+  if (pwdInput.value === VALID_PASSWORD) {
+    sessionStorage.setItem(AUTH_KEY, 'authenticated');
+    const gate = document.getElementById('auth-gate');
+    if (gate) {
+      gate.style.opacity = '0';
+      gate.style.transition = 'opacity 0.3s ease';
+      setTimeout(() => gate.classList.add('hidden'), 300);
+    }
+    if (errorEl) errorEl.textContent = '';
+  } else {
+    if (errorEl) {
+      errorEl.textContent = '❌ Senha incorreta. Acesso não autorizado.';
+      pwdInput.classList.add('shake');
+      setTimeout(() => pwdInput.classList.remove('shake'), 400);
+    }
+  }
+};
+
+window.lockDossier = function() {
+  sessionStorage.removeItem(AUTH_KEY);
+  const pwdInput = document.getElementById('auth-password');
+  if (pwdInput) pwdInput.value = '';
+  checkAuth();
+};
+
 document.addEventListener('DOMContentLoaded', () => {
+  checkAuth();
+
   const data = window.DOSSIER_DATA;
   if (!data) {
     console.error('DOSSIER_DATA not found.');
