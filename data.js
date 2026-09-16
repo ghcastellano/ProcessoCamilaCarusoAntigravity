@@ -50,7 +50,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "PARCERIA_COMERCIAL"
+          "PARCERIA_COMERCIAL",
+          "CONTRATO"
         ]
       },
       {
@@ -62,7 +63,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "PARCERIA_COMERCIAL"
+          "PARCERIA_COMERCIAL",
+          "CONTRATO"
         ]
       },
       {
@@ -74,6 +76,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -86,6 +89,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -98,6 +102,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       }
@@ -120,6 +125,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -132,7 +138,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "PARCERIA_COMERCIAL"
+          "PARCERIA_COMERCIAL",
+          "CONTRATO"
         ]
       },
       {
@@ -144,7 +151,8 @@ window.DOSSIER_DATA = {
         "attachment": "00001422-AUDIO-2026-08-03-17-28-48.opus",
         "audio_transcription": "Camila, deixa eu te perguntar, você conseguiria fazer rápido um contrato ou proposta da empresa  de arquitetura da sua, que provavelmente um dos documentos que ela vai pedir é esse e aí eu vou  pegar mais detalhes aqui do que precisa para ser aprovado logo e aí eu te falo, aí qualquer coisa  te ajuda a fazer, a montar, tá? Não tem problema, mas provavelmente eu vou precisar só que você  revise o esse contrato ou proposta, mas aí se você me manda algum modelo, só proté como referência,  porque daí eu uso como base e esse que você usa sabe, e aí a gente já atreça, eu vou ver se eu manda  uma mensagem aqui para ela, já vi aqui como abordar, e aí vou até tentar ligar para ela para  ver se apreça isso, eu vou falar que o projeto já está em execução, tá bom? Só para apreçar e ver o que  ela consegue fazer mais rápido, tá bom?",
         "tags": [
-          "PARCERIA_COMERCIAL"
+          "PARCERIA_COMERCIAL",
+          "CONTRATO"
         ]
       },
       {
@@ -156,7 +164,8 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
-          "PARCERIA_COMERCIAL"
+          "PARCERIA_COMERCIAL",
+          "CONTRATO"
         ]
       },
       {
@@ -169,7 +178,9 @@ window.DOSSIER_DATA = {
         "audio_transcription": "Oi, cara, deixa eu te falar.  Esse é o plano não final, tá?  A manhã a gente vai apresentar o final.  É porque ele quer refinar isso, mas eu acho que tá bem justo, tá?  E bem dentro daquilo que eu te falei, não vai ser 50, 50,  se a gente não atingir a meta.  Aí se não bateu os 240K,  aí é 30% pra gente, 70% pra você,  mas aí se bateu superar, aí é 50%.  Mas a gente vai trabalhar pra fazer pelo menos meio milhão de lucro,  porque pra gente é interessante,  que a gente vai começar de fato a ganhar quando resolver o teu problema.  A gente tá mais focada em resolver a situação pra gente criar uma parceria de longo prazo,  do que de fato sabe,  porque a gente tá pensando em longo prazo.  Então, assim,  e faz contraproposta, tá?  Eu vou te falar aqui no off,  não fala que eu falei pra você, mas a manhã na reunião bate em cima, falado,  os 140K, se eu for de vídeo meio a meio,  aí vai 60, 20 pra bem, não dá,  coloca mais uma fatia aí, coloca até 240K,  35, 40% se bateu,  400, tu coloca,  40, se bateu 500, aí tu coloca meio a meio.  Porque aí tu puxa pra você o jogo, entendeu?  E a gente vai topar.  A gente negocia lá,  aí depois ele já faz o contrato e a gente vai pra cima,  do empréstimo,  do daqueles 40,000 e 200,  aí a gente faz entre nós, eu acho que é melhor,  porque eles não aceitam participar de um contrato desse, tá bom?  A gente faz ele você, só,  mas aí faz o contrato, não tem problema,  você faz com seu jurídico,  ou eu vejo de contratar um jurídico aqui, mas eu acho que você deve ter, né?  Aí a gente faz um contratinho,  só porque você quieta pra mim nem de ser contrato.",
         "tags": [
           "PROPOSTA_SOO_TECH",
-          "CONTRATO_DIVIDA"
+          "CONTRATO_DIVIDA",
+          "CONTRATO",
+          "FINANCEIRO"
         ],
         "custom_badge": "Proposta Inicial Soo Tech (João, Victor e Gustavo)",
         "custom_note": "Áudio oficial no qual Gustavo detalha a proposta inicial de parceria comercial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio). Gustavo destaca expressamente que os demais sócios não aceitariam operação de mútuo bancário, pactuando-se que o aporte de R$ 40k e os contratos seguintes seriam contraídos estritamente em caráter pessoal por Gustavo para socorrer Camila."
@@ -183,6 +194,7 @@ window.DOSSIER_DATA = {
         "attachment": "00001517-PHOTO-2026-08-03-21-46-29.jpg",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -195,6 +207,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -207,6 +220,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -219,6 +233,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -231,6 +246,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -244,6 +260,7 @@ window.DOSSIER_DATA = {
         "audio_transcription": "",
         "tags": [
           "COMPROVANTE_OFICIAL",
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -256,6 +273,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -268,6 +286,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -280,6 +299,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       }
@@ -302,6 +322,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -314,7 +335,8 @@ window.DOSSIER_DATA = {
         "attachment": "00002864-Declaração de INTERNAÇÃO HOSPITALAR.pdf",
         "audio_transcription": "",
         "tags": [
-          "JURIDICO_DISPUTA"
+          "HOSPITAL_SAUDE",
+          "COMPROVANTE_OFICIAL"
         ]
       }
     ]
@@ -336,7 +358,9 @@ window.DOSSIER_DATA = {
         "attachment": "00002891-Tabela_Pronampe_Custo_Total.pdf",
         "audio_transcription": "",
         "tags": [
-          "JURIDICO_DISPUTA"
+          "HOSPITAL_SAUDE",
+          "FINANCEIRO",
+          "CONTRATO"
         ]
       },
       {
@@ -348,6 +372,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -360,6 +385,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       }
@@ -382,6 +408,7 @@ window.DOSSIER_DATA = {
         "attachment": "00003356-Contrato de Parceria.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -395,6 +422,7 @@ window.DOSSIER_DATA = {
         "audio_transcription": "",
         "tags": [
           "COMPROVANTE_OFICIAL",
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -407,6 +435,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -419,6 +448,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -431,6 +461,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       }
@@ -453,6 +484,7 @@ window.DOSSIER_DATA = {
         "attachment": "00003652-Anexo II - Termo de Reconhecimento de Divida.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -465,6 +497,7 @@ window.DOSSIER_DATA = {
         "attachment": "00003653-Contrato de Parceria Comercial - C Caruso x Castellano - REVISADO.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -477,6 +510,7 @@ window.DOSSIER_DATA = {
         "attachment": "00003654-NDA e Nao Circunvencao (NCNDA) - C Caruso x Castellano.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -489,6 +523,7 @@ window.DOSSIER_DATA = {
         "attachment": "00003811-Contrato de Parceria Comercial - C Caruso x Castellano - REVISADO.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -501,6 +536,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -513,6 +549,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       }
@@ -535,6 +572,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004156-Anexo II - Termo de Reconhecimento de Divida.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -547,6 +585,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004157-Contrato de Parceria Comercial - C Caruso x Castellano - REVISADO.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -559,6 +598,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004158-NDA e Nao Circunvencao (NCNDA) - C Caruso x Castellano.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       },
@@ -571,6 +611,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -583,6 +624,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004276-NDA e Nao Circunvencao (NCNDA) - C Caruso x Castellano.docx",
         "audio_transcription": "",
         "tags": [
+          "CONTRATO",
           "CONTRATO_DIVIDA"
         ]
       }
@@ -605,6 +647,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004367-PHOTO-2026-09-09-17-56-20.jpg",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -617,6 +660,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004368-PHOTO-2026-09-09-17-56-44.jpg",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -629,6 +673,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004393-PHOTO-2026-09-09-18-03-38.jpg",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -641,6 +686,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -654,6 +700,7 @@ window.DOSSIER_DATA = {
         "audio_transcription": "",
         "tags": [
           "COMPROVANTE_OFICIAL",
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -667,6 +714,7 @@ window.DOSSIER_DATA = {
         "audio_transcription": "",
         "tags": [
           "COMPROVANTE_OFICIAL",
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -679,6 +727,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       }
@@ -701,6 +750,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -713,6 +763,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -725,6 +776,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -737,6 +789,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004591-PHOTO-2026-09-11-16-33-18.jpg",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -749,6 +802,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -761,6 +815,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       }
@@ -783,6 +838,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "FINANCEIRO",
           "FINANCEIRO_APORTE"
         ]
       },
@@ -795,6 +851,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -807,6 +864,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004729-AUDIO-2026-09-14-16-53-49.opus",
         "audio_transcription": "Você é hoje cedo, você já me ameaçou, né? Você me ameaçou.  Não sei se seu advogado está a ciente das mensagens que você está me mandando.",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -819,6 +877,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004743-AUDIO-2026-09-14-16-55-51.opus",
         "audio_transcription": "Eu não tenho problema com advogado o Gustavo.  Quem está mandando milhões de mensagens, é você que mandou print do advogado tipo para  me assar, entendeu?  Fica mandando print de várias coisas que não tem necessidade nenhuma, não vai resolver  nada, entendeu?  Eu estou perdendo tempo que você poderia estar fazendo outra coisa, ao invés de ficar  me ameaçando desde manhã às oito horas da manhã você me ameaçando.",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -831,6 +890,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004757-AUDIO-2026-09-14-16-57-28.opus",
         "audio_transcription": "Você me ameaçou, Gustavo. Você me ameaçou. Você falou que em vadias, minhas coisas e em vadias  meu e meio. Se acha legal você falar isso? Você tinha combinado outra coisa para mim. Você  falou, eu vou te dar um tempo e a gente vai tentar que está isso antes de vencer a primeira  parcela. Esse foi o combinado. Esse foi o combinado. Eu falei, eu vou fazer tudo. Eu falei isso  para você. Eu vou fazer de tudo para não chegar na primeira parcela. Ou estou errada.",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -843,6 +903,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004786-AUDIO-2026-09-14-17-00-29.opus",
         "audio_transcription": "tava tudo bem, tava tudo certo não vamos fazer o plano de venda eu conheço uma pessoa que vai acessar os  negócios e vamos fazer tal tal tal e não sei o que e você num piscar de olhos você muda tudo você fala  essa minha mea se o que que você minha mea só aí já várias ameaças você tá fazendo pra mim várias",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -855,6 +916,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -867,6 +929,7 @@ window.DOSSIER_DATA = {
         "attachment": "00004874-AUDIO-2026-09-14-17-14-50.opus",
         "audio_transcription": "Você que sabe, Gustavo, você quer que eu entre com uma medida protetiva contra você?  Você quer que eu te prejudique?  Você quer realmente que eu faça tudo isso?  Eu não estou afendi de mexer com advogado não, porque eu quero resolver a situação,  entendeu?  Eu não quero partir para esse nível, entendeu?",
         "tags": [
+          "AMEACA_DISPUTA",
           "FALSA_MEDIDA_PROTETIVA",
           "CRIME"
         ]
@@ -880,6 +943,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -892,6 +956,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -904,6 +969,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -916,6 +982,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "CARRO_DIVIDA",
           "CARRO_DIVIDA_RE"
         ]
       },
@@ -928,6 +995,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       },
@@ -940,6 +1008,7 @@ window.DOSSIER_DATA = {
         "attachment": "",
         "audio_transcription": "",
         "tags": [
+          "AMEACA_DISPUTA",
           "JURIDICO_DISPUTA"
         ]
       }

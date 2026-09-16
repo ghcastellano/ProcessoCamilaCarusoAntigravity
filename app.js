@@ -21,8 +21,23 @@ document.addEventListener('DOMContentLoaded', () => {
       // Filter events in block
       const filteredEvents = block.events.filter(ev => {
         // Tag filter
-        if (currentFilter !== 'TODOS' && !ev.tags.includes(currentFilter)) {
-          return false;
+        if (currentFilter !== 'TODOS') {
+          const tList = ev.tags || [];
+          let matches = false;
+          if (currentFilter === 'FINANCEIRO') {
+            matches = tList.some(t => t.includes('FINANCEIRO') || t === 'COMPROVANTE_OFICIAL' || t === 'PROPOSTA_SOO_TECH');
+          } else if (currentFilter === 'CONTRATO') {
+            matches = tList.some(t => t.includes('CONTRATO') || t === 'PROPOSTA_SOO_TECH' || t === 'PARCERIA_COMERCIAL');
+          } else if (currentFilter === 'AMEACA_DISPUTA') {
+            matches = tList.some(t => t.includes('AMEACA') || t.includes('DISPUTA') || t.includes('PROTETIVA') || t === 'CRIME');
+          } else if (currentFilter === 'CARRO_DIVIDA') {
+            matches = tList.some(t => t.includes('CARRO'));
+          } else if (currentFilter === 'HOSPITAL_SAUDE') {
+            matches = tList.some(t => t.includes('HOSPITAL') || t.includes('SAUDE')) || (ev.attachment && ev.attachment.toLowerCase().includes('internac'));
+          } else {
+            matches = tList.includes(currentFilter);
+          }
+          if (!matches) return false;
         }
         // Search query
         if (searchQuery.trim() !== '') {
@@ -78,7 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
           } else {
             attHtml = `
               <div class="event-attachment">
-                <span>📄 Documento anexado: <strong>${ev.attachment}</strong></span>
+                <span>📄 Documento anexado: <strong>${escapeHtml(ev.attachment)}</strong></span>
+                <button class="filter-btn" onclick="openLightboxImage('${escapeHtml(ev.attachment)}')">📄 Visualizar Documento</button>
               </div>
             `;
           }
@@ -89,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (ev.custom_badge) {
           tagsHtml += `<span class="badge blue" style="background:rgba(59,130,246,0.2);border:1px solid #3b82f6;color:#93c5fd;font-weight:700;">💼 ${escapeHtml(ev.custom_badge)}</span> `;
         }
+        const seenLabels = new Set();
         tagsHtml += ev.tags
           .filter(t => !ev.custom_badge || t !== 'PROPOSTA_SOO_TECH')
           .map(t => {
@@ -97,12 +114,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (t === 'PROPOSTA_SOO_TECH') { label = '💼 Proposta Soo Tech (João, Victor e Gustavo)'; badgeColor = 'blue'; }
             else if (t === 'COMPROVANTE_OFICIAL') { label = '📑 Comprovante Oficial'; badgeColor = 'green'; }
             else if (t === 'FINANCEIRO' || t === 'FINANCEIRO_APORTE') { label = '💳 Aporte Financeiro'; badgeColor = 'green'; }
-            else if (t === 'CARRO_DIVIDA_RE') { label = '🚗 Dívida do Carro (Ré)'; badgeColor = 'amber'; }
+            else if (t === 'CARRO_DIVIDA' || t === 'CARRO_DIVIDA_RE') { label = '🚗 Dívida do Carro (Ré)'; badgeColor = 'amber'; }
             else if (t === 'CONTRATO' || t === 'CONTRATO_DIVIDA') { label = '📝 Contrato / Confissão de Dívida'; badgeColor = 'blue'; }
+            else if (t === 'HOSPITAL_SAUDE') { label = '🏥 Internação / Saúde'; badgeColor = 'amber'; }
             else if (t === 'FALSA_MEDIDA_PROTETIVA') { label = '🚨 AMEAÇA: FALSA MEDIDA PROTETIVA'; badgeColor = 'red'; }
             else if (t === 'CRIME') { label = '⚖️ Notícia-Crime / Art. 171'; badgeColor = 'red'; }
             else if (t === 'PARCERIA_COMERCIAL') { label = '🤝 Parceria Comercial'; badgeColor = 'blue'; }
-            else if (t === 'JURIDICO_DISPUTA') { label = '⚖️ Cobrança / Notificação'; badgeColor = 'amber'; }
+            else if (t === 'AMEACA_DISPUTA' || t === 'JURIDICO_DISPUTA') { label = '⚖️ Cobrança / Notificação'; badgeColor = 'amber'; }
+            
+            if (seenLabels.has(label)) return '';
+            seenLabels.add(label);
             return `<span class="badge ${badgeColor}">${label}</span>`;
           }).join(' ');
 
@@ -330,78 +351,191 @@ function toggleModalZoom() {
   }
 }
 
-function openEvidenceModal(ev) {
+// Master Document & Lightbox Modal Engine
+function openDocumentModal({ title, filename, date, origin, destiny, authId, description, ocrText }) {
   const modal = document.getElementById('lightbox-modal');
-  const title = document.getElementById('modal-title');
+  const titleEl = document.getElementById('modal-title');
   const preview = document.getElementById('modal-preview');
-  const ocrText = document.getElementById('modal-ocr');
+  const ocrEl = document.getElementById('modal-ocr');
   const authDetails = document.getElementById('modal-auth-details');
   const openTab = document.getElementById('modal-open-tab');
   const zoomBtn = document.getElementById('modal-zoom-btn');
 
-  title.innerText = ev.title;
+  if (!modal || !preview) return;
+
+  const fname = filename || '';
+  const cleanTitle = title || `Evidência Documental: ${fname}`;
+  titleEl.innerText = cleanTitle;
   preview.classList.remove('zoomed');
-  if (zoomBtn) zoomBtn.innerText = '🔍 Zoom / Expandir';
+  preview.classList.remove('document-mode');
+
+  const lower = fname.toLowerCase();
+  const isImg = lower.match(/\.(jpg|jpeg|png|webp)$/);
+  const isPdf = lower.endsWith('.pdf');
+  const isDocx = lower.endsWith('.docx');
+  const isMedia = lower.match(/\.(opus|mp3|ogg|wav|mp4|mov)$/);
 
   if (openTab) {
-    openTab.href = ev.filename;
+    openTab.href = encodeURI(fname);
     openTab.style.display = 'inline-flex';
   }
 
-  const isImg = ev.filename.toLowerCase().match(/\.(jpg|jpeg|png|webp)$/);
   if (isImg) {
-    preview.innerHTML = `<img src="${ev.filename}" alt="${escapeHtml(ev.title)}" onclick="toggleModalZoom()" title="Clique para ampliar/reduzir">`;
-    if (zoomBtn) zoomBtn.style.display = 'inline-block';
-  } else {
+    preview.innerHTML = `<img src="${encodeURI(fname)}" alt="${escapeHtml(cleanTitle)}" onclick="toggleModalZoom()" title="Clique para ampliar/reduzir">`;
+    if (zoomBtn) {
+      zoomBtn.innerText = '🔍 Zoom / Expandir';
+      zoomBtn.style.display = 'inline-block';
+    }
+    if (openTab) {
+      openTab.innerText = '↗ Abrir Imagem';
+      openTab.removeAttribute('download');
+    }
+  } else if (isPdf) {
+    preview.classList.add('document-mode');
     preview.innerHTML = `
-      <div style="padding:40px;color:var(--text-muted);text-align:center;">
-        <span style="font-size:48px;">📄</span>
-        <p style="margin-top:10px;font-weight:600;color:#fff;">${escapeHtml(ev.filename)}</p>
-        <p style="font-size:12px;margin-top:6px;">Documento técnico anexado aos autos</p>
-      </div>
+      <iframe src="${encodeURI(fname)}#toolbar=1&navpanes=1" 
+              style="width:100%;height:100%;min-height:550px;border:none;border-radius:6px;background:#ffffff;" 
+              title="${escapeHtml(cleanTitle)}">
+      </iframe>
     `;
     if (zoomBtn) zoomBtn.style.display = 'none';
+    if (openTab) {
+      openTab.innerText = '📄 Abrir PDF em Nova Aba';
+      openTab.removeAttribute('download');
+    }
+  } else if (isDocx) {
+    preview.classList.add('document-mode');
+    if (zoomBtn) zoomBtn.style.display = 'none';
+    if (openTab) {
+      openTab.innerText = '📥 Baixar / Abrir DOCX';
+      openTab.setAttribute('download', fname);
+    }
+
+    const preRendered = (window.DOCX_PREVIEWS && window.DOCX_PREVIEWS[fname]) ? window.DOCX_PREVIEWS[fname] : null;
+    if (preRendered) {
+      preview.innerHTML = `
+        <div class="docx-render-container">
+          <div class="docx-doc-badge">📄 Visualização Direta no Navegador • Documento Word Oficial</div>
+          ${preRendered}
+        </div>
+      `;
+    } else {
+      preview.innerHTML = `
+        <div class="docx-render-container" id="docx-dynamic-view">
+          <div style="text-align:center;padding:40px;color:#64748b;">
+            <span style="font-size:32px;">⏳</span>
+            <p style="margin-top:10px;font-weight:600;">Carregando documento Word no navegador...</p>
+          </div>
+        </div>
+      `;
+      if (window.mammoth) {
+        fetch(encodeURI(fname))
+          .then(res => {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            return res.arrayBuffer();
+          })
+          .then(ab => window.mammoth.convertToHtml({ arrayBuffer: ab }))
+          .then(result => {
+            const dyn = document.getElementById('docx-dynamic-view');
+            if (dyn) {
+              dyn.innerHTML = `
+                <div class="docx-doc-badge">📄 Visualização Direta no Navegador • Documento Word Oficial</div>
+                ${result.value}
+              `;
+            }
+          })
+          .catch(err => {
+            const dyn = document.getElementById('docx-dynamic-view');
+            if (dyn) {
+              dyn.innerHTML = `
+                <div style="text-align:center;padding:40px;">
+                  <span style="font-size:48px;">📄</span>
+                  <p style="margin-top:12px;font-weight:700;color:#0f172a;font-size:16px;">${escapeHtml(fname)}</p>
+                  <p style="color:#64748b;font-size:13px;margin:8px 0 16px;">Documento técnico anexado aos autos judiciais.</p>
+                  <a href="${encodeURI(fname)}" download class="filter-btn" style="display:inline-block;padding:8px 16px;background:#2563eb;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;">📥 Baixar Arquivo DOCX</a>
+                </div>
+              `;
+            }
+          });
+      }
+    }
+  } else if (isMedia) {
+    if (zoomBtn) zoomBtn.style.display = 'none';
+    if (openTab) {
+      openTab.innerText = '↗ Abrir Mídia';
+      openTab.removeAttribute('download');
+    }
+    if (lower.match(/\.(mp4|mov)$/)) {
+      preview.innerHTML = `<video controls autoplay src="${encodeURI(fname)}" style="max-width:100%;max-height:80vh;border-radius:6px;"></video>`;
+    } else {
+      preview.innerHTML = `
+        <div style="padding:40px;text-align:center;width:100%;">
+          <span style="font-size:48px;">🎙️</span>
+          <p style="margin-top:12px;font-weight:700;color:#fff;">${escapeHtml(fname)}</p>
+          <audio controls autoplay src="${encodeURI(fname)}" style="margin-top:20px;width:100%;max-width:500px;"></audio>
+        </div>
+      `;
+    }
+  } else {
+    if (zoomBtn) zoomBtn.style.display = 'none';
+    if (openTab) {
+      openTab.innerText = '📥 Baixar Arquivo';
+      openTab.setAttribute('download', fname);
+    }
+    preview.innerHTML = `
+      <div style="padding:40px;color:var(--text-muted);text-align:center;">
+        <span style="font-size:48px;">📎</span>
+        <p style="margin-top:10px;font-weight:600;color:#fff;">${escapeHtml(fname)}</p>
+        <p style="font-size:12px;margin-top:6px;">Arquivo anexado aos autos</p>
+        <a href="${encodeURI(fname)}" download class="filter-btn" style="display:inline-block;margin-top:14px;">📥 Baixar Arquivo</a>
+      </div>
+    `;
   }
 
-  authDetails.innerHTML = `
-    <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">
-      <div><strong>Data/Hora:</strong> ${ev.date}</div>
-      <div><strong>Origem:</strong> ${escapeHtml(ev.origin || 'N/A')}</div>
-      <div><strong>Destino:</strong> ${escapeHtml(ev.destiny || 'N/A')}</div>
-      <div><strong>ID de Autenticação / Protocolo:</strong> <code style="background:#020617;padding:2px 6px;border-radius:4px;color:#60a5fa;">${escapeHtml(ev.authId || 'N/A')}</code></div>
-      <div style="margin-top:8px;">${escapeHtml(ev.description)}</div>
-    </div>
-  `;
+  // Set Auth Details
+  if (authDetails) {
+    authDetails.innerHTML = `
+      <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">
+        <div><strong>Data/Hora:</strong> ${date || 'Registrado nos autos'}</div>
+        <div><strong>Origem:</strong> ${escapeHtml(origin || 'WhatsApp / Prova Documental')}</div>
+        <div><strong>Destino:</strong> ${escapeHtml(destiny || 'Instrução Processual')}</div>
+        <div><strong>Identificação do Documento:</strong> <code class="bank-card-code">${escapeHtml(authId || fname)}</code></div>
+        <div style="margin-top:8px;color:#e2e8f0;">${escapeHtml(description || 'Documento probatório juntado aos autos.')}</div>
+      </div>
+    `;
+  }
 
-  ocrText.innerText = ev.ocrText || 'Nenhum texto extraído.';
+  if (ocrEl) {
+    ocrEl.innerText = ocrText || (isDocx ? 'Texto estruturado e formatado renderizado diretamente no visualizador.' : 'Arquivo documental anexado ao acervo probatório.');
+  }
+
   modal.classList.add('active');
 }
 
+function openEvidenceModal(ev) {
+  openDocumentModal({
+    title: ev.title,
+    filename: ev.filename,
+    date: ev.date,
+    origin: ev.origin,
+    destiny: ev.destiny,
+    authId: ev.authId,
+    description: ev.description,
+    ocrText: ev.ocrText
+  });
+}
+
 function openLightboxImage(filename) {
-  const modal = document.getElementById('lightbox-modal');
-  const title = document.getElementById('modal-title');
-  const preview = document.getElementById('modal-preview');
-  const ocrText = document.getElementById('modal-ocr');
-  const authDetails = document.getElementById('modal-auth-details');
-  const openTab = document.getElementById('modal-open-tab');
-  const zoomBtn = document.getElementById('modal-zoom-btn');
-
-  title.innerText = `Evidência Anexa: ${filename}`;
-  preview.classList.remove('zoomed');
-  if (zoomBtn) {
-    zoomBtn.innerText = '🔍 Zoom / Expandir';
-    zoomBtn.style.display = 'inline-block';
-  }
-
-  if (openTab) {
-    openTab.href = filename;
-    openTab.style.display = 'inline-flex';
-  }
-
-  preview.innerHTML = `<img src="${filename}" alt="${filename}" onclick="toggleModalZoom()" title="Clique para ampliar/reduzir">`;
-  authDetails.innerHTML = `<div style="font-size:13px;color:var(--text-muted);">Arquivo fotográfico anexado no fluxo da conversa do WhatsApp e comprovantes bancários oficiais.</div>`;
-  ocrText.innerText = 'Captura de tela / Registro anexado aos autos.';
-  modal.classList.add('active');
+  openDocumentModal({
+    title: `Evidência Documental: ${filename}`,
+    filename: filename,
+    date: 'Anexo Oficial',
+    origin: 'WhatsApp / Contratos e Bancos',
+    destiny: 'Processo Judicial',
+    authId: filename,
+    description: 'Documento / Comprovante anexado aos autos.',
+    ocrText: ''
+  });
 }
 
 function closeLightbox() {

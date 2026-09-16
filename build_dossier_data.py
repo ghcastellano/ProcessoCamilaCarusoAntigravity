@@ -228,23 +228,27 @@ for ev_id in CURATED_EVENT_IDS:
     custom_note = None
     
     if ev_id == 1509:
-        tags = ["PROPOSTA_SOO_TECH", "CONTRATO_DIVIDA"]
+        tags = ["PROPOSTA_SOO_TECH", "CONTRATO_DIVIDA", "CONTRATO", "FINANCEIRO"]
         custom_badge = "Proposta Inicial Soo Tech (João, Victor e Gustavo)"
         custom_note = "Áudio oficial no qual Gustavo detalha a proposta inicial de parceria comercial envolvendo a Soo Tech (com os então sócios João e Victor — Gustavo hoje não mais sócio). Gustavo destaca expressamente que os demais sócios não aceitariam operação de mútuo bancário, pactuando-se que o aporte de R$ 40k e os contratos seguintes seriam contraídos estritamente em caráter pessoal por Gustavo para socorrer Camila."
     elif ev_id in [1604, 3448, 4395, 4396]:
-        tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO_APORTE"]
+        tags = ["COMPROVANTE_OFICIAL", "FINANCEIRO", "FINANCEIRO_APORTE"]
     elif ev_id in [1788, 1947, 2299, 4554, 4687, 4822, 4910]:
-        tags = ["CARRO_DIVIDA_RE"]
+        tags = ["CARRO_DIVIDA", "CARRO_DIVIDA_RE"]
+    elif ev_id in [2864]:
+        tags = ["HOSPITAL_SAUDE", "COMPROVANTE_OFICIAL"]
+    elif ev_id in [2891]:
+        tags = ["HOSPITAL_SAUDE", "FINANCEIRO", "CONTRATO"]
     elif ev_id in [4874]:
-        tags = ["FALSA_MEDIDA_PROTETIVA", "CRIME"]
+        tags = ["AMEACA_DISPUTA", "FALSA_MEDIDA_PROTETIVA", "CRIME"]
     elif ev_id in [3356, 3652, 3653, 3654, 3811, 4156, 4157, 4158, 4276]:
-        tags = ["CONTRATO_DIVIDA"]
+        tags = ["CONTRATO", "CONTRATO_DIVIDA"]
     elif ev_id in [746, 1147, 1148, 1355, 1540, 1568, 1579, 1582, 1607, 3119, 3449, 4367, 4368, 4393, 4394, 4397, 4561, 4618, 4680]:
-        tags = ["FINANCEIRO_APORTE"]
+        tags = ["FINANCEIRO", "FINANCEIRO_APORTE"]
     elif ev_id in [9, 17, 1421, 1422, 1459]:
-        tags = ["PARCERIA_COMERCIAL"]
+        tags = ["PARCERIA_COMERCIAL", "CONTRATO"]
     else:
-        tags = ["JURIDICO_DISPUTA"]
+        tags = ["AMEACA_DISPUTA", "JURIDICO_DISPUTA"]
         
     ev_obj = {
         "id": msg["id"],
