@@ -112,6 +112,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .brand {
@@ -140,14 +141,10 @@ a:hover {
 .nav-links {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
   list-style: none;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  flex-wrap: nowrap;
-  justify-content: center;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  flex-wrap: wrap;
   min-width: 0;
   flex: 1;
 }
@@ -1530,6 +1527,9 @@ img.evidence-thumb {
   border-collapse: collapse;
   margin: 16px 0;
   font-size: 12.5px;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .docx-render-container th,
@@ -1537,6 +1537,9 @@ img.evidence-thumb {
   border: 1px solid #cbd5e1;
   padding: 8px 12px;
   text-align: left;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .docx-render-container th {

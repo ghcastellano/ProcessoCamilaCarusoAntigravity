@@ -202,7 +202,7 @@ function renderFullDossier(data) {
           Caso Gustavo Henrique Castellano x Camila Caruso da Costa Neves (C. Caruso Arquitetura e Interiores Ltda)
         </h2>
         <p class="hero-lead">
-          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix diretos à Ré de <strong>R$ 112.000,00</strong> (R$ 40k em 04/08 e R$ 72k em 19/08), o abatimento formal e expressa exclusão dos <strong>R$ 29.730,00</strong> de gastos próprios de mobilização do Autor (retificando a cláusula inserida por engano no primeiro contrato, demonstrando boa-fé e lealdade processual), a sugestão técnica de indenização por <strong>Danos Morais de R$ 30.000,00</strong> (para instrução do advogado do Autor diante da chantagem com falsa medida protetiva da Lei Maria da Penha e abalo de crédito), a transcrição verbatim de todos os <strong>180 áudios periciados (de 186 do acervo original)</strong> via Whisper, a demonstração da correlação com a dívida de veículo do Banco Volkswagen e a subsunção a <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
+          Reconstituição cronológica exaustiva e integral das comunicações mantidas entre <strong>29 de julho de 2026</strong> e <strong>15 de setembro de 2026</strong>. Contém a comprovação documental dos repasses Pix diretos à Ré de <strong>R$ 112.000,00</strong> (R$ 40k em 04/08 e R$ 72k em 19/08), a assunção de <strong>R$ 40.730,00</strong> em custos indiretos do colapso (mobilização + advogado, não cobrados da Ré, mas que consubstanciam o Dano Existencial), a sugestão técnica de indenização por <strong>Danos Morais de R$ 30.000,00 a R$ 50.000,00</strong>, a transcrição verbatim de todos os <strong>180 áudios periciados</strong> via Whisper, a demonstração da correlação com a dívida preexistente de veículo do Banco Volkswagen e a subsunção a <strong>Estelionato (Art. 171 CP)</strong> e <strong>Apropriação Indébita (Art. 168 CP)</strong>.
         </p>
 
         <!-- Meta Chips -->
@@ -212,8 +212,8 @@ function renderFullDossier(data) {
             <span class="chip-val">R$ 112.000,00</span>
           </div>
           <div class="chip">
-            <span class="chip-label">Gastos Próprios de Mobilização:</span>
-            <span class="chip-val">R$ 29.730,00 (Abatidos / Não Cobrados)</span>
+            <span class="chip-label">Custos Indiretos Assumidos (Abatidos):</span>
+            <span class="chip-val">R$ 40.730,00 (Dano Existencial)</span>
           </div>
           <div class="chip">
             <span class="chip-label">Sugestão Danos Morais (Advogado):</span>
@@ -265,9 +265,9 @@ function renderFullDossier(data) {
             <div class="metric-sub">R$ 40k (04/08 Nubank) + R$ 72k (19/08 Itaú) retidos sem restituição</div>
           </div>
           <div class="metric-card info">
-            <div class="metric-title">Gastos Próprios de Mobilização (Abatidos)</div>
-            <div class="metric-val" style="color: #38bdf8;">R$ 29.730,00</div>
-            <div class="metric-sub">Itaú SISPAG 18/08; Custos próprios de Gustavo; R$ 0,00 cobrado da Ré</div>
+            <div class="metric-title">Custos Indiretos (Dano Existencial)</div>
+            <div class="metric-val" style="color: #38bdf8;">R$ 40.730,00</div>
+            <div class="metric-sub">R$ 29,7k mobilização + R$ 11k advogado (Assumidos pelo Autor)</div>
           </div>
           <div class="metric-card purple">
             <div class="metric-title">Sugestão Danos Morais (Advogado)</div>
@@ -410,25 +410,25 @@ function renderFullDossier(data) {
               </div>
             </div>
 
-            <!-- Card 3: Gastos Próprios de Mobilização (Abatidos) -->
+            <!-- Card 3: Custos Indiretos Assumidos -->
             <div class="bank-card info-border">
               <div>
                 <div class="bank-card-header">
                   <div class="bank-card-header-top">
                     <span class="badge blue">EXCLUSIVO DO AUTOR • NÃO COBRADO DA RÉ (ABATIDO)</span>
-                    <span class="bank-card-source">18/08/2026 (Itaú SISPAG)</span>
+                    <span class="bank-card-source">Composição Híbrida</span>
                   </div>
                 </div>
                 <div class="bank-card-value-wrap">
-                  <div class="bank-card-val val-white">R$ 29.730,00</div>
-                  <div class="bank-card-val-sub">Mobilização de fornecedores e equipamentos de tecnologia da empresa de Gustavo</div>
+                  <div class="bank-card-val val-white">R$ 40.730,00</div>
+                  <div class="bank-card-val-sub">Custo Indireto do Colapso (Mobilização Operacional + Honorários Advocatícios)</div>
                 </div>
                 <div class="bank-card-details">
-                  <div><strong>Origem do Débito:</strong> Itaú Unibanco S.A. SISPAG Fornecedores (Ag 0173 CC 99110-0)</div>
-                  <div><strong>Destino:</strong> Contratações, terceiros e equipamentos próprios da Agilidade para Todos</div>
-                  <div><strong>Status de Cobrança:</strong> <strong style="color: #38bdf8;">100% ABATIDO • R$ 0,00 COBRADO DE CAMILA</strong></div>
-                  <div><strong>Extrato Bancário do Dia:</strong> Saldo de R$ 84.423,00 (após débito SISPAG de R$ 29,7k e crédito de R$ 113,6k de Giro)</div>
-                  <div style="margin-top:6px;color:#cbd5e1;"><em>Cláusula de reembolso constante do 1º esboço preliminar expressamente retificada pelo Autor. Despesa absorvida pelo credor em demonstração cabal de lealdade e boa-fé objetiva (Art. 5º CPC e Art. 422 CC).</em></div>
+                  <div><strong>1. Mobilização Operacional:</strong> R$ 29.730,00 (Itaú SISPAG 18/08/2026)</div>
+                  <div><strong>2. Honorários Iniciais Pedro Advogado:</strong> R$ 11.000,00</div>
+                  <div><strong>Status de Cobrança:</strong> <strong style="color: #38bdf8;">100% ABATIDOS DO PRINCIPAL</strong></div>
+                  <div><strong>Enquadramento:</strong> Dano Existencial / Material Indireto</div>
+                  <div style="margin-top:6px;color:#cbd5e1;"><em>O Autor suportou e absorveu mais de R$ 40 mil além do calote apenas para montar a defesa inicial e estruturar sua operação. Estes valores agravam fortemente o pedido de Danos Morais.</em></div>
                 </div>
               </div>
               <div class="bank-card-actions" style="display:flex;flex-direction:column;gap:8px;">

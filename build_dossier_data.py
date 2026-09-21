@@ -469,6 +469,50 @@ evidence_gallery = [
         "authId": "Anexo II - Termo de Reconhecimento de Dívida",
         "description": "Termo formal discriminando os aportes via Pix de R$ 112.000,00, o cronograma de parcelas e os encargos bancários assumidos para viabilizar os recursos, com cláusula de confissão irrevogável de dívida.",
         "ocrText": "Anexo II - Termo de Confissão e Reconhecimento de Dívida e Cronograma de Reembolso Financeiro."
+    },
+    {
+        "id": "ev-mary-itau",
+        "title": "Chat Itaú: Asfixia, Pressão e 'Obra' Fictícia",
+        "category": "Dano Existencial e Coação",
+        "filename": "WhatsApp Chat - Mary Gerente Itau Empresas.zip",
+        "date": "03/08/2026",
+        "origin": "WhatsApp - Mary (Gerente Itaú Empresas)",
+        "authId": "Mary - Itaú Empresas",
+        "description": "Diálogo atestando o desespero financeiro a que o Autor foi submetido: forçado a justificar à gerente do banco uma 'obra em andamento' para acelerar a liberação das linhas de crédito emergenciais (Giro Pronampe) exigidas por Camila.",
+        "ocrText": "Chat com a gerente Mary Itaú demonstrando a reativação emergencial de faturamento."
+    },
+    {
+        "id": "ev-sabatico-agileengine",
+        "title": "E-mails AgileEngine: Sabático, Burnout e Instabilidade",
+        "category": "Dano Existencial e Coação",
+        "filename": "sabatico_agileengine.png",
+        "date": "Agosto de 2026",
+        "origin": "E-mails Corporativos — AgileEngine RH",
+        "authId": "New Home Process (Exceção)",
+        "description": "Prova cabal de ausência de renda: Gustavo cumpria Sabático por desgaste emocional (burnout), sem receber vencimentos. O RH da empresa parceira (AgileEngine) precisou abrir exceção permitindo a retenção temporária de equipamentos ('New Home process') devido à grave instabilidade habitacional gerada no mesmo período dos calotes.",
+        "ocrText": "Sabático. Exceção autorizada para equipamentos. New Home process."
+    },
+    {
+        "id": "ev-processo-vw",
+        "title": "TJSP: Processo Banco VW x Camila (Prova do Estelionato)",
+        "category": "Comprovações de Estelionato / Dolo",
+        "filename": "processo_banco_vw.pdf",
+        "date": "Extinto em 02/09/2026",
+        "origin": "Tribunal de Justiça de SP — Foro de Mogi das Cruzes",
+        "authId": "Processo nº 4012101-77.2026.8.26.0361",
+        "description": "Processo de execução movido pelo Banco Volkswagen contra Camila Caruso, correndo em absoluto segredo do Autor enquanto ela pedia vultosos aportes. Extinto por acordo logo após os repasses financeiros de Gustavo, provando que o capital (ou o alívio gerado por ele) serviu para quitar dívida preexistente.",
+        "ocrText": "Processo 4012101-77.2026.8.26.0361. Banco Volkswagen S.A. x Camila Caruso da Costa Neves."
+    },
+    {
+        "id": "ev-honorarios-advogado",
+        "title": "Honorários Advocatícios Iniciais (R$ 11.000,00)",
+        "category": "Gastos Próprios do Autor (Abatidos)",
+        "filename": "WhatsApp Chat - Pedro Advogado (1).zip",
+        "date": "Setembro de 2026",
+        "origin": "Chat de WhatsApp — Pedro Advogado",
+        "authId": "Custos Iniciais R$ 11k",
+        "description": "O Autor, já sem renda e endividado nos bancos, precisou desembolsar do próprio bolso mais R$ 11.000,00 para contratar advogado após a chantagem da Ré. Embora o valor não integre o pedido principal (sendo apenas verba sucumbencial ao final), ele compõe o custo financeiro indireto de R$ 40.730,00 assumido por Gustavo, o que eleva exponencialmente o dano existencial suportado.",
+        "ocrText": "Acerto de honorários advocatícios iniciais no valor de 11 mil reais."
     }
 ]
 
@@ -488,9 +532,9 @@ for fpath in glob.glob("*.docx"):
                 continue
             style_name = p.style.name if p.style and hasattr(p.style, "name") else ""
             if style_name.startswith("Heading") or "Título" in style_name:
-                html_parts.append(f'<h4 style="color:#60a5fa;margin-top:16px;margin-bottom:8px;">{html.escape(txt)}</h4>')
+                html_parts.append(f'<h4 style="margin-top:16px;margin-bottom:8px;">{html.escape(txt)}</h4>')
             else:
-                html_parts.append(f'<p style="margin-bottom:8px;line-height:1.6;color:#cbd5e1;">{html.escape(txt)}</p>')
+                html_parts.append(f'<p style="margin-bottom:8px;line-height:1.6;">{html.escape(txt)}</p>')
         docx_previews[fpath] = "".join(html_parts)
     except Exception as e:
         print(f"Error reading docx {fpath}: {e}")
@@ -518,17 +562,17 @@ Totalizando o montante de R$ 112.000,00 creditados diretamente na conta da Ré n
 
 Para viabilizar tais aportes induzidos pela Ré, o Noticiante tomou empréstimos bancários emergenciais (Pronampe no Banco Itaú e capital de giro no Nubank com juros de 63,14% a.a.), arcando com um passivo bancário total de R$ 168.940,23 nos aplicativos oficiais.
 
-Uma vez na posse dos recursos, a Noticiada revelou seu intento fraudulento: procrastinou e recusou-se reiteradamente a assinar os contratos e termos de confissão de dívida enviados, utilizou os valores para estancar dívidas e execuções pessoais urgentes — em especial parcelas vencidas de veículo financiado sob litígio com o Banco Volkswagen S.A. (Processo nº 401XXXX-77.2026.8.26.0361 perante a Comarca de Mogi das Cruzes) — e, finalmente, em 14/09/2026, recusou-se expressamente a restituir qualquer quantia e ameaçou o Noticiante com a instrumentalização fraudulenta de falsa medida protetiva ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?' - Áudios periciados 00004874 e 00004880).
+Uma vez na posse dos recursos, a Noticiada revelou o dolo (intenção prévia de fraudar): ela já encontrava-se em estado de insolvência absoluta e sendo executada judicialmente pelo Banco Volkswagen S.A. (Processo nº 4012101-77.2026.8.26.0361 perante a Comarca de Mogi das Cruzes) por inadimplência do próprio veículo que usou como promessa de venda para ludibriar a vítima. Ocultando esse fato, utilizou os valores do Noticiante para estancar suas dívidas (o processo foi extinto logo após os repasses) e, em 14/09/2026, recusou-se expressamente a assinar qualquer contrato ou restituir qualquer quantia, culminando na ameaça de instrumentalização fraudulenta de falsa medida protetiva contra a vítima ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?' - Áudios periciados 00004874 e 00004880).
 
 II. DO ENQUADRAMENTO JURÍDICO-PENAL
-A conduta da Noticiada amolda-se com perfeição ao crime de Estelionato (Art. 171 do CP) pelo ardil antecedente e induzimento em erro para obtenção de vantagem ilícita de R$ 112.000,00 em prejuízo da vítima, ou subsidiariamente Apropriação Indébita Qualificada (Art. 168 do CP), cumulada com Tentativa de Denunciação Caluniosa e Coação no Curso do Processo (Arts. 339 e 344 do CP).
+A conduta da Noticiada amolda-se com perfeição ao crime de Estelionato (Art. 171 do CP). O ardil antecedente e induzimento em erro estão consubstanciados na ocultação de sua execução veicular (Processo Banco VW) no momento em que solicitou R$ 112.000,00 sob o pretexto de "parceria comercial". Subsidiariamente, configura Apropriação Indébita Qualificada (Art. 168 do CP), cumulada com Tentativa de Denunciação Caluniosa e Coação no Curso do Processo (Arts. 339 e 344 do CP).
 
 III. DOS REQUERIMENTOS
 Requer a Vossa Excelência:
 a) A imediata instauração de INQUÉRITO POLICIAL para cabal elucidação dos delitos;
 b) A intimação da Noticiada Camila Caruso da Costa Neves para prestar esclarecimentos em termo de declarações;
 c) A requisição judicial de extratos bancários da conta corrente da C. Caruso Arquitetura Ltda junto ao Banco Santander para rastrear a destinação dos R$ 112.000,00 repassados;
-d) A expedição de ofício ao Banco Volkswagen S.A. para averiguação da quitação de parcelas automotivas no período dos repasses (linha investigativa de desvio de finalidade);
+d) A expedição de ofício ao Banco Volkswagen S.A. para averiguação da quitação exata de parcelas automotivas no período dos repasses (prova material do desvio de finalidade e estelionato);
 e) Posterior remessa dos autos ao Ministério Público para oferecimento de denúncia-crime.""",
 
     "peticao_civel": """EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA CÍVEL DO FORO CENTRAL DA COMARCA DE SÃO PAULO/SP
@@ -545,7 +589,7 @@ RÉUS:
 
 I. DO PEDIDO LIMINAR DE TUTELA DE URGÊNCIA CAUTELAR INAUDITA ALTERA PARTE (ARTS. 300 E 301 DO CPC)
 Demonstrada a probabilidade do direito (fumus boni iuris) através de comprovantes bancários oficiais de repasse via Pix no montante principal de R$ 112.000,00 (R$ 40k em 04/08 e R$ 72k em 19/08), confissões textuais e áudios de WhatsApp periciados;
-Demonstrado o perigo de dano irreparável e de desfazimento patrimonial (periculum in mora) pela notória insolvência da Ré, existência de processo executivo/busca e apreensão movido pelo Banco Volkswagen S.A. sob nº 401XXXX-77.2026.8.26.0361, confissão de que colocaria o veículo à venda e iminente vencimento das parcelas dos empréstimos bancários que totalizam R$ 168.940,23 registrados em nome do Autor, REQUER-SE:
+Demonstrado o perigo de dano irreparável e de desfazimento patrimonial (periculum in mora) pela notória insolvência premeditada da Ré — comprovada pela existência de processo executivo/busca e apreensão movido pelo Banco Volkswagen S.A. sob nº 4012101-77.2026.8.26.0361 (ocultado do Autor durante os repasses) —, além da ameaça de dilapidação patrimonial (confissão de venda do carro) e o iminente vencimento das parcelas bancárias que asfixiam o Autor (R$ 168.940,23), REQUER-SE:
 a) A concessão liminar, inaudita altera parte, de ARRESTO VIA SISBAJUD no montante do débito principal de R$ 112.000,00 nas contas bancárias de ambas as Rés (CNPJ e CPF);
 b) A restrição judicial de transferência via RENAJUD sobre o veículo de propriedade da Ré Camila Caruso da Costa Neves.
 
@@ -557,17 +601,16 @@ Configurada a flagrante confusão patrimonial e desvio de finalidade, pois a só
 3. DAS PERDAS E DANOS EMERGENTES DIRETAS E REFLEXAS (ART. 402 DO CC) SEM BIS IN IDEM:
 O prejuízo patrimonial direto do Autor consubstancia-se no principal de R$ 112.000,00 de adiantamentos Pix não devolvidos.
 Cumulativamente, requer a condenação ao ressarcimento das perdas e danos reflexas consistentes nos encargos financeiros, juros bancários e IOF suportados pelo Autor perante os Bancos Itaú e Nubank em razão das linhas de crédito que foi forçado a captar no mercado para viabilizar os repasses induzidos pela Ré, valor a ser quantificado em liquidação de sentença por simples cálculo contábil.
-4. DA RETIFICAÇÃO DO ESBOÇO CONTRATUAL PRELIMINAR E DO ABATIMENTO DOS CUSTOS PRÓPRIOS DE MOBILIZAÇÃO DO AUTOR (R$ 29.730,00) — ESTREITA BOA-FÉ OBJETIVA E LEALDADE PROCESSUAL (ART. 5º DO CPC E ART. 422 DO CC):
-Em 18/08/2026, conforme comprovante Itaú SISPAG e extrato anexo, o Autor desembolsou R$ 29.730,00 para mobilização operacional, contratação de fornecedores e compra de equipamentos de tecnologia para sua própria empresa (Agilidade para Todos), independentes de Camila Caruso.
-No primeiro esboço de minuta contratual elaborado pelo Autor, fez-se constar por manifesto equívoco material uma cláusula que previa o rateio ou reembolso dessas despesas.
-Todavia, em estrita observância ao princípio da boa-fé objetiva (Art. 422 do CC) e ao dever de probidade processual (Art. 5º do CPC), o Autor vem expressamente RETIFICAR a minuta preliminar e declarar que tais custos foram de sua exclusiva mobilização empresarial, estando integralmente ABATIDOS e NÃO sendo cobrados das Rés. A pretensão de reembolso direto restringe-se estritamente aos R$ 112.000,00 recebidos pelas Rés via Pix.
+4. DA RETIFICAÇÃO DO ESBOÇO CONTRATUAL E DOS CUSTOS MATERIAIS INDIRETOS NÃO COBRADOS DA RÉ (R$ 40.730,00) — ESTREITA BOA-FÉ OBJETIVA E LEALDADE PROCESSUAL (ART. 5º DO CPC E ART. 422 DO CC):
+Além do principal (R$ 112.000,00), o Autor foi forçado a arcar, exclusivamente do próprio bolso, com R$ 40.730,00 em despesas indiretas oriundas do colapso gerado pela Ré: (i) R$ 29.730,00 em mobilização operacional e fornecedores (conforme SISPAG de 18/08/2026) e (ii) R$ 11.000,00 em honorários advocatícios para ajuizar a presente demanda (conforme recibo anexo).
+No primeiro esboço contratual elaborado de boa-fé pelo Autor (antes do calote), constou por equívoco material uma cláusula que previa o rateio de despesas de mobilização. Todavia, em estrita observância ao princípio da boa-fé objetiva (Art. 422 do CC), o Autor vem expressamente RETIFICAR a minuta preliminar e declarar que referidos custos operacionais e honorários advocatícios (somando R$ 40.730,00) foram integralmente assumidos e ABATIDOS da cobrança material, servindo, no entanto, para agravar substancialmente o pleito de Danos Morais adiante exposto. A cobrança do principal restringe-se estritamente aos R$ 112.000,00 repassados via Pix.
 5. DOS CONSECTÁRIOS LEGAIS (LEI Nº 14.905/2024):
 Os valores deverão ser atualizados monetariamente pelo IPCA a partir de cada desembolso, incidindo juros moratórios legais calculados pela taxa legal atrelada à Selic deduzido o IPCA, nos termos do art. 406 do CC c/c Lei nº 14.905/2024.
-6. DA INDENIZAÇÃO POR DANOS MORAIS (SUGESTÃO DE R$ 30.000,00) — DA COAÇÃO, EXTORSÃO MORAL E AMEAÇA DE FALSA MEDIDA PROTETIVA DA LEI MARIA DA PENHA:
-O ilícito perpetrado pela Ré Camila Caruso transcende com folga o descumprimento negocial. Ao ser instada a assinar o contrato e honrar a devolução dos recursos, a Ré passou a chantagear o Autor, proferindo ameaças explícitas registradas nos áudios periciados de WhatsApp nº 00004874 e 00004880: 'Você que sabe, Gustavo, você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso? Então vamos dar um tempinho para as coisas se ajeitarem?'.
-A instrumentalização espúria da Lei Maria da Penha (Lei nº 11.340/2006) como artifício de chantagem contra credor para coagi-lo a renunciar a seu patrimônio legítimo, combinada com a ameaça ostensiva de constrangimento e difamação perante recursos humanos (RH) corporativos, atenta contra a dignidade da pessoa humana e constitui ilícito civil qualificado (Art. 187 do CC c/c Arts. 147, 339 e 344 do CP).
-Ademais, o induzimento fraudulento do Autor a contrair múltiplos empréstimos bancários (Pronampe e Nubank) provocou asfixia financeira aguda e profundo abalo em seu score de crédito.
-Em consonância com os precedentes do Superior Tribunal de Justiça e do Tribunal de Justiça do Estado de São Paulo para casos de coação psicológica, falsa imputação e abalo de crédito, sugere-se a fixação de indenização por danos morais em R$ 30.000,00 (baliza jurisprudencial entre R$ 30.000,00 e R$ 50.000,00), atendendo ao caráter punitivo, pedagógico e compensatório.
+6. DA INDENIZAÇÃO POR DANOS MORAIS (DANO EXISTENCIAL E PSICOLÓGICO) — COAÇÃO, ASFIXIA FINANCEIRA E AMEAÇA DE FALSA MEDIDA PROTETIVA:
+O ilícito perpetrado pela Ré transcende com folga o descumprimento negocial, adentrando na esfera do Dano Existencial. No período da fraude, o Autor vivenciava um Sabático forçado e severo Burnout, sem renda ativa da sua empresa parceira (AgileEngine), a qual, atestando sua instabilidade, abriu uma exceção documentada ('New Home process') para que mantivesse os equipamentos corporativos (conforme e-mails probatórios). 
+Aproveitando-se dessa vulnerabilidade, a Ré induziu o Autor a forjar justificativas (alegando uma "obra" para a gerente Mary do Itaú) sob extrema pressão e asfixia para liberar os empréstimos (chat anexo). 
+O ápice da coação ocorreu quando, cobrada a assinar o contrato, a Ré chantageou o Autor com a instrumentalização fraudulenta da Lei Maria da Penha ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?' - Áudios periciados 00004874 e 00004880). A ameaça de falsa imputação de crime (Art. 339 do CP) para forçar o credor a renunciar ao patrimônio, aliada ao severo abalo financeiro e aos R$ 11.000,00 desembolsados com advogados apenas para reaver o próprio dinheiro, configuram ofensa frontal à dignidade humana (Art. 187 do CC).
+Em consonância com os precedentes do Superior Tribunal de Justiça (STJ) e do Tribunal de Justiça do Estado de São Paulo (TJSP) para casos de Dano Existencial, coação psicológica grave e abalo de crédito, requer-se a fixação de indenização por danos morais no importe sugerido de R$ 30.000,00 a R$ 50.000,00, atendendo ao caráter punitivo, pedagógico e compensatório.
 
 III. DOS PEDIDOS FINAIS
 Requer a procedência total da ação para:
@@ -592,7 +635,7 @@ Pela presente NOTIFICAÇÃO EXTRAJUDICIAL, serve o presente instrumento para CON
 
 1. As Notificadas receberam diretamente a quantia líquida de R$ 112.000,00 (cento e doze mil reais) via transferências Pix efetuadas em 04/08/2026 (R$ 40.000,00) e 19/08/2026 (R$ 72.000,00), sob a expressa promessa de devolução e formalização contratual;
 
-2. Fica expressamente consignado que os gastos de mobilização operacional e fornecedores no montante de R$ 29.730,00 (despendidos em 18/08/2026 pelo Notificante) foram assumidos com exclusividade por Gustavo Henrique Castellano, estando formalmente RETIFICADA a minuta preliminar inicial para ABATER integralmente referida verba, não sendo tal valor cobrado das Notificadas, em demonstração cabal de lealdade e boa-fé objetiva;
+2. Fica expressamente consignado que os custos materiais indiretos no montante de R$ 40.730,00 — compostos por R$ 29.730,00 de mobilização operacional (SISPAG de 18/08/2026) e R$ 11.000,00 de honorários advocatícios prévios — foram assumidos com exclusividade pelo Notificante, estando formalmente RETIFICADA a minuta preliminar inicial para ABATER integralmente referida verba, não sendo tal valor cobrado das Notificadas no montante material principal, em demonstração cabal de lealdade e boa-fé objetiva;
 
 3. Não obstante o compromisso irrevogável de celebração do contrato formal e restituição dos aportes, as Notificadas recusaram-se a formalizar o instrumento pactuado e incorreram em mora injustificada, tendo ainda a Notificada Camila Caruso proferido ameaças de imputação fraudulenta de infração penal e acionamento indevido de medidas protetivas da Lei Maria da Penha (áudios 00004874 e 00004880);
 
@@ -617,7 +660,8 @@ dossier_data = {
         "pixNu": 40000.00,
         "pixItau": 72000.00,
         "gastosPropriosMobilizacao": 29730.00,
-        "gastosPropriosDescricao": "Gastos próprios de Gustavo em mobilização, fornecedores e equipamentos (Itaú SISPAG 18/08/2026) — expressamente abatidos e NÃO cobrados da Ré (cláusula do 1º contrato preliminar retificada)",
+        "advogadoHonorarios": 11000.00,
+        "gastosPropriosDescricao": "Despesas Indiretas de Colapso Financeiro (R$ 40.730,00): R$ 29.730,00 em mobilização própria e R$ 11.000,00 em honorários advocatícios assumidos exclusivamente pelo Autor, que agravam a tese de dano existencial, mas são expressamente abatidos do débito principal.",
         "sugestaoDanosMorais": 30000.00,
         "faixaDanosMorais": "R$ 30.000,00 a R$ 50.000,00",
         "totalPretensaoComDanosMorais": 142000.00,
@@ -641,7 +685,7 @@ dossier_data = {
         "totalSaldoDevedorApp": 168940.23,
         "totalSaldoDevedorAVista": 163769.12,
         "totalProjetadoParcelasFuturas": 192406.99,
-        "vwLawsuit": "Processo nº 401XXXX-77.2026.8.26.0361 (TJSP Mogi das Cruzes - Linha Investigativa)",
+        "vwLawsuit": "Processo nº 4012101-77.2026.8.26.0361 (TJSP Mogi das Cruzes - Execução Comprovada extinta em 02/09/2026 / Dolo Pré-existente)",
         "totalMessages": len(chat_messages),
         "totalAudiosPericiados": len(audio_vault),
         "totalAudiosAcervo": 186,
@@ -651,19 +695,19 @@ dossier_data = {
         "title": "⚖️ Sumário Executivo para Instrução da Petição Inicial e Notícia-Crime",
         "subtitle": "Síntese factual consolidada para utilização imediata pelo advogado do Autor/Noticiante",
         "paragraphs": [
-            "Em julho de 2026, Camila Caruso da Costa Neves restabeleceu contato com Gustavo Henrique Castellano com o objetivo declarado de celebrar uma lucrativa parceria comercial ('vamos falar de dinheiro ok... podemos ganhar dinheiro juntos'). Gustavo, especialista em tecnologia, tráfego pago e gestão, aceitou estruturar canais de captação digital para o escritório C. Caruso Arquitetura e Interiores Ltda (CNPJ 46.788.820/0001-90).",
-            "Sob a alegação de extrema asfixia de caixa para manter a equipe e projetos em andamento, Camila induziu Gustavo a realizar aportes financeiros urgentes a título de capital de giro reembolsável. Em 04/08/2026, Gustavo tomou um empréstimo emergencial no Nubank (valor contratado de R$ 42.050,90 com CET de 63,14% a.a.) e transferiu imediatamente o primeiro Pix de R$ 40.000,00 para a conta da C. Caruso Arquitetura no Santander. Em seguida, para alongar a dívida e aportar mais recursos, Gustavo contratou no Banco Itaú o Giro Pronampe Contrato Principal (nº 4887183848), com saldo restante registrado de R$ 119.343,17 (60 parcelas de R$ 2.324,17), transferindo no dia 19/08/2026 um segundo Pix de R$ 72.000,00 via SISPAG diretamente para Camila, perfazendo R$ 112.000,00 líquidos entregues diretamente à Ré.",
-            "Para estancar a taxa de juros de 63,14% a.a. (3,95% a.m.) do Nubank, Gustavo contratou uma segunda linha Giro Pronampe no Itaú (Contrato nº 4886874439), com saldo devedor de R$ 19.527,27 (60 parcelas de R$ 381,45), que liberou R$ 18.653,05. Em 24/08/2026, Gustavo transferiu essa quantia via Pix do Itaú para o Nubank e realizou a quitação antecipada de 13 parcelas no valor de R$ 18.015,62 (com desconto de R$ 17.521,40) do empréstimo de socorro. Com isso, o 2º Pronampe substituiu parte da dívida cara do Nubank, restando no Nubank um saldo devedor de R$ 30.069,79 (11 parcelas agendadas de R$ 2.733,62, ou R$ 24.898,68 para quitação à vista).",
-            "A soma exata dos saldos devedores registrados atualmente nos aplicativos bancários oficiais (Itaú 1 R$ 119.343,17 + Itaú 2 R$ 19.527,27 + Nubank R$ 30.069,79) totaliza R$ 168.940,23 sob exclusiva responsabilidade de Gustavo (ou R$ 192.406,99 se computada a soma nominal projetada das 60 parcelas futuras a prazo), enquanto a Ré apropriou-se de R$ 112.000,00 via Pix e recusou qualquer restituição voluntária.",
-            "Gastos Próprios de Mobilização e Retificação Contratual (R$ 29.730,00 - Abatidos e NÃO cobrados da Ré): Em 18/08/2026, Gustavo realizou pagamentos via Itaú SISPAG Fornecedores no montante de R$ 29.730,00 (comprovantes anexos) para contratações de profissionais e aquisição de equipamentos para estruturar a sua própria empresa, custos estes que independem de Camila. No primeiro esboço contratual elaborado, constou inadvertidamente uma cláusula contemplando referido reembolso; todavia, Gustavo formalmente retifica o instrumento e declara esse montante como despesa de sua exclusiva responsabilidade, ABATENDO-O integralmente da cobrança judicial e exigindo da Ré unicamente os R$ 112.000,00 repassados diretamente via Pix, demonstrando absoluta probidade e lealdade processual (Art. 5º do CPC e Art. 422 do CC).",
-            "Sugestão Técnica de Danos Morais para Instrução do Patrono (R$ 30.000,00): A conduta de Camila Caruso descambou para a gravíssima coação moral e ilícito penal quando ameaçou expressamente nos áudios periciados 00004874 e 00004880 ingressar com medida protetiva fraudulenta da Lei Maria da Penha ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH... você acha bacana isso?') para forçar Gustavo a renunciar à cobrança de sua legítima dívida. Essa chantagem odiosa, somada à ameaça de retaliação em ambiente corporativo e ao abalo de crédito suportado pelo credor, justifica plenamente o pleito indenizatório de R$ 30.000,00 por danos morais (balizado pela jurisprudência do TJSP e STJ entre R$ 30.000,00 e R$ 50.000,00), sugerindo-se o valor da causa inicial de R$ 142.000,00 (Art. 292, V e VI do CPC)."
+            "1. A JORNADA DO COLAPSO: Em julho de 2026, Camila Caruso restabeleceu contato com Gustavo Castellano ('vamos falar de dinheiro ok'). Sob o pretexto de asfixia financeira em sua empresa (C. Caruso Arquitetura), induziu Gustavo a realizar aportes emergenciais que somaram R$ 112.000,00, além de forçá-lo a um endividamento em cascata. O que se apresentou como um socorro temporário revelou-se um dolo premeditado.",
+            "2. O ESTELIONATO COMPROVADO (PROCESSO BANCO VW): A má-fé de Camila fica inequivocamente comprovada pelo Processo nº 4012101-77.2026.8.26.0361 (Foro de Mogi das Cruzes), movido pelo Banco Volkswagen. Enquanto induzia Gustavo a contrair empréstimos no Nubank e Itaú com a promessa de devolver os recursos mediante a venda do seu carro, Camila já estava sendo executada por inadimplência pelo próprio banco financiador do veículo. Ela ocultou deliberadamente sua insolvência e usou os aportes para tentar salvar o próprio patrimônio, com o processo sendo extinto logo após os repasses (02/09/2026).",
+            "3. COAÇÃO CIRCUNSTANCIAL E ASFIXIA FINANCEIRA: Para honrar os falsos apelos de Camila, Gustavo se viu em tamanho desespero financeiro que precisou justificar à gerente Mary do Itaú, sob imensa pressão psicológica, que os recursos eram para 'uma obra'. Gustavo captou R$ 168.940,23 em linhas de crédito (Itaú Pronampe e Nubank a 63,14% a.a.), transferindo R$ 112.000,00 líquidos para a Ré.",
+            "4. DANO EXISTENCIAL E CUSTOS INDIRETOS (R$ 40.730,00): O colapso gerado pelo calote não foi apenas financeiro, mas existencial. Gustavo estava vivenciando um período de Sabático/Burnout, sem renda ativa da sua empresa parceira (AgileEngine), a qual abriu uma 'exceção' para que ele mantivesse os equipamentos corporativos ('New Home process') dada a instabilidade habitacional e psicológica daquele momento. Além da perda de liquidez, Gustavo foi forçado a desembolsar R$ 11.000,00 em honorários advocatícios (que se somam aos R$ 29.730,00 de mobilização própria), perfazendo R$ 40.730,00 em danos materiais indiretos, que sustentam o agravo do dano moral.",
+            "5. AMEAÇAS E EXTORSÃO (LEI MARIA DA PENHA): Ao ser confrontada e cobrada, Camila não apenas se recusou a assinar o contrato prometido e devolver o dinheiro, como passou a extorquir moralmente Gustavo, ameaçando forjar uma denúncia falsa ('Você quer que eu entre com uma medida protetiva contra você? Vão puxar lá no RH').",
+            "6. CONCLUSÃO PARA A INSTRUÇÃO: Diante do dolo pré-existente (Processo VW), do Dano Existencial configurado (Sabático, Itaú e Custos Jurídicos) e das provas bancárias, a ação requer a desconsideração da personalidade jurídica da C. Caruso Arquitetura, Tutela Cautelar de Arresto, a condenação na devolução dos R$ 112.000,00 e o pleito indenizatório de R$ 30.000,00 a R$ 50.000,00 por danos morais severos."
         ]
     },
     "veiculoSection": {
         "title": "🚗 A Conexão com o Passivo Automotivo e a Ação do Banco Volkswagen",
-        "subtitle": "Linha investigativa: utilização dos recursos aportados para estancar execução de veículo pessoal e periculum in mora",
-        "processo": "Processo nº 401XXXX-77.2026.8.26.0361 — TJSP Foro de Mogi das Cruzes/SP",
-        "natureza": "Alienação Fiduciária / Busca e Apreensão (Linha Investigativa)",
+        "subtitle": "Elemento Probatório Cabal: A ocultação de insolvência pré-existente e dolo",
+        "processo": "Processo nº 4012101-77.2026.8.26.0361 — TJSP Foro de Mogi das Cruzes/SP",
+        "natureza": "Alienação Fiduciária / Busca e Apreensão (Estelionato Comprovado)",
         "description": "Conforme apurado nos registros judiciais do TJSP e Jusbrasil (Protocolo 951771938), tramita perante o Foro da Comarca de Mogi das Cruzes a ação movida pelo Banco Volkswagen S.A. em face de Camila Caruso da Costa Neves.",
         "quotes": [
             {"date": "04/08/2026 (12:03)", "author": "Camila", "text": "Vou vender meu carro e te devolvo. (Logo após o recebimento dos R$ 40k)."},
@@ -673,7 +717,7 @@ dossier_data = {
             {"date": "22/08/2026 (07:31)", "author": "Gustavo", "text": "Tirei meu carro da venda... mas se preferir seguir com a venda do seu, pra quitar financiamento mais rápido, eu já adianto o pagamento aqui..."},
             {"date": "14/09/2026 (17:19)", "author": "Gustavo", "text": "Só abrir mão do carro e já resolve... Mas aí fica a sua escolha."}
         ],
-        "conclusion": "Linha Investigativa e Elemento de Urgência (Periculum in Mora): O conjunto probatório do chat revela forte correlação temporal entre os pedidos de Pix e o risco de apreensão do veículo financiado. Na esfera judicial e policial, requer-se a expedição de ofício ao Banco Central (Sisbajud) e ao Banco Volkswagen para rastrear a destinação exata dos recursos repassados, servindo o elemento para demonstrar o manifesto periculum in mora para concessão liminar de arresto e bloqueio Renajud sobre o automóvel."
+        "conclusion": "CONCLUSÃO PROBATÓRIA DE MÁ-FÉ E URGÊNCIA (Periculum in Mora): O processo judicial do Banco Volkswagen comprova, de forma irrefutável, que Camila Caruso já estava inadimplente e sendo acionada judicialmente pelo banco financiador do seu carro no momento exato em que pedia vultuosos empréstimos a Gustavo sob o pretexto de 'salvar o escritório'. A ocultação desse gravíssimo passivo e a posterior extinção do feito (02/09/2026) escancaram o dolo antecedente (estelionato), justificando a concessão inaudita altera parte do arresto (Tutela de Urgência)."
     },
     "ameacasSection": {
         "title": "🛡️ Auditoria Forense de Ameaças: Gustavo Castellano vs Camila Caruso",
